@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>sup</title>
+      <title>Classical Music Heardle</title>
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,50 +9,92 @@
       
       <link rel="stylesheet" href="website.css">
 
-      <script>
-        for (let i = 0; i< 10; i++) {
-          console.log('hello');
-        }
-      </script>
-
     </head>
 
     <body>
+      <div id="guesses-list"></div>
+
+      <script>
+        let guesses = [];
+        let numGuesses = 0;
+        
+        function render_guesses() {
+          document.getElementById("guesses-list").innerHTML = '';
+
+          // guesses.forEach(
+          //   function g (guess) {
+          //     // let element = document.createElement('div');
+          //     // let element = document.getElementsByClassName('guess1')
+          //     document.getElementById('g1').textContent += guess;
+          //     // element.textContent += guess;
+          //     // element.innerHTML = guess;
+          //     // let guessesList = document.getElementById('guesses-list');
+          //     // guessesList.appendChild(element);
+          //   }
+          // );
+          document.getElementById('g' + guesses.length).textContent += guesses[guesses.length - 1];
+        
+        }
+
+        function addGuess(guess) {
+          if (numGuesses < 6 && guess != '') {
+            guesses.push(guess);
+            render_guesses();
+            numGuesses++; 
+          }
+        }
+
+        function render_skip_time() {
+          document.getElementById('skip-button').innerHTML = '';
+          if (numGuesses < 5) {
+            document.getElementById('skip-button').textContent = 'SKIP (+' + (numGuesses + 1) + "s)";
+          } else {
+            document.getElementById('skip-button').textContent = 'SKIP';
+          }
+        }
+
+
+      </script>
+
       <p class="title">
         Heardle
       </p>
 
-      <div class="guess1">
+      <div id="g1" class="guess1">
         
       </div>
-      <div class="guess2">
+      <div id="g2" class="guess2">
         
       </div>
-      <div class="guess3">
+      <div id="g3" class="guess3">
         
       </div>
-      <div class="guess4">
+      <div id="g4" class="guess4">
         
       </div>
-      <div class="guess5">
+      <div id="g5" class="guess5">
         
       </div>
-      <div class="guess6">
+      <div id="g6" class="guess6">
         
       </div>
       
       <div>
-        <input class="search" placeholder="Guess Song">
+        <input id="guess-input" class="search" placeholder="Guess Song">
       </div>
 
       <div>
-        <button class="skip">
+        <button id="skip-button" onclick="addGuess('S K I P P E D'); 
+          render_skip_time();"
+        class="skip">
           SKIP (+1s)
         </button>  
       </div>
 
       <div>
-        <button class="submit">
+        <button onclick="addGuess(document.getElementById('guess-input').value); 
+        render_skip_time();
+        document.getElementById('guess-input').value = '';"  class="submit">
           SUBMIT
         </button>  
       </div>
@@ -60,18 +102,3 @@
 
     </body>
 </html>
-
-
-
-
-
-
-
-
-<!-- <button>
-  i built it using html lmao
-</button>
-
-<a href="https://chat.openai.com/chat" target="_blank">
-  totally not rickroll link
-</a> -->

@@ -12,13 +12,16 @@
   }
 
   .guess1, .guess2, .guess3, .guess4, .guess5, .guess6 {
-    height: 36px;
-    width: 660px;
+    font-family: Roboto;
+    height: 28px;
+    width: 650px;
+    padding-left: 10px;
+    padding-top: 8px;
     border-color: gray;
     background-color: black;
     border-style: solid;
     border-width: 1px;
-    color: white;
+    color: lightgray;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
