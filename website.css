@@ -1,5 +1,5 @@
   body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(20, 20, 20);
   }
 
   .title {
@@ -18,7 +18,7 @@
     padding-left: 10px;
     padding-top: 8px;
     border-color: gray;
-    background-color: black;
+    /* background-color: black; */
     border-style: solid;
     border-width: 1px;
     color: lightgray;
@@ -30,7 +30,7 @@
 
   .search {
     font-family: Roboto;
-    width: 660px;
+    width: 648px;
     height: 35px;
     background-color: black;
     border-color: gray;
@@ -43,12 +43,26 @@
     margin-top: 100px;
     margin-bottom: 20px;
     padding-left: 10px;
-    /* position: absolute; */
-    /* left: 33%; */
   }
 
   .search:focus {
     outline-color: rgb(60, 238, 60);
+  }
+
+  .autocomplete-items {
+    font-family: Roboto;
+    color: white;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    width: 660px;
+    height: 35px;
+    margin: 0 auto;
+  }
+
+  .autocomplete-items-text {
+    padding-top: 8px;
   }
 
   .skip {

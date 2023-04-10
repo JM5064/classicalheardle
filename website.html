@@ -14,10 +14,109 @@
     <body>
       <div id="guesses-list"></div>
 
+      <p class="title">
+        Classicle
+      </p>
+
+      <div id="g1" class="guess1">
+        
+      </div>
+      <div id="g2" class="guess2">
+        
+      </div>
+      <div id="g3" class="guess3">
+        
+      </div>
+      <div id="g4" class="guess4">
+        
+      </div>
+      <div id="g5" class="guess5">
+        
+      </div>
+      <div id="g6" class="guess6">
+        
+      </div>
+      
+      <div>
+        <input type="text" id="guess-input" class="search" placeholder="Guess Piece" 
+        onkeyup="print();">
+      </div>
+
+      <div>
+        <button id="skip-button" onclick="addGuess('S K I P P E D'); 
+          render_skip_time();"
+        class="skip">
+          SKIP (+1s)
+        </button>  
+      </div>
+
+      <div>
+        <button onclick="addGuess(document.getElementById('guess-input').value); 
+        render_skip_time();
+        document.getElementById('guess-input').value = '';
+        print();"  class="submit">
+          SUBMIT
+        </button>  
+      </div>
+
       <script>
         let guesses = [];
         let numGuesses = 0;
-        
+        pieces = [
+          "Partita No. 2, Chaconne - J.S. Bach",
+          "Rondo Alla Turca - Wolfang Amadeus Mozart",
+          "Hungarian Rhapsody No. 2 - Franz Liszt",
+          "Academic Festival Overture - Johannes Brahms",
+          "Piano Concerto No. 1 - Pyotr Ilyich Tchaikovsky",
+          "Violin Concerto in D Major - Pyotr Ilyich Tchaikovsky",
+          "Symphony No. 4 in F minor - Pyotr Ilyich Tchaikovsky",
+          "Symphony No. 5 in E minor - Pyotr Ilyich Tchaikovsky",
+          "Symphony No. 6 in B minor - Pyotr Ilyich Tchaikovsky",
+          "1812 Overture - Pyotr Ilyich Tchaikovsky",
+          "Capriccio Espangol - Nikolai Rimsky-Korsakov",
+          "Flight of the Bumblebee - Nikolai Rimsky-Korsakov",
+          "Navarra - Pablo de Sarasate",
+          "Zigeunerweisen - Pablo de Sarasate",
+          "Zapateado - Pablo de Sarasate",
+          "Violin Concerto No. 1 in G minor - Max Bruch",
+          "Maple Leaf Rag - Scott Joplin",
+          "Piano Concerto No. 2 - Sergei Rachmaninoff",
+          "Symphony No. 2 in E minor - Sergei Rachmaninoff",
+          "Symphonic Dances - Sergei Rachmaninoff"];
+
+
+        function print(){
+          let divs = document.getElementsByClassName("autocomplete-items");
+          let l = divs.length;
+          for (let i = 0; i < l; i++) {
+            divs[0].parentNode.removeChild(divs[0]);
+          }
+      
+          for (let i = 0; i < pieces.length; i++) {
+            if (document.getElementById('guess-input').value == '') {
+              for (j = 0; j < divs.length; j++) {
+                divs[j].parentNode.removeChild(divs[j]);
+              }
+            }
+            else if (pieces[i].toUpperCase().includes(document.getElementById('guess-input').value.toUpperCase())) {
+              e = document.createElement('div');
+              e.setAttribute("class", "autocomplete-items");
+              e2 = document.createElement('div');
+              e2.setAttribute("class", "autocomplete-items-text");
+              
+              let piece = pieces[i].toUpperCase();
+              let guess = document.getElementById('guess-input').value.toUpperCase();
+
+              e2.innerHTML = pieces[i].substring(0, piece.indexOf(guess));
+              e2.innerHTML += "<strong>" + pieces[i].substring(piece.indexOf(guess), piece.indexOf(guess) + guess.length) + "</strong>";
+              e2.innerHTML += pieces[i].substring(piece.indexOf(guess) + guess.length);
+
+              e.appendChild(e2);
+              document.body.appendChild(e);
+            }
+          }
+        }
+
         function render_guesses() {
           document.getElementById("guesses-list").innerHTML = '';
 
@@ -55,49 +154,6 @@
 
 
       </script>
-
-      <p class="title">
-        Heardle
-      </p>
-
-      <div id="g1" class="guess1">
-        
-      </div>
-      <div id="g2" class="guess2">
-        
-      </div>
-      <div id="g3" class="guess3">
-        
-      </div>
-      <div id="g4" class="guess4">
-        
-      </div>
-      <div id="g5" class="guess5">
-        
-      </div>
-      <div id="g6" class="guess6">
-        
-      </div>
-      
-      <div>
-        <input id="guess-input" class="search" placeholder="Guess Song">
-      </div>
-
-      <div>
-        <button id="skip-button" onclick="addGuess('S K I P P E D'); 
-          render_skip_time();"
-        class="skip">
-          SKIP (+1s)
-        </button>  
-      </div>
-
-      <div>
-        <button onclick="addGuess(document.getElementById('guess-input').value); 
-        render_skip_time();
-        document.getElementById('guess-input').value = '';"  class="submit">
-          SUBMIT
-        </button>  
-      </div>
 
 
     </body>
