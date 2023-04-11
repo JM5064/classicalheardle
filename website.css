@@ -61,6 +61,11 @@
     margin: 0 auto;
   }
 
+  .autocomplete-items:hover {
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
   .autocomplete-items-text {
     padding-top: 8px;
   }
