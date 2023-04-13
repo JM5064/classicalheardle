@@ -66,8 +66,16 @@
     cursor: pointer;
   }
 
-  .autocomplete-items-text {
+  .autocomplete-items-text, .autocomplete-item-highlight {
     padding-top: 8px;
+  }
+
+  .autocomplete-item-highlight {
+    color: rgb(255, 208, 0);
+  }
+
+  .letter-highlight {
+    background-color: rgb(75, 75, 75);
   }
 
   .skip {
@@ -89,6 +97,7 @@
 
     cursor: pointer;
   }
+
   .skip:hover {
     opacity: 0.8;
   }

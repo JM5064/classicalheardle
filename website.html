@@ -32,8 +32,7 @@
       
       <form autocomplete="off">
       <div>
-        <input type="text" id="guess-input" class="search" placeholder="Guess Piece" 
-        >
+        <input type="text" id="guess-input" class="search" placeholder="Guess Piece">
       </div>
       </form>
 
@@ -61,7 +60,7 @@
         let numGuesses = 0;
         pieces = [
           "Partita No. 2, Chaconne - J.S. Bach",
-          "Rondo Alla Turca - Wolfang Amadeus Mozart",
+          "Rondo Alla Turca - Wolfgang Amadeus Mozart",
           "Hungarian Rhapsody No. 2 - Franz Liszt",
           "Academic Festival Overture - Johannes Brahms",
           "Violin Concerto No. 1 in G minor - Max Bruch",
@@ -83,7 +82,10 @@
           "Symphonic Dances - Sergei Rachmaninoff"];
 
 
+        focus = -1;
+
         function closeAutofill() {
+          focus = -1;
           let divs = document.getElementsByClassName("autocomplete-items");
           let l = divs.length;
           for (let i = 0; i < l; i++) {
@@ -93,16 +95,13 @@
 
         autofill(document.getElementById("guess-input"));
 
+
         function autofill(input){
 
           input.addEventListener("input", function(e) {
             closeAutofill();
-            // var a, b, i, val = this.value;
-            // console.log(a + " " + b + " " + i + " " + val);
-            console.log(this.value);
           
             for (let i = 0; i < pieces.length; i++) {
-              // console.log("hi");
 
               if (document.getElementById('guess-input').value == '') {
                 closeAutofill();
@@ -113,12 +112,13 @@
                 e.setAttribute("class", "autocomplete-items");
                 e2 = document.createElement('div');
                 e2.setAttribute("class", "autocomplete-items-text");
+                e2.setAttribute("id", i);
                 
                 let piece = pieces[i].toUpperCase();
                 let guess = document.getElementById('guess-input').value.toUpperCase();
 
                 e2.innerHTML = pieces[i].substring(0, piece.indexOf(guess));
-                e2.innerHTML += "<strong>" + pieces[i].substring(piece.indexOf(guess), piece.indexOf(guess) + guess.length) + "</strong>";
+                e2.innerHTML += "<span class='letter-highlight'>" + pieces[i].substring(piece.indexOf(guess), piece.indexOf(guess) + guess.length) + "</span>";
                 e2.innerHTML += pieces[i].substring(piece.indexOf(guess) + guess.length);
 
                 e.appendChild(e2);
@@ -131,8 +131,42 @@
               }
             }
          });
-         
+
+
+         input.addEventListener("keydown", function(e){
+          if (e.keyCode == 38) { // up
+            focus--;
+            if (focus < 0) {
+              focus = document.getElementsByClassName("autocomplete-items-text").length - 1;
+            }
+            clearHighlight();
+            document.getElementsByClassName("autocomplete-items-text")[focus].classList.add("autocomplete-item-highlight");
+          } else if (e.keyCode == 40) { // down
+            focus++;
+            if (focus > document.getElementsByClassName("autocomplete-items-text").length - 1) {
+              focus = 0;
+            }
+            clearHighlight();
+            document.getElementsByClassName("autocomplete-items-text")[focus].classList.add("autocomplete-item-highlight");
+          
+          } else if (e.keyCode == 13) { // enter
+            e.preventDefault();
+            console.log(document.getElementsByClassName("autocomplete-items-text")[focus].id);
+            document.getElementById('guess-input').value = pieces[document.getElementsByClassName("autocomplete-items-text")[focus].id];
+            closeAutofill();
+          }
+         });
+
+         function clearHighlight(){
+          for (i = 0; i < document.getElementsByClassName("autocomplete-items-text").length; i++) {
+            document.getElementsByClassName("autocomplete-items-text")[i].classList.remove("autocomplete-item-highlight");
+          }
+         }
         }
+
+        document.addEventListener("click", function(e) {
+          closeAutofill();
+        });
 
         function render_guesses() {
           document.getElementById("guesses-list").innerHTML = '';
