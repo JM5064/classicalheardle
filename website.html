@@ -70,6 +70,9 @@
 
         autofill(document.getElementById("guess-input"));
 
+        function removeSpecialCharacters(str) {
+          return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
 
         function autofill(input){
 
@@ -78,8 +81,9 @@
 
             for (let i = 0; i < data.composers.length; i++) {
               for (let j = 0; j < data.composers[i].works.length; j++) {
-                let piece = data.composers[i].works[j].title + " - " + data.composers[i].complete_name;
-                let inp = input.value.toUpperCase();
+                let origPiece = data.composers[i].works[j].title + " - " + data.composers[i].complete_name;
+                let piece = removeSpecialCharacters(origPiece);
+                let inp = removeSpecialCharacters(input.value.toUpperCase());
 
                 if (document.getElementById('guess-input').value == '') {
                   closeAutofill();
@@ -98,11 +102,11 @@
                     e2.setAttribute("id", i);
                     
                     if (!piece.toUpperCase().includes(inp)) {
-                      e2.innerHTML = piece;
+                      e2.innerHTML = origPiece;
                     } else {
-                      e2.innerHTML = piece.substring(0, piece.toUpperCase().indexOf(inp));
-                      e2.innerHTML += "<span class='letter-highlight'>" + piece.substring(piece.toUpperCase().indexOf(inp), piece.toUpperCase().indexOf(inp) + inp.length) + "</span>";
-                      e2.innerHTML += piece.substring(piece.toUpperCase().indexOf(inp) + inp.length);
+                      e2.innerHTML = origPiece.substring(0, piece.toUpperCase().indexOf(inp));
+                      e2.innerHTML += "<span class='letter-highlight'>" + origPiece.substring(piece.toUpperCase().indexOf(inp), piece.toUpperCase().indexOf(inp) + inp.length) + "</span>";
+                      e2.innerHTML += origPiece.substring(piece.toUpperCase().indexOf(inp) + inp.length);
                     }
 
                     e.appendChild(e2);
@@ -112,7 +116,7 @@
                     }
                   
                   e2.addEventListener("click", function(e) {
-                    document.getElementById('guess-input').value = piece;
+                    document.getElementById('guess-input').value = origPiece;
                     closeAutofill();
                   });
                 }
@@ -152,13 +156,6 @@
           }
         }
 
-        // e3 = document.createElement('div');
-        // e3.setAttribute("class", "footnote");
-
-
-        function updateFootnote(){
-          e3.innerHTML = "greetings"
-        }
 
       }
 
@@ -193,6 +190,7 @@
             numGuesses++; 
           }
         }
+
 
         function render_skip_time() {
           document.getElementById('skip-button').innerHTML = '';

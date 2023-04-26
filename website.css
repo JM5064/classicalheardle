@@ -46,7 +46,7 @@
   }
 
   .search:focus {
-    outline-color: rgb(60, 238, 60);
+    outline-color: rgb(72, 250, 72);
   }
 
   .autocomplete-items {
