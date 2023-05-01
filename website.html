@@ -14,6 +14,10 @@
     <body>
       <div id="guesses-list"></div>
 
+      <button id="mode-button" onclick="switchMode();">
+        Switch Theme
+      </button>
+
       <p class="title">
         Classicle
       </p>
@@ -31,9 +35,9 @@
       </div>
       
       <form autocomplete="off">
-      <div>
-        <input type="text" id="guess-input" class="search" placeholder="Guess Piece">
-      </div>
+        <div>
+          <input type="text" id="guess-input" class="search" placeholder="Guess Piece">
+        </div>
       </form>
 
       <div>
@@ -50,9 +54,33 @@
         </button>  
       </div>
 
-      <script type="module">
-        import data from './openopus.json' assert { type: 'json' };
-        console.log(data);
+      <script>
+
+        function switchMode () {
+          var element = document.body;
+          document.getElementById('submit').classList.toggle('light-mode');
+          element.classList.toggle('light-mode');
+
+        }
+        
+        function readTextFile(file, callback) {
+          var rawFile = new XMLHttpRequest();
+          rawFile.open("GET", file, true);
+          rawFile.onreadystatechange = function() {
+            if (rawFile.readyState === 4 && rawFile.status == "200") {
+                callback(rawFile.responseText);
+            }
+          }
+          rawFile.send(null);
+        }
+
+        var data;
+
+        readTextFile("openopus.json", function(text){
+            data = JSON.parse(text);
+            console.log(data);
+        });
+
 
         let guesses = [];
         let numGuesses = 0;
@@ -74,27 +102,24 @@
           return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
         }
 
-        function autofill(input){
+        function autofill(input) {
 
           input.addEventListener("input", function(e) {
             closeAutofill();
+            var max = 50;
+            let inp = removeSpecialCharacters(input.value.toUpperCase());
 
             for (let i = 0; i < data.composers.length; i++) {
               for (let j = 0; j < data.composers[i].works.length; j++) {
                 let origPiece = data.composers[i].works[j].title + " - " + data.composers[i].complete_name;
                 let piece = removeSpecialCharacters(origPiece);
-                let inp = removeSpecialCharacters(input.value.toUpperCase());
 
-                if (document.getElementById('guess-input').value == '') {
-                  closeAutofill();
-                  break;
-                }
-                else if (piece.toUpperCase().includes(inp) && (data.composers[i].works[j].popular == "1"
+                if (piece.toUpperCase().includes(inp) && (data.composers[i].works[j].popular == "1"
                   // || data.composers[i].works[j].recommended == "1"
                   )
                 ) {
                   var e2;
-                  if (document.getElementsByClassName("autocomplete-items").length < 50) {
+                  if (document.getElementsByClassName("autocomplete-items").length < max) {
                     e = document.createElement('div');
                     e.setAttribute("class", "autocomplete-items");
                     e2 = document.createElement('div');
@@ -111,6 +136,7 @@
 
                     e.appendChild(e2);
                     document.body.appendChild(e);
+
                     } else {
                       break;
                     }
@@ -120,8 +146,21 @@
                     closeAutofill();
                   });
                 }
+
               }
             }
+            var fn = document.createElement('div');
+            fn.setAttribute("class", "autocomplete-items");
+            var fn2 = document.createElement('div');
+            fn2.setAttribute("class", "footnote");
+            fn2.innerHTML = "Showing " + document.getElementsByClassName("autocomplete-items").length + " results for \"" + input.value + "\"";
+            fn.appendChild(fn2);
+            document.body.appendChild(fn);
+
+            if (document.getElementById('guess-input').value == '') {
+              closeAutofill();
+            }
+
           });
 
 
@@ -143,7 +182,7 @@
           
           } else if (e.keyCode == 13) { // enter
             e.preventDefault();
-            let piece = data.composers[i].works[j].title + " - " + data.composers[i].complete_name;
+            // let piece = data.composers[i].works[j].title + " - " + data.composers[i].complete_name;
             let num = document.getElementsByClassName("autocomplete-items-text")[focus].id;
             document.getElementById('guess-input').value = pieces[num].title + " - "  + pieces[num].composer;
             closeAutofill();
