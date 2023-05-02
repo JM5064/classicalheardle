@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Classical Music Heardle</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      
+      <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+      <div id="guesses-list"></div>
+
+      <button id="mode-button" onclick="switchMode();">
+        Switch Theme
+      </button>
+
+      <p class="title">
+        Classicle
+      </p>
+      <div id="g1" class="guess1"></div>
+      <div id="g2" class="guess2"></div>
+      <div id="g3" class="guess3"></div>
+      <div id="g4" class="guess4"></div>
+      <div id="g5" class="guess5"></div>
+      <div id="g6" class="guess6"></div>
+      
+      <div>
+        <audio controls src="Mzg1ODMxNTIzMzg1ODM3_JzthsfvUY24.MP3">
+
+        </audio>
+      </div>
+      
+      <form autocomplete="off">
+        <div>
+          <input type="text" id="guess-input" class="search" placeholder="Guess Piece">
+        </div>
+      </form>
+
+      <div>
+        <button id="skip-button"
+          class="skip">
+          SKIP (+1s)
+        </button>  
+      </div>
+
+      <div>
+        <button id="submit"
+          class="submit">
+          SUBMIT
+        </button>  
+      </div>
+
+      <script type="application/javascript" src="script.js"></script>
+
+    </body>
+</html>
