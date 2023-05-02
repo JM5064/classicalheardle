@@ -86,13 +86,12 @@
         let numGuesses = 0;
 
         focus = -1;
+        
 
         function closeAutofill() {
           focus = -1;
-          let divs = document.getElementsByClassName("autocomplete-items");
-          let l = divs.length;
-          for (let i = 0; i < l; i++) {
-            divs[0].parentNode.removeChild(divs[0]);
+          if (document.getElementById("autocomplete") != null) {
+            document.getElementById("autocomplete").remove();
           }
         }
 
@@ -109,6 +108,11 @@
             var max = 50;
             let inp = removeSpecialCharacters(input.value.toUpperCase());
 
+            var at = document.createElement('div');
+            at.setAttribute("class", "autocomplete");
+            at.setAttribute("id", "autocomplete");
+            document.body.appendChild(at);
+
             for (let i = 0; i < data.composers.length; i++) {
               for (let j = 0; j < data.composers[i].works.length; j++) {
                 let origPiece = data.composers[i].works[j].title + " - " + data.composers[i].complete_name;
@@ -122,6 +126,7 @@
                   if (document.getElementsByClassName("autocomplete-items").length < max) {
                     e = document.createElement('div');
                     e.setAttribute("class", "autocomplete-items");
+                    at.appendChild(e);
                     e2 = document.createElement('div');
                     e2.setAttribute("class", "autocomplete-items-text");
                     e2.setAttribute("id", i);
@@ -135,7 +140,7 @@
                     }
 
                     e.appendChild(e2);
-                    document.body.appendChild(e);
+                    // document.body.appendChild(e);
 
                     } else {
                       break;
@@ -155,7 +160,7 @@
             fn2.setAttribute("class", "footnote");
             fn2.innerHTML = "Showing " + document.getElementsByClassName("autocomplete-items").length + " results for \"" + input.value + "\"";
             fn.appendChild(fn2);
-            document.body.appendChild(fn);
+            at.appendChild(fn);
 
             if (document.getElementById('guess-input').value == '') {
               closeAutofill();
