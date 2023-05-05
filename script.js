@@ -1,9 +1,11 @@
+
+
 function switchMode () {
     var element = document.body;
     document.getElementById('submit').classList.toggle('light-mode');
     element.classList.toggle('light-mode');
 
-  }
+}
   
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
@@ -18,11 +20,35 @@ function readTextFile(file, callback) {
 
 var data;
 
-readTextFile("openopus.json", function(text){
+readTextFile("openopusids.json", function(text) {
     data = JSON.parse(text);
     console.log(data);
-});
 
+    // const newData = {
+    //     composers: data.composers.map((composer, composerIndex) => ({
+    //     id: composerIndex + 1,
+    //     name: composer.name,
+    //     complete_name: composer.complete_name,
+    //     epoch: composer.epoch,
+    //     birth: composer.birth,
+    //     death: composer.death,
+    //     popular: composer.popular,
+    //     recommended: composer.recommended,
+    //     works: composer.works.map((work, workIndex) => ({
+    //         id: `${composerIndex + 1}-${workIndex + 1}`,
+    //         title: work.title,
+    //         subtitle: work.subtitle,
+    //         searchterms: work.searchterms,
+    //         popular: work.popular,
+    //         recommended: work.recommended,
+    //         genre: work.genre
+    //     }))
+    //     }))
+    // };
+    
+    // console.log(newData);
+      
+});
 
 let guesses = [];
 let numGuesses = 0;
@@ -70,7 +96,7 @@ function autofill(input) {
                         at.appendChild(e);
                         e2 = document.createElement('div');
                         e2.setAttribute("class", "autocomplete-items-text");
-                        e2.setAttribute("id", i);
+                        e2.setAttribute("id", [i, j]);
                 
                         if (!piece.toUpperCase().includes(inp)) {
                             e2.innerHTML = origPiece;
@@ -126,9 +152,9 @@ function autofill(input) {
             document.getElementsByClassName("autocomplete-items-text")[focus].classList.add("autocomplete-item-highlight");
         } else if (e.keyCode == 13) { // enter
             e.preventDefault();
-            // let piece = data.composers[i].works[j].title + " - " + data.composers[i].complete_name;
-            let num = document.getElementsByClassName("autocomplete-items-text")[focus].id;
-            document.getElementById('guess-input').value = pieces[num].title + " - "  + pieces[num].composer;
+            let composer_id = document.getElementsByClassName("autocomplete-items-text")[focus].id.split(",")[0];
+            let piece_id = document.getElementsByClassName("autocomplete-items-text")[focus].id.split(",")[1];
+            document.getElementById('guess-input').value = data.composers[composer_id].works[piece_id].title + " - " + data.composers[composer_id].complete_name;
             closeAutofill();
         }
     });

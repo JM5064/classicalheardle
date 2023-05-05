@@ -4,7 +4,6 @@
     color: white;
     transition: background 0.2s, color 0.2s;
     --hover-color: #444444;
-
   }
 
   .light-mode {
@@ -52,7 +51,7 @@
   }
 
   .search:focus {
-    outline-color: rgb(72, 250, 72);
+    outline-color: rgb(223, 220, 174);
   }
 
   .autocomplete {
@@ -60,9 +59,11 @@
     text-align: center;
     margin: 0 auto;
     background-color: inherit;
-    width: 662px;
-    height: 223px;
+    max-width: 662px;
+    max-height: 223px;
     overflow: auto;
+    border-color: rgb(223, 220, 174);
+    border-style: solid;
   }
 
   .autocomplete-items {
@@ -87,7 +88,7 @@
   }
 
   .letter-highlight {
-    background-color: rgba(150, 150, 150, 0.4);
+    background-color: rgba(151, 146, 119, 0.4);
   }
 
   .footnote {
@@ -122,7 +123,7 @@
   .submit {
     font-size: 16px;
     font-weight: bold;
-    background-color: rgb(72, 250, 72);
+    background-color: rgba(220, 216, 164, 0.9);
     height: 60px;
     width: 130px;
     border-radius:30px;
