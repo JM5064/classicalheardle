@@ -33,6 +33,14 @@
     margin-top: 10px;
   }
 
+  .wrong {
+    color: red;
+  }
+
+  .partial {
+    color: rgb(255, 208, 0);
+  }
+
 
   .search {
     width: 648px;
@@ -92,13 +100,19 @@
   }
 
   .footnote {
-    /* color: white; */
     padding-top: 9px;
     font-size: 14px;
-    /* position: relative; */
-    /* text-align: center; */
-    /* margin: 0 auto; */
-    /* display: inline; */
+  }
+
+  .guess-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;  
+    position: absolute;
+
   }
 
   .skip {
@@ -110,8 +124,6 @@
     width: 130px;
     border-radius:30px;
     border-style: solid;
-    position: absolute;
-    left: 27%;
     cursor: pointer;
   }
 
@@ -129,8 +141,6 @@
     border-radius:30px;
     border: none;
     cursor: pointer;
-    position: absolute;
-    left: 63.9%;
   }
   .submit:hover {
     opacity: 0.8;
@@ -142,3 +152,4 @@
     padding-top: 20px;
     width: 500px;
   }
+  

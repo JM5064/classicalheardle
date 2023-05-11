@@ -1,14 +1,16 @@
 
+let answer = [202, 117]; // composer, piece
+let correct = [false, false];
+let guess = [-1, -1];
+
 
 function switchMode () {
-    var element = document.body;
-    document.getElementById('submit').classList.toggle('light-mode');
+    let element = document.body;
     element.classList.toggle('light-mode');
-
 }
   
 function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
+    let rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, true);
     rawFile.onreadystatechange = function() {
         if (rawFile.readyState === 4 && rawFile.status == "200") {
@@ -18,42 +20,18 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
-var data;
+let data;
 
-readTextFile("openopusids.json", function(text) {
+readTextFile("openopus.json", function(text) {
     data = JSON.parse(text);
     console.log(data);
-
-    // const newData = {
-    //     composers: data.composers.map((composer, composerIndex) => ({
-    //     id: composerIndex + 1,
-    //     name: composer.name,
-    //     complete_name: composer.complete_name,
-    //     epoch: composer.epoch,
-    //     birth: composer.birth,
-    //     death: composer.death,
-    //     popular: composer.popular,
-    //     recommended: composer.recommended,
-    //     works: composer.works.map((work, workIndex) => ({
-    //         id: `${composerIndex + 1}-${workIndex + 1}`,
-    //         title: work.title,
-    //         subtitle: work.subtitle,
-    //         searchterms: work.searchterms,
-    //         popular: work.popular,
-    //         recommended: work.recommended,
-    //         genre: work.genre
-    //     }))
-    //     }))
-    // };
-    
-    // console.log(newData);
-      
+    console.log(data.composers[answer[0]].works[answer[1]].title);
 });
 
 let guesses = [];
 let numGuesses = 0;
 
-focus = -1;
+let focus = -1;
 
 function closeAutofill() {
     focus = -1;
@@ -72,13 +50,15 @@ function autofill(input) {
 
     input.addEventListener("input", function(e) {
         closeAutofill();
-        var max = 50;
+        let max = 50;
         let inp = removeSpecialCharacters(input.value.toUpperCase());
 
-        var at = document.createElement('div');
+        let at = document.createElement('div');
         at.setAttribute("class", "autocomplete");
         at.setAttribute("id", "autocomplete");
         document.body.appendChild(at);
+
+        let numResults = 0;
 
         for (let i = 0; i < data.composers.length; i++) {
             for (let j = 0; j < data.composers[i].works.length; j++) {
@@ -89,7 +69,8 @@ function autofill(input) {
                 // || data.composers[i].works[j].recommended == "1"
                 )
                 ) {
-                    var e2;
+                    numResults++;
+                    let e2;
                     if (document.getElementsByClassName("autocomplete-items").length < max) {
                         e = document.createElement('div');
                         e.setAttribute("class", "autocomplete-items");
@@ -115,17 +96,19 @@ function autofill(input) {
                 
                     e2.addEventListener("click", function(e) {
                         document.getElementById('guess-input').value = origPiece;
+                        guess[0] = i;
+                        guess[1] = j;
                         closeAutofill();
                     });
                 }
 
             }
         }
-        var fn = document.createElement('div');
+        let fn = document.createElement('div');
         fn.setAttribute("class", "autocomplete-items");
-        var fn2 = document.createElement('div');
+        let fn2 = document.createElement('div');
         fn2.setAttribute("class", "footnote");
-        fn2.innerHTML = "Showing " + document.getElementsByClassName("autocomplete-items").length + " results for \"" + input.value + "\"";
+        fn2.innerHTML = "Showing " + document.getElementsByClassName("autocomplete-items").length + " results out of " + numResults + " for \"" + input.value + "\"";
         fn.appendChild(fn2);
         at.appendChild(fn);
 
@@ -152,9 +135,9 @@ function autofill(input) {
             document.getElementsByClassName("autocomplete-items-text")[focus].classList.add("autocomplete-item-highlight");
         } else if (e.keyCode == 13) { // enter
             e.preventDefault();
-            let composer_id = document.getElementsByClassName("autocomplete-items-text")[focus].id.split(",")[0];
-            let piece_id = document.getElementsByClassName("autocomplete-items-text")[focus].id.split(",")[1];
-            document.getElementById('guess-input').value = data.composers[composer_id].works[piece_id].title + " - " + data.composers[composer_id].complete_name;
+            guess[0] = document.getElementsByClassName("autocomplete-items-text")[focus].id.split(",")[0];
+            guess[1] = document.getElementsByClassName("autocomplete-items-text")[focus].id.split(",")[1];
+            document.getElementById('guess-input').value = data.composers[guess[0]].works[guess[1]].title + " - " + data.composers[guess[0]].complete_name;
             closeAutofill();
         }
     });
@@ -167,27 +150,63 @@ function autofill(input) {
 
 }
 
+function evaluateGuess(composerID, pieceID) {
+    if (composerID == answer[0]) {
+        if (pieceID == answer[1]) {
+            return [true, true];
+        } else {
+            return [true, false];
+        }
+    } else {
+        return [false, false];
+    }
+}
+
+
 document.addEventListener("click", function(e) {
     closeAutofill();
 });
 
+
 function render_guesses() {
     document.getElementById("guesses-list").innerHTML = '';
-    document.getElementById('g' + guesses.length).textContent += guesses[guesses.length - 1];        
+    // document.getElementById('g' + guesses.length).textContent += guesses[guesses.length - 1];
+    document.getElementById('g' + guesses.length).appendChild(guesses[guesses.length - 1]);
 }
 
 const submitHover = document.getElementById('submit');
     submitHover.addEventListener('click', function(e) {
-    addGuess(document.getElementById('guess-input').value);
+    // addGuess(document.getElementById('guess-input').value);
+    if (evaluateGuess(guess[0], guess[1])[0]) {
+        if (evaluateGuess(guess[0], guess[1])[1]) {
+            var correct = document.createElement('span');
+            correct.innerHTML = document.getElementById('guess-input').value + " - CORRECT!!!";
+            addGuess(correct);
+            guess = [-1, -1];
+        } else {
+            var partial = document.createElement('span');
+            partial.innerHTML = "<span class='partial'>—</span> " + document.getElementById('guess-input').value;
+            addGuess(partial);
+            guess = [-1, -1];
+        }
+    } else if (guess[0] != -1) {
+        var wrong = document.createElement('span');
+        wrong.innerHTML = "<span class='wrong'>X</span> " + document.getElementById('guess-input').value;
+        addGuess(wrong);
+        guess = [-1, -1];
+    }
     document.getElementById('guess-input').value = '';
     render_skip_time()
 });
 
+
 const skipHover = document.getElementById('skip-button');
     skipHover.addEventListener('click', function(e) {
-    addGuess('S K I P P E D');
-    document.getElementById('guess-input').value = '';
-    render_skip_time()
+        var skip = document.createElement('div');
+        skip.innerHTML = 'S K I P P E D';
+        addGuess(skip);
+        document.getElementById('guess-input').value = '';
+        render_skip_time()
 });
 
 
