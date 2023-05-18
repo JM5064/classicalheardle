@@ -22,11 +22,22 @@ function readTextFile(file, callback) {
 
 let data;
 
-readTextFile("openopus.json", function(text) {
+readTextFile("popular.json", function(text) {
     data = JSON.parse(text);
     console.log(data);
     console.log(data.composers[answer[0]].works[answer[1]].title);
+
+    const newData = {
+        composers: data.composers.map(composer => ({
+          name: composer.name,
+          works: composer.works.filter(work => work.popular === "1")
+        }))
+      };
+      
+    
+    console.log(newData);
 });
+
 
 let guesses = [];
 let numGuesses = 0;
@@ -37,6 +48,7 @@ function closeAutofill() {
     focus = -1;
     if (document.getElementById("autocomplete") != null) {
         document.getElementById("autocomplete").remove();
+        document.getElementById("autocomplete-footnote").remove();
     }
 }
 
@@ -88,7 +100,6 @@ function autofill(input) {
                         }
 
                         e.appendChild(e2);
-                        // document.body.appendChild(e);
 
                     } else {
                         break;
@@ -105,12 +116,17 @@ function autofill(input) {
             }
         }
         let fn = document.createElement('div');
-        fn.setAttribute("class", "autocomplete-items");
+        fn.setAttribute("class", "autocomplete");
+        fn.setAttribute("id", "autocomplete-footnote");
         let fn2 = document.createElement('div');
         fn2.setAttribute("class", "footnote");
-        fn2.innerHTML = "Showing " + document.getElementsByClassName("autocomplete-items").length + " results out of " + numResults + " for \"" + input.value + "\"";
+        if (numResults > 0) {
+            fn2.innerHTML = "Showing " + document.getElementsByClassName("autocomplete-items").length + " results out of " + numResults + " for \"" + input.value + "\" - scroll to see more";
+        } else {
+            fn2.innerHTML = "No results for \"" + input.value + "\"";
+        }
         fn.appendChild(fn2);
-        at.appendChild(fn);
+        document.body.appendChild(fn);
 
         if (document.getElementById('guess-input').value == '') {
             closeAutofill();
@@ -170,13 +186,11 @@ document.addEventListener("click", function(e) {
 
 function render_guesses() {
     document.getElementById("guesses-list").innerHTML = '';
-    // document.getElementById('g' + guesses.length).textContent += guesses[guesses.length - 1];
     document.getElementById('g' + guesses.length).appendChild(guesses[guesses.length - 1]);
 }
 
 const submitHover = document.getElementById('submit');
     submitHover.addEventListener('click', function(e) {
-    // addGuess(document.getElementById('guess-input').value);
     if (evaluateGuess(guess[0], guess[1])[0]) {
         if (evaluateGuess(guess[0], guess[1])[1]) {
             var correct = document.createElement('span');

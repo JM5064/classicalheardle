@@ -4,12 +4,14 @@
     color: white;
     transition: background 0.2s, color 0.2s;
     --hover-color: #444444;
+    --footnote-color: rgba(255, 255, 255, 0.7);
   }
 
   .light-mode {
     --hover-color: #d6d6d6;
     background-color: white;
     color: black;
+    --footnote-color: rgba(0, 0, 0, 0.7);
   }
 
   .title {
@@ -68,7 +70,7 @@
     margin: 0 auto;
     background-color: inherit;
     max-width: 662px;
-    max-height: 223px;
+    max-height: 190px;
     overflow: auto;
     border-color: rgb(223, 220, 174);
     border-style: solid;
@@ -100,8 +102,9 @@
   }
 
   .footnote {
-    padding-top: 9px;
-    font-size: 14px;
+    padding: 6px;
+    font-size: 13.5px;
+    color: var(--footnote-color);
   }
 
   .guess-buttons {
@@ -152,4 +155,3 @@
     padding-top: 20px;
     width: 500px;
   }
-  

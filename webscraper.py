@@ -3,27 +3,7 @@ import requests
 from pyhelpers.ops import is_downloadable
 
 pieces = [
-          "Partita No. 2, Chaconne - J.S. Bach",
-          "Rondo Alla Turca - Wolfang Amadeus Mozart",
-          "Hungarian Rhapsody No. 2 - Franz Liszt",
-          "Academic Festival Overture - Johannes Brahms",
-          "Violin Concerto No. 1 in G minor - Max Bruch",
-          "Piano Concerto No. 1 - Pyotr Ilyich Tchaikovsky",
-          "Violin Concerto in D Major - Pyotr Ilyich Tchaikovsky",
-          "Symphony No. 4 in F minor - Pyotr Ilyich Tchaikovsky",
-          "Symphony No. 5 in E minor - Pyotr Ilyich Tchaikovsky",
-          "Symphony No. 6 in B minor - Pyotr Ilyich Tchaikovsky",
-          "1812 Overture - Pyotr Ilyich Tchaikovsky",
-          "Capriccio Espangol - Nikolai Rimsky-Korsakov",
-          "Flight of the Bumblebee - Nikolai Rimsky-Korsakov",
-          "Navarra - Pablo de Sarasate",
-          "Zigeunerweisen - Pablo de Sarasate",
-          "Zapateado - Pablo de Sarasate",
-          "Maple Leaf Rag - Scott Joplin",
-          "Piano Concerto No. 2 - Sergei Rachmaninoff",
-          "Prelude in G minor - Sergei Rachmaninoff",
-          "Symphony No. 2 in E minor - Sergei Rachmaninoff",
-          "Symphonic Dances - Sergei Rachmaninoff"]
+          "Academic Festival Overture - Johannes Brahms"]
 
 for i in range(len(pieces)):
     piece = pieces[i]
