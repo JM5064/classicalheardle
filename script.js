@@ -1,12 +1,38 @@
-
 let answer = 30;
 let correct = [false, false];
 let guess = -1;
+let randlist = 0;
+let randindex = 0;
 
+function readFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                randlist = allText;
+            }
+        }
+    }
+    rawFile.send(null);
+}
 
 function switchMode () {
     let element = document.body;
     element.classList.toggle('light-mode');
+}
+
+function newSong() {
+    readFile('randlist.txt')
+    randarray = randlist.split('\n')
+    console.log(randarray[0])
+    document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/' + randarray[randindex])
+    randindex++;
 }
   
 function readTextFile(file, callback) {

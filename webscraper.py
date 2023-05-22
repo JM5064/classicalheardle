@@ -40,7 +40,7 @@ for i in range(len(pieces)):
 
     if is_downloadable(rec_link):
         r = requests.get(rec_link, allow_redirects=True)
-        open('recordings2/' + str(i) + '. ' + piece + '.mp3', 'wb').write(r.content)
+        open('recordings/' + str(i) + '. ' + piece + '.mp3', 'wb').write(r.content)
         print('Success: ' + piece)
     else:
         print('Failed: ' + piece)
