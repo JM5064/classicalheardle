@@ -9,6 +9,18 @@
       
       <link rel="stylesheet" href="style.css">
 
+      <!-- Import PyScript -->
+      <!-- <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+      <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+       -->
+      <!-- <py-config type="json">
+        {
+          "packages": ["googlesearch-python", "SSL", "pyodide_http", "pyodide.http", "asyncio"],
+          "fetch": [{
+            "files": ["openopus.json"]
+          }]
+        }
+    </py-config> -->
     </head>
 
     <body>
@@ -29,7 +41,10 @@
       <div id="g6" class="guess6"></div>
       
       <div>
-        <audio controls src="Mzg1ODMxNTIzMzg1ODM3_JzthsfvUY24.MP3">
+        <!-- <py-script src="./webscraper.py">
+
+        </py-script> -->
+        <audio class="audio" controls src="recordings/280. Cello Concerto no. 1 in A minor, op. 33 - Saint-Saëns.mp3">
 
         </audio>
       </div>
@@ -49,7 +64,13 @@
           class="submit">
           SUBMIT
         </button>  
+
       </div>
+      <button id="new-song"
+      class="new-song"
+      onclick="newSong();">
+      NEW-SONG
+    </button>
 
       <script type="application/javascript" src="script.js"></script>
 
