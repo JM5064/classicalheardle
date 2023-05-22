@@ -27,10 +27,12 @@ function switchMode () {
     element.classList.toggle('light-mode');
 }
 
+readFile('randlist.txt')
+let randarray = randlist.split('\n')
+
 function newSong() {
-    readFile('randlist.txt')
-    randarray = randlist.split('\n')
-    console.log(randarray[0])
+    randindex = Math.floor(Math.random() * 273);
+    console.log(randarray[randindex])
     document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/' + randarray[randindex])
     randindex++;
 }
