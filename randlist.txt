@@ -7,12 +7,10 @@
 220. Piano Concerto no. 20 in D minor, K.466 - Mozart.mp3
 174. The Unanswered Question, for trumpet, winds, and string orchestra - Ives.mp3
 181. Maple Leaf Rag - Joplin.mp3
-122. El amor brujo - Falla.mp3
 329. Till Eulenspiegels lustige Streiche, op. 28, Trv171 - Strauss.mp3
 30. Piano Sonata no. 23 in F minor, op. 57, "Appassionata" - Beethoven.mp3
 97. Children's Corner, L.113 - Debussy.mp3
 318. Symphony no. 5 in E flat major, op. 82 - Sibelius.mp3
-195. Piano Concerto no. 1 in E flat major, S.124 - Liszt.mp3
 343. The Rite of Spring - Stravinsky.mp3
 381. Das Rheingold, WWV 86a - Wagner.mp3
 247. Concerto in D minor for 2 Pianos and Orchestra, FP61 - Poulenc.mp3
@@ -45,7 +43,6 @@
 375. Rudepoêma, A.184 - Villa-Lobos.mp3
 217. Vespro della beata Vergine, SV206 - Monteverdi.mp3
 383. Götterdämmerung, WWV 86d - Wagner.mp3
-246. Concert champêtre, for harpsichord and orchestra, FP49 - Poulenc.mp3
 118. Symphony no. 8 in G major, B.163, op. 88 - Dvořák.mp3
 301. Carnaval, op. 9 - Schumann.mp3
 366. Otello - Verdi.mp3
@@ -58,7 +55,6 @@
 330. Tod und Verklärung, op. 24, TrV158 - Strauss.mp3
 333. Kaiser-Walzer, op. 437 - Strauss Jr.mp3
 52. L' Arlésienne Suite no. 1 - Bizet.mp3
-374. Chôros no. 5, A.207, "Alma brasiliera" - Villa-Lobos.mp3
 9. Brandenburg Concerto no. 2 in F major, BWV.1047 - Bach.mp3
 60. Ein deutsches Requiem, op. 45 - Brahms.mp3
 356. The Swan Lake, op. 20a - Tchaikovsky.mp3
@@ -67,7 +63,6 @@
 180. Magnetic Rag - Joplin.mp3
 258. Piano Concerto no. 2 in C minor, op. 18 - Rachmaninoff.mp3
 231. The Magic Flute, K.620 - Mozart.mp3
-81. Joyeuse marche - Chabrier.mp3
 255. La bohème - Puccini.mp3
 370. Bachianas Brasileiras no. 1, for 8 cellos, A.246 - Villa-Lobos.mp3
 230. Symphony no. 40 in G minor, K.550 - Mozart.mp3
@@ -120,8 +115,6 @@
 170. Escales, "Ports of Call" - Ibert.mp3
 302. Fantasy in C major, op. 17 - Schumann.mp3
 382. Die Walküre, WWV 86b - Wagner.mp3
-256. Madama Butterfly - Puccini.mp3
-48. Symphony no. 3 in C major, "Sinfonie singulière" - Berwald.mp3
 296. String Quartet no. 14 in D minor, D.810, "Death and the Maiden" - Schubert.mp3
 139. Violin Concerto no. 1 in A minor, op. 28 - Goldmark.mp3
 280. Cello Concerto no. 1 in A minor, op. 33 - Saint-Saëns.mp3
@@ -181,7 +174,6 @@
 395. Violin Sonata no. 3 - Ysaÿe.mp3
 147. Concerto Grosso in A major, op. 6, no. 11, HWV.329 - Handel.mp3
 390. Passacaglia, op. 1 - Webern.mp3
-372. Bachianas Brasileiras no. 5, for voice and 8 cellos, A.389 - Villa-Lobos.mp3
 386. Symphony no. 1 in B flat minor - Walton.mp3
 23. Music for Strings, Percussion and Celesta, BB114, Sz.106 - Bartók.mp3
 151. Organ Concerto in F major, HWV.295, "The Cuckoo and the Nightingale" - Handel.mp3
@@ -229,7 +221,6 @@
 367. Requiem - Verdi.mp3
 140. Il Guarany - Gomes.mp3
 17. Passion According to St. Matthew, BWV.244 - Bach.mp3
-250. Peter and the Wolf, op. 67 - Prokofiev.mp3
 388. Der Freischütz, op. 77 - Weber.mp3
 303. Kinderszenen, op. 15 - Schumann.mp3
 65. Symphony no. 4 in E minor, op. 98 - Brahms.mp3
@@ -248,7 +239,6 @@
 156. Symphony no. 3, in 1 movement - Harris.mp3
 63. String Sextet no. 1 in B flat major, op. 18 - Brahms.mp3
 304. Piano Concerto in A minor, op. 54 - Schumann.mp3
-277. Il barbiere di Siviglia - Rossini.mp3
 233. Pictures at an Exhibition - Mussorgsky.mp3
 105. L'elisir d'amore - Donizetti.mp3
 199. Symphony no. 2 in C minor, "Resurrection" - Mahler.mp3

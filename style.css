@@ -14,6 +14,44 @@
     --footnote-color: rgba(0, 0, 0, 0.7);
   }
 
+  .header-buttons {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+  }
+
+  .switch-mode-button {
+    font-family: Roboto;
+    font-size: 12.5px;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 3px;
+    width: 110px;
+    background-color: white;
+  }
+
+  .switch-mode-button:hover {
+    background-color: rgba(235, 235, 235, 0.92);
+  }
+
+  .new-song {
+    font-family: Roboto;
+    font-size: 12.5px;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 3px;
+    width: 110px;
+    background-color: rgb(238, 236, 216);
+    border-color: rgba(149, 147, 123, 0.3);
+
+  }
+
+  .new-song:hover {
+    background-color: rgba(238, 236, 216, 0.92);
+  }
+
+
   .title {
     font-size: 40px;
     font-weight:500;
@@ -154,4 +192,9 @@
     margin: 0 auto;
     padding-top: 20px;
     width: 500px;
+  }
+
+  .congrats {
+    font-size: 24px;
+    text-align: center;
   }

@@ -26,13 +26,25 @@
     <body>
       <div id="guesses-list"></div>
 
-      <button id="mode-button" onclick="switchMode();">
-        Switch Theme
-      </button>
+      <div class="header-buttons">
+        <button id="mode-button" onclick="switchMode();"
+        class="switch-mode-button">
+          Switch Theme
+        </button>
+
+        <button id="new-song"
+          class="new-song"
+          onclick="newSong();">
+          New Piece
+        </button>
+      </div>
 
       <p class="title">
         Classicle
       </p>
+
+      <div class="body">
+
       <div id="g1" class="guess1"></div>
       <div id="g2" class="guess2"></div>
       <div id="g3" class="guess3"></div>
@@ -66,11 +78,11 @@
         </button>  
 
       </div>
-      <button id="new-song"
-      class="new-song"
-      onclick="newSong();">
-      NEW-SONG
-    </button>
+
+      </div>
+
+   
+
 
       <script type="application/javascript" src="script.js"></script>
 

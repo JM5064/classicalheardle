@@ -1,8 +1,10 @@
-let answer = 30;
 let correct = [false, false];
 let guess = -1;
 let randlist = 0;
 let randindex = 0;
+let answer = randindex;
+
+
 
 function readFile(file)
 {
@@ -30,11 +32,18 @@ function switchMode () {
 readFile('randlist.txt')
 let randarray = randlist.split('\n')
 
+newSong();
+
 function newSong() {
     randindex = Math.floor(Math.random() * 273);
     console.log(randarray[randindex])
     document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/' + randarray[randindex])
+    readFile('randlist.txt');
+    randarray = randlist.split('\n');
+    answer = randarray[randindex].split(".")[0];
+    console.log(answer);
     randindex++;
+    clearGuesses();
 }
   
 function readTextFile(file, callback) {
@@ -52,7 +61,6 @@ let data;
 
 readTextFile("popular.json", function(text) {
     data = JSON.parse(text);
-    console.log(data[100].composer);
 
     // const newData = data.composers.flatMap(composer =>
     //     composer.works
@@ -220,23 +228,26 @@ function render_guesses() {
 
 const submitHover = document.getElementById('submit');
     submitHover.addEventListener('click', function(e) {
-    if (evaluateGuess(guess)[0]) {
-        if (evaluateGuess(guess)[1]) {
-            var correct = document.createElement('span');
-            correct.innerHTML = document.getElementById('guess-input').value + " - CORRECT!!!";
-            addGuess(correct);
-            guess = [-1, -1];
-        } else {
-            var partial = document.createElement('span');
-            partial.innerHTML = "<span class='partial'>—</span> " + document.getElementById('guess-input').value;
-            addGuess(partial);
-            guess = [-1, -1];
+    if (guess != -1){
+        if (evaluateGuess(guess)[0]) {
+            if (evaluateGuess(guess)[1]) {
+                var correct = document.createElement('span');
+                correct.innerHTML = document.getElementById('guess-input').value + " - CORRECT!!!";
+                addGuess(correct);
+                guess = -1;
+                createWinScreen();
+            } else {
+                var partial = document.createElement('span');
+                partial.innerHTML = "<span class='partial'>—</span> " + document.getElementById('guess-input').value;
+                addGuess(partial);
+                guess = -1;
+            }
+        } else if (guess[0] != -1) {
+            var wrong = document.createElement('span');
+            wrong.innerHTML = "<span class='wrong'>X</span> " + document.getElementById('guess-input').value;
+            addGuess(wrong);
+            guess = -1;
         }
-    } else if (guess[0] != -1) {
-        var wrong = document.createElement('span');
-        wrong.innerHTML = "<span class='wrong'>X</span> " + document.getElementById('guess-input').value;
-        addGuess(wrong);
-        guess = [-1, -1];
     }
     document.getElementById('guess-input').value = '';
     render_skip_time()
@@ -271,4 +282,27 @@ function render_skip_time() {
     }
 }
 
+function clearGuesses() {
+    for (let i = 1; i <= 6; i++) {
+        document.getElementById("g" + i).innerHTML = "";
+    }
+    // render_guesses();
+}
 
+
+function createWinScreen() {
+    document.getElementsByClassName("body")[0].remove()
+    let congrats = document.createElement('div');
+    congrats.setAttribute("class", "congrats");
+    congrats.innerHTML = "Correct! " + data[answer].title + " - " + data[answer].composer;
+    document.body.appendChild(congrats);
+}
+
+
+function createLoseScreen() {
+    document.getElementsByClassName("body")[0].remove()
+    let congrats = document.createElement('div');
+    congrats.setAttribute("class", "congrats");
+    congrats.innerHTML = "Unlucky!"
+    document.body.appendChild(congrats);
+}
