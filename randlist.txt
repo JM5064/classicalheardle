@@ -96,7 +96,7 @@
 198. Symphony no. 1 in D major, "Titan" - Mahler.mp3
 207. Symphony no. 3 in A minor, op. 56, "Scottish" - Mendelssohn.mp3
 191. 6 Hungarian Rhapsodies, S.359 - Liszt.mp3
-331. An der schönen, blauen Donau, op. 314 - Strauss Jr.mp3
+331. An der schönen, blauen Donau, "Blue Danube Waltz", op. 314 - Strauss Jr.mp3
 228. String Quartet no. 19 in C major, K.465, "Dissonance" - Mozart.mp3
 281. Piano Concerto no. 2 in G minor, op. 22 - Saint-Saëns.mp3
 335. Tritsch-Tratsch-Polka, op. 214 - Strauss Jr.mp3
@@ -109,6 +109,7 @@
 360. Fantasia on Greensleeves, for harp, flute and strings - Vaughan Williams.mp3
 347. Violin Sonata in G minor, B.g5, "The Devil's Trill" - Tartini.mp3
 21. Allegro barbaro, BB63, Sz.49 - Bartók.mp3
+397. Fantaisie-impromptu in C sharp minor, op. 66 - Chopin.mp3
 389. Invitation to the Dance, op. 65 - Weber.mp3
 223. Piano Sonata no. 11 in A major, K.331, "Alla turca" - Mozart.mp3
 84. Andante spianato et grande polonaise brillante, op. 22 - Chopin.mp3
@@ -126,7 +127,6 @@
 239. Canon and Gigue in D major, for 3 violins and continuo, T.337, "Pachelbel's Canon" - Pachelbel.mp3
 368. Rigoletto - Verdi.mp3
 114. Serenade for Strings in E major, op. 22 - Dvořák.mp3
-192. Les Préludes, S.97 - Liszt.mp3
 126. An American in Paris - Gershwin.mp3
 36. Symphony no. 9 in D minor, op. 125, "Choral" - Beethoven.mp3
 219. Fantasia in D minor, K.397 - Mozart.mp3
@@ -179,7 +179,6 @@
 151. Organ Concerto in F major, HWV.295, "The Cuckoo and the Nightingale" - Handel.mp3
 14. Fugue in G minor, BWV.578, "Little Fugue" - Bach.mp3
 37. Violin Concerto in D major, op. 61 - Beethoven.mp3
-261. Symphony no. 7, "Angel of Light" - Rautavaara.mp3
 86. Piano Concerto no. 1 in E minor, op. 11 - Chopin.mp3
 119. Symphony no. 9 in E minor, op. 95, "From the New World" - Dvořák.mp3
 240. Violin Concerto no. 1 in E flat major, op. 6, MS21 - Paganini.mp3

@@ -29,17 +29,17 @@ function switchMode () {
     element.classList.toggle('light-mode');
 }
 
-readFile('randlist.txt')
+readFile('easyrandlist.txt')
 let randarray = randlist.split('\n')
 
 newSong();
 
 function newSong() {
-    randindex = Math.floor(Math.random() * 273);
-    console.log(randarray[randindex])
+    randindex = Math.floor(Math.random() * 148); // 273
+    console.log(randarray[randindex]);
     document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/' + randarray[randindex])
     readFile('randlist.txt');
-    randarray = randlist.split('\n');
+    // randarray = randlist.split('\n');
     answer = randarray[randindex].split(".")[0];
     console.log(answer);
     randindex++;
@@ -241,12 +241,18 @@ const submitHover = document.getElementById('submit');
                 partial.innerHTML = "<span class='partial'>—</span> " + document.getElementById('guess-input').value;
                 addGuess(partial);
                 guess = -1;
+                if (numGuesses == 6) {
+                    createLoseScreen();
+                }
             }
         } else if (guess[0] != -1) {
             var wrong = document.createElement('span');
             wrong.innerHTML = "<span class='wrong'>X</span> " + document.getElementById('guess-input').value;
             addGuess(wrong);
             guess = -1;
+            if (numGuesses == 6) {
+                createLoseScreen();
+            }
         }
     }
     document.getElementById('guess-input').value = '';
@@ -260,6 +266,9 @@ const skipHover = document.getElementById('skip-button');
         skip.innerHTML = 'S K I P P E D';
         addGuess(skip);
         document.getElementById('guess-input').value = '';
+        if (numGuesses == 6) {
+            createLoseScreen();
+        }
         render_skip_time()
 });
 
@@ -291,10 +300,11 @@ function clearGuesses() {
 
 
 function createWinScreen() {
+    // window.location.href = "http://127.0.0.1:5500/win.html";
     document.getElementsByClassName("body")[0].remove()
     let congrats = document.createElement('div');
     congrats.setAttribute("class", "congrats");
-    congrats.innerHTML = "Correct! " + data[answer].title + " - " + data[answer].composer;
+    congrats.innerHTML = "Correct! <br>" + data[answer].title + " - " + data[answer].composer + "</br>";
     document.body.appendChild(congrats);
 }
 
@@ -303,6 +313,6 @@ function createLoseScreen() {
     document.getElementsByClassName("body")[0].remove()
     let congrats = document.createElement('div');
     congrats.setAttribute("class", "congrats");
-    congrats.innerHTML = "Unlucky!"
+    congrats.innerHTML = "Unlucky! <br>" + data[answer].title + " - " + data[answer].composer + "</br>"
     document.body.appendChild(congrats);
 }
