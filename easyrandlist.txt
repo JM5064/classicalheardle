@@ -24,7 +24,6 @@
 118. Symphony no. 8 in G major, B.163, op. 88 - Dvořák.mp3
 35. Symphony no. 6 in F major, op. 68, "Pastoral" - Beethoven.mp3
 326. Don Juan, op. 20, TrV156 - Strauss.mp3
-116. Slavonic Dances, Series 2, op. 72, B.145 - Dvořák.mp3
 289. 3 Marches Militaires, D.733, op. 51 - Schubert.mp3
 9. Brandenburg Concerto no. 2 in F major, BWV.1047 - Bach.mp3
 356. The Swan Lake, op. 20a - Tchaikovsky.mp3
@@ -35,8 +34,8 @@
 270. Pini di Roma, P.141 - Respighi.mp3
 279. Carnival of the Animals - Saint-Saëns.mp3
 15. Orchestral Suite no. 3 in D major, BWV.1068 - Bach.mp3
-98. La Mer, L.109 - Debussy.mp3
-377. Concerto for Strings in G major, RV.151, "alla rustica" - Vivaldi.mp3
+99. La Mer, L.109 - Debussy.mp3
+98. Clair de lune - Debussy.mp3
 317. Symphony no. 2 in D major, op. 43 - Sibelius.mp3
 57. Polovtsian Dances - Borodin.mp3
 379. Gloria in D major, RV.589 - Vivaldi.mp3
@@ -55,7 +54,6 @@
 319. Violin Concerto in D minor, op. 47 - Sibelius.mp3
 273. Sheherazade, op. 35 - Rimsky-Korsakov.mp3
 120. Enigma Variations, op. 36 - Elgar.mp3
-115. Slavonic Dances, B.145, op. 72 - Dvořák.mp3
 223. Piano Sonata no. 11 in A major, K.331, "Alla turca" - Mozart.mp3
 84. Andante spianato et grande polonaise brillante, op. 22 - Chopin.mp3
 382. Die Walküre, WWV 86b - Wagner.mp3
@@ -78,18 +76,16 @@
 38. Violin Sonata no. 5 in F major, op. 24, "Spring" - Beethoven.mp3
 61. Hungarian Dances, WoO 1 - Brahms.mp3
 298. Symphony no. 8 in B minor, D.759, "Unfinished" - Schubert.mp3
+301. Carnaval, op. 9 - Schumann.mp3
 74. Symphony no. 7 in E major, WAB 107 - Bruckner.mp3
-100. String Quartet in G minor, L.85, op. 10 - Debussy.mp3
 182. The Entertainer - Joplin.mp3
 206. String Octet in E flat major, op. 20 - Mendelssohn.mp3
-306. Symphony no. 1 in B flat major, op. 38, "Spring" - Schumann.mp3
 44. Symphonie fantastique: Épisode de la vie d'une artiste, op. 14 - Berlioz.mp3
 276. Guillaume Tell - Rossini.mp3
 162. Symphony no. 94 in G, Hob.I:94, "Surprise" - Haydn.mp3
 365. Nabucco - Verdi.mp3
 88. Preludes, op. 28 - Chopin.mp3
 348. 1812 Festival Overture, in E flat major, op. 49 - Tchaikovsky.mp3
-219. Peer Gynt Suite no. 1, op. 46 - Grieg.mp3
 350. Nutcracker, op. 71a - Tchaikovsky.mp3
 111. Carnival, op. 92 - Dvořák.mp3
 357. Violin Concerto in D major, op. 35 - Tchaikovsky.mp3
@@ -103,7 +99,6 @@
 37. Violin Concerto in D major, op. 61 - Beethoven.mp3
 86. Piano Concerto no. 1 in E minor, op. 11 - Chopin.mp3
 119. Symphony no. 9 in E minor, op. 95, "From the New World" - Dvořák.mp3
-240. Violin Concerto no. 1 in E flat major, op. 6, MS21 - Paganini.mp3
 94. Concerto Grosso in G minor, op. 6, no. 8, "Christmas Concerto" - Corelli.mp3
 87. Polonaise no. 6 in A flat major, op. 53, "Heroic" - Chopin.mp3
 378. Flute Concerto in G minor, RV.439, "La Notte" - Vivaldi.mp3
@@ -115,7 +110,6 @@
 142. From Holberg’s Time, for string orchestra, "Holberg Suite" - Grieg.mp3
 72. Violin Concerto no. 1 in G minor, op. 26 - Bruch.mp3
 32. Piano Trio no. 7 in B flat major, op. 97, "Archduke" - Beethoven.mp3
-155. Water Music Suite no. 3 in G major, HWV.350 - Handel.mp3
 307. Toccata, op. 7 - Schumann.mp3
 90. Waltzes, op. 64 - Chopin.mp3
 354. Symphony no. 4 in F minor, op. 36 - Tchaikovsky.mp3
@@ -130,12 +124,10 @@
 117. String Quartet no. 12 in F, op. 96, "American" - Dvořák.mp3
 290. Erlkönig, D.328, op. 1 - Schubert.mp3
 299. Symphony no. 9 in C major, D.944, "Great" - Schubert.mp3
-24. Piano Concerto no. 3 in E major, BB127, Sz.119 - Bartók.mp3
-125. Violin Sonata in A major, M.8 - Franck.mp3
-63. String Sextet no. 1 in B flat major, op. 18 - Brahms.mp3
 304. Piano Concerto in A minor, op. 54 - Schumann.mp3
 233. Pictures at an Exhibition - Mussorgsky.mp3
 199. Symphony no. 2 in C minor, "Resurrection" - Mahler.mp3
+52. L' Arlésienne Suite no. 1 - Bizet.mp3
 121. Military Marches, op. 39, "Pomp and Circumstance" - Elgar.mp3
 33. String Quartet no. 7 in F major, op. 59 no. 1, "Razumovsky" - Beethoven.mp3
 134. Violin Concerto in A minor, op. 82 - Glazunov.mp3

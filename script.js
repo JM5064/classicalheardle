@@ -43,14 +43,14 @@ let randarray = randlist.split('\n')
 newSong();
 
 function newSong() {
-    randindex = Math.floor(Math.random() * 148); // 273
-    console.log(randarray[randindex]);
+    randindex = Math.floor(Math.random() * 140); // 273
+    // console.log(randarray[randindex]);
     document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/' + randarray[randindex])
     readFile('randlist.txt');
     // randarray = randlist.split('\n');
     answer = randarray[randindex].split(".")[0];
-    console.log(answer);
-    // randindex++;
+    // console.log(answer);
+    randindex++;
 }
 
 
@@ -256,7 +256,7 @@ playButton.addEventListener("click", () => {
 
 
 function evaluateGuess(guess) {
-    console.log(guess, answer);
+    // console.log(guess, answer);
     if (data[guess].composer == data[answer].composer) {
         if (guess == answer) {
             return [true, true];
