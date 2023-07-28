@@ -34,7 +34,7 @@
 
         <button id="new-song"
           class="new-song"
-          onclick="newSong();">
+          onclick="resetGame();">
           New Piece
         </button>
       </div>
@@ -52,13 +52,18 @@
       <div id="g5" class="guess5"></div>
       <div id="g6" class="guess6"></div>
       
-      <div>
+      <div id="audio-container">
         <!-- <py-script src="./webscraper.py">
 
         </py-script> -->
-        <audio class="audio" controls src="recordings/280. Cello Concerto no. 1 in A minor, op. 33 - Saint-Saëns.mp3">
 
+        <audio class="audio" 
+        id="play-button"
+         src="recordings/280. Cello Concerto no. 1 in A minor, op. 33 - Saint-Saëns.mp3"
+        preload=”metadata”
+        >
         </audio>
+        <button id="play-icon">></button>
       </div>
       
       <form autocomplete="off">

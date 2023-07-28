@@ -4,6 +4,14 @@ let randlist = 0;
 let randindex = 0;
 let answer = randindex;
 
+let guesses = [];
+let numGuesses = 0;
+let time = 2000;
+let gameOver = false;
+
+let audioState = 0; // 0 = paused, 1 = playing
+const audio = document.querySelector('audio');
+const playButton = document.getElementById("play-icon");
 
 
 function readFile(file)
@@ -42,7 +50,30 @@ function newSong() {
     // randarray = randlist.split('\n');
     answer = randarray[randindex].split(".")[0];
     console.log(answer);
-    randindex++;
+    // randindex++;
+}
+
+
+function resetGame () {
+    newSong();
+
+    if (gameOver) {
+        clearEnd();
+    }
+
+    correct = [false, false];
+    guess = -1;
+
+    guesses = [];
+    numGuesses = 0;
+    time = 2000;
+    gameOver = false;
+
+    audio.pause();
+    audio.currentTime = 0;
+    audioState = 0;
+    playButton.innerHTML = ">";
+
     clearGuesses();
 }
   
@@ -81,8 +112,6 @@ readTextFile("popular.json", function(text) {
 
 
 
-let guesses = [];
-let numGuesses = 0;
 
 let focus = -1;
 
@@ -202,6 +231,30 @@ function autofill(input) {
 
 }
 
+
+playButton.addEventListener("click", () => {
+    if (audioState == 0) {
+        audio.play();
+        audioState = 1;
+        playButton.innerHTML = "ll";
+
+        setTimeout(function() {
+            audio.pause();
+            audio.currentTime = 0;
+            audioState = 0;
+            playButton.innerHTML = ">";
+        }, time);
+
+    } 
+    // else {
+    //     audio.pause();
+    //     audio.currentTime = 0;
+    //     audioState = 0;
+    //     playButton.innerHTML = ">";
+    // }
+});
+
+
 function evaluateGuess(guess) {
     console.log(guess, answer);
     if (data[guess].composer == data[answer].composer) {
@@ -228,30 +281,35 @@ function render_guesses() {
 
 const submitHover = document.getElementById('submit');
     submitHover.addEventListener('click', function(e) {
-    if (guess != -1){
+    if (guess != -1 && !gameOver){
         if (evaluateGuess(guess)[0]) {
             if (evaluateGuess(guess)[1]) {
                 var correct = document.createElement('span');
                 correct.innerHTML = document.getElementById('guess-input').value + " - CORRECT!!!";
-                addGuess(correct);
+                // addGuess(correct);
                 guess = -1;
                 createWinScreen();
+                gameOver = true;
             } else {
                 var partial = document.createElement('span');
                 partial.innerHTML = "<span class='partial'>—</span> " + document.getElementById('guess-input').value;
-                addGuess(partial);
                 guess = -1;
-                if (numGuesses == 6) {
+                if (numGuesses == 7) {
                     createLoseScreen();
+                    gameOver = true;
+                } else {
+                    addGuess(partial);
                 }
             }
         } else if (guess[0] != -1) {
             var wrong = document.createElement('span');
             wrong.innerHTML = "<span class='wrong'>X</span> " + document.getElementById('guess-input').value;
-            addGuess(wrong);
             guess = -1;
-            if (numGuesses == 6) {
+            if (numGuesses == 7) {
                 createLoseScreen();
+                gameOver = true;
+            } else {
+                addGuess(wrong);
             }
         }
     }
@@ -264,27 +322,32 @@ const skipHover = document.getElementById('skip-button');
     skipHover.addEventListener('click', function(e) {
         var skip = document.createElement('div');
         skip.innerHTML = 'S K I P P E D';
-        addGuess(skip);
         document.getElementById('guess-input').value = '';
-        if (numGuesses == 6) {
-            createLoseScreen();
+        if (!gameOver) {
+            if (numGuesses == 6) {
+                createLoseScreen();
+                gameOver = true;
+            } else {
+                addGuess(skip);
+            }
         }
         render_skip_time()
 });
 
 
 function addGuess(guess) {
-    if (numGuesses < 6 && guess != '') {
+    if (numGuesses < 7 && guess != '') {
         guesses.push(guess);
         render_guesses();
         numGuesses++; 
+        time = time + (numGuesses) * 1000;
     }
 }
 
 
 function render_skip_time() {
     document.getElementById('skip-button').innerHTML = '';
-    if (numGuesses < 5) {
+    if (numGuesses < 6) {
         document.getElementById('skip-button').textContent = 'SKIP (+' + (numGuesses + 1) + "s)";
     } else {
         document.getElementById('skip-button').textContent = 'SKIP';
@@ -298,21 +361,25 @@ function clearGuesses() {
     // render_guesses();
 }
 
+function clearEnd() {
+    document.getElementById("end").innerHTML = "";
+}
+
 
 function createWinScreen() {
     // window.location.href = "http://127.0.0.1:5500/win.html";
-    document.getElementsByClassName("body")[0].remove()
-    let congrats = document.createElement('div');
-    congrats.setAttribute("class", "congrats");
-    congrats.innerHTML = "Correct! <br>" + data[answer].title + " - " + data[answer].composer + "</br>";
-    document.body.appendChild(congrats);
+    // document.getElementsByClassName("body")[0].remove()
+    let end = document.createElement('div');
+    end.setAttribute("id", "end");
+    end.innerHTML = "Correct! <br>" + data[answer].title + " - " + data[answer].composer + "</br>";
+    document.body.appendChild(end);
 }
 
 
 function createLoseScreen() {
-    document.getElementsByClassName("body")[0].remove()
-    let congrats = document.createElement('div');
-    congrats.setAttribute("class", "congrats");
-    congrats.innerHTML = "Unlucky! <br>" + data[answer].title + " - " + data[answer].composer + "</br>"
-    document.body.appendChild(congrats);
+    // document.getElementsByClassName("body")[0].remove()
+    let end = document.createElement('div');
+    end.setAttribute("id", "end");
+    end.innerHTML = "Unlucky! <br>" + data[answer].title + " - " + data[answer].composer + "</br>"
+    document.body.appendChild(end);
 }
