@@ -21,6 +21,7 @@
 209. Violin Concerto in E minor, op. 64 - Mendelssohn.mp3
 50. Carmen - Bizet.mp3
 34. Symphony no. 5 in C minor, op. 67 - Beethoven.mp3
+146. Peer Gynt Suite no. 1, op. 46 - Edvard Grieg.mp3
 118. Symphony no. 8 in G major, B.163, op. 88 - Dvořák.mp3
 35. Symphony no. 6 in F major, op. 68, "Pastoral" - Beethoven.mp3
 326. Don Juan, op. 20, TrV156 - Strauss.mp3
@@ -34,7 +35,6 @@
 270. Pini di Roma, P.141 - Respighi.mp3
 279. Carnival of the Animals - Saint-Saëns.mp3
 15. Orchestral Suite no. 3 in D major, BWV.1068 - Bach.mp3
-99. La Mer, L.109 - Debussy.mp3
 98. Clair de lune - Debussy.mp3
 317. Symphony no. 2 in D major, op. 43 - Sibelius.mp3
 57. Polovtsian Dances - Borodin.mp3
@@ -101,7 +101,6 @@
 119. Symphony no. 9 in E minor, op. 95, "From the New World" - Dvořák.mp3
 94. Concerto Grosso in G minor, op. 6, no. 8, "Christmas Concerto" - Corelli.mp3
 87. Polonaise no. 6 in A flat major, op. 53, "Heroic" - Chopin.mp3
-378. Flute Concerto in G minor, RV.439, "La Notte" - Vivaldi.mp3
 51. Carmen, suite for orchestra from the opera - Bizet.mp3
 10. Brandenburg Concerto no. 3 in G major, BWV.1048 - Bach.mp3
 229. Symphony no. 25 in G minor, K.183 - Mozart.mp3

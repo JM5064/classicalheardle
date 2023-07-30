@@ -6,7 +6,7 @@ let answer = randindex;
 
 let guesses = [];
 let numGuesses = 0;
-let time = 2000;
+let time = 1200;
 let gameOver = false;
 
 let audioState = 0; // 0 = paused, 1 = playing
@@ -38,18 +38,19 @@ function switchMode () {
 }
 
 readFile('easyrandlist.txt')
+// readFile('http://classicle.rf.gd/easyrandlist.txt')
 let randarray = randlist.split('\n')
 
 newSong();
 
 function newSong() {
-    randindex = Math.floor(Math.random() * 140); // 273
+    randindex = Math.floor(Math.random() * 138); // 273
     // console.log(randarray[randindex]);
     document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/' + randarray[randindex])
-    readFile('randlist.txt');
-    // randarray = randlist.split('\n');
+    // document.getElementsByClassName("audio")[0].setAttribute("src", 'http://classicle.rf.gd/recordings/' + randarray[randindex])
+    readFile('easyrandlist.txt');
+    // readFile('http://classicle.rf.gd/easyrandlist.txt');
     answer = randarray[randindex].split(".")[0];
-    // console.log(answer);
     randindex++;
 }
 
@@ -66,13 +67,15 @@ function resetGame () {
 
     guesses = [];
     numGuesses = 0;
-    time = 2000;
+    time = 1200;
     gameOver = false;
 
     audio.pause();
     audio.currentTime = 0;
     audioState = 0;
     playButton.innerHTML = ">";
+    
+    document.getElementById('skip-button').textContent = 'SKIP (+' + (numGuesses + 1) + "s)";
 
     clearGuesses();
 }
@@ -109,7 +112,6 @@ readTextFile("popular.json", function(text) {
     //   console.log(jsonString);
       
 });
-
 
 
 
@@ -256,7 +258,7 @@ playButton.addEventListener("click", () => {
 
 
 function evaluateGuess(guess) {
-    // console.log(guess, answer);
+    console.log(guess, answer);
     if (data[guess].composer == data[answer].composer) {
         if (guess == answer) {
             return [true, true];
@@ -275,8 +277,12 @@ document.addEventListener("click", function(e) {
 
 
 function render_guesses() {
-    document.getElementById("guesses-list").innerHTML = '';
+    console.log(guesses.length);
     document.getElementById('g' + guesses.length).appendChild(guesses[guesses.length - 1]);
+    document.getElementById('g' + guesses.length).setAttribute('class', "guess");
+    if (guesses.length + 1 < 7) {
+        document.getElementById('g' + (guesses.length + 1)).setAttribute('class', 'highlight');
+    }
 }
 
 const submitHover = document.getElementById('submit');
@@ -289,6 +295,7 @@ const submitHover = document.getElementById('submit');
                 // addGuess(correct);
                 guess = -1;
                 createWinScreen();
+                time = 50000;
                 gameOver = true;
             } else {
                 var partial = document.createElement('span');
@@ -339,8 +346,12 @@ function addGuess(guess) {
     if (numGuesses < 7 && guess != '') {
         guesses.push(guess);
         render_guesses();
-        numGuesses++; 
-        time = time + (numGuesses) * 1000;
+        numGuesses++;
+        if (numGuesses < 6) {
+            time = time + (numGuesses) * 1000;
+        } else {
+            time = 30000;
+        }
     }
 }
 
@@ -348,7 +359,11 @@ function addGuess(guess) {
 function render_skip_time() {
     document.getElementById('skip-button').innerHTML = '';
     if (numGuesses < 6) {
-        document.getElementById('skip-button').textContent = 'SKIP (+' + (numGuesses + 1) + "s)";
+        if (numGuesses < 5) {
+            document.getElementById('skip-button').textContent = 'SKIP (+' + (numGuesses + 1) + "s)";
+        } else {
+            document.getElementById('skip-button').textContent = 'SKIP (+' + (14) + "s)";
+        }
     } else {
         document.getElementById('skip-button').textContent = 'SKIP';
     }
@@ -362,16 +377,23 @@ function clearGuesses() {
 }
 
 function clearEnd() {
-    document.getElementById("end").innerHTML = "";
+    document.getElementById("end").remove();
 }
 
 
 function createWinScreen() {
-    // window.location.href = "http://127.0.0.1:5500/win.html";
     // document.getElementsByClassName("body")[0].remove()
     let end = document.createElement('div');
     end.setAttribute("id", "end");
-    end.innerHTML = "Correct! <br>" + data[answer].title + " - " + data[answer].composer + "</br>";
+    if (numGuesses == 0) {
+        end.innerHTML = "Correct! <br>" 
+        + data[answer].title + " - " + data[answer].composer + "</br>"
+        + "<br> You got the piece in " +  (numGuesses + 1)  + " guess!</br";    
+    } else {
+        end.innerHTML = "Correct! <br>" 
+        + data[answer].title + " - " + data[answer].composer + "</br>"
+        + "<br> You got the piece in " +  (numGuesses + 1)  + " guesses!</br";    
+    }
     document.body.appendChild(end);
 }
 
