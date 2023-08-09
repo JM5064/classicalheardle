@@ -6,7 +6,7 @@ let answer = randindex;
 
 let guesses = [];
 let numGuesses = 0;
-let time = 1200;
+let time = 1000;
 let gameOver = false;
 
 let audioState = 0; // 0 = paused, 1 = playing
@@ -44,9 +44,12 @@ let randarray = randlist.split('\n')
 newSong();
 
 function newSong() {
-    randindex = Math.floor(Math.random() * 138); // 273
+    let randindex = Math.floor(Math.random() * 138); // 273
     // console.log(randarray[randindex]);
-    document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/' + randarray[randindex])
+    url = 'recordings/' + randarray[randindex];
+    // url = 'recordings/365. Nabucco - Verdi.mp3'
+    document.getElementsByClassName("audio")[0].setAttribute("src", url)
+    // document.getElementsByClassName("audio")[0].setAttribute("src", 'recordings/Dynamic Testing.mp3')
     // document.getElementsByClassName("audio")[0].setAttribute("src", 'http://classicle.rf.gd/recordings/' + randarray[randindex])
     readFile('easyrandlist.txt');
     // readFile('http://classicle.rf.gd/easyrandlist.txt');
@@ -67,7 +70,7 @@ function resetGame () {
 
     guesses = [];
     numGuesses = 0;
-    time = 1200;
+    time = 1000;
     gameOver = false;
 
     audio.pause();
@@ -78,6 +81,8 @@ function resetGame () {
     document.getElementById('skip-button').textContent = 'SKIP (+' + (numGuesses + 1) + "s)";
 
     clearGuesses();
+
+    drawDecibelLevels();
 }
   
 function readTextFile(file, callback) {
@@ -233,12 +238,23 @@ function autofill(input) {
 
 }
 
+const progressBar = document.getElementById("progress-bar");
+const movingProgressBar = document.getElementById("moving-progress-bar");
+
+const whilePlaying = () => {
+    movingProgressBar.style.setProperty('width', `${audio.currentTime * (progressBar.offsetWidth - 3) / 30}px`);
+    if (audioState == 1 && audio.currentTime <= 30) {
+        requestAnimationFrame(whilePlaying);
+    }
+}
+
 
 playButton.addEventListener("click", () => {
     if (audioState == 0) {
         audio.play();
         audioState = 1;
         playButton.innerHTML = "ll";
+        requestAnimationFrame(whilePlaying);
 
         setTimeout(function() {
             audio.pause();
@@ -255,6 +271,7 @@ playButton.addEventListener("click", () => {
     //     playButton.innerHTML = ">";
     // }
 });
+
 
 
 function evaluateGuess(guess) {
@@ -295,13 +312,13 @@ const submitHover = document.getElementById('submit');
                 // addGuess(correct);
                 guess = -1;
                 createWinScreen();
-                time = 50000;
+                time = audio.duration * 1000;
                 gameOver = true;
             } else {
                 var partial = document.createElement('span');
                 partial.innerHTML = "<span class='partial'>—</span> " + document.getElementById('guess-input').value;
                 guess = -1;
-                if (numGuesses == 7) {
+                if (numGuesses == 6) {
                     createLoseScreen();
                     gameOver = true;
                 } else {
@@ -312,7 +329,7 @@ const submitHover = document.getElementById('submit');
             var wrong = document.createElement('span');
             wrong.innerHTML = "<span class='wrong'>X</span> " + document.getElementById('guess-input').value;
             guess = -1;
-            if (numGuesses == 7) {
+            if (numGuesses == 6) {
                 createLoseScreen();
                 gameOver = true;
             } else {
@@ -388,11 +405,11 @@ function createWinScreen() {
     if (numGuesses == 0) {
         end.innerHTML = "Correct! <br>" 
         + data[answer].title + " - " + data[answer].composer + "</br>"
-        + "<br> You got the piece in " +  (numGuesses + 1)  + " guess!</br";    
+        + "<br> You guessed the piece in " +  1  + " second!</br";    
     } else {
         end.innerHTML = "Correct! <br>" 
         + data[answer].title + " - " + data[answer].composer + "</br>"
-        + "<br> You got the piece in " +  (numGuesses + 1)  + " guesses!</br";    
+        + "<br> You guessed the piece in " +  (time / 1000)  + " seconds!</br";    
     }
     document.body.appendChild(end);
 }
@@ -405,3 +422,124 @@ function createLoseScreen() {
     end.innerHTML = "Unlucky! <br>" + data[answer].title + " - " + data[answer].composer + "</br>"
     document.body.appendChild(end);
 }
+
+function openSettings() {
+    let settings = document.createElement('div');
+    settings.setAttribute("class", "settings");
+    document.body.appendChild(settings);
+
+    let settingsBox = document.createElement('div');
+    settingsBox.setAttribute("class", "settings-box");
+    settings.appendChild(settingsBox);
+    
+}
+
+
+// Function to get the decibel level at a given time in an audio file
+function getDecibelLevelAtTime(audioFile, timeInSeconds, callback) {
+    // Create an audio context
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  
+    // Fetch the audio file and decode it
+    fetch(audioFile)
+      .then(response => response.arrayBuffer())
+      .then(audioData => audioContext.decodeAudioData(audioData))
+      .then(decodedBuffer => {
+        // Get the audio channel data (assuming mono audio)
+        const audioData = decodedBuffer.getChannelData(0);
+  
+        // Find the index corresponding to the desired time
+        const sampleRate = decodedBuffer.sampleRate;
+        const index = Math.floor(timeInSeconds * sampleRate);
+  
+        // Calculate the root mean square (RMS) value for the given sample
+        let sumOfSquares = 0;
+        for (let i = 0; i < sampleRate; i++) {
+          const sample = audioData[i + index];
+          sumOfSquares += sample * sample;
+        }
+        const rms = Math.sqrt(sumOfSquares / sampleRate);
+  
+        // Calculate the decibel level (using 20 as a reference for the maximum amplitude of an audio signal)
+        // const decibelLevel = 20 * Math.log10(rms / 1.0);
+        const decibelLevel = rms;
+  
+        // Call the callback with the decibel level
+        callback(decibelLevel);
+      })
+      .catch(error => console.error('Error decoding audio file:', error));
+}
+  
+console.log(url);
+
+  
+// Define the canvas and its context
+const canvas = document.getElementById('decibelCanvas');
+const ctx = canvas.getContext('2d');
+
+// Set the canvas size
+const canvasWidth = canvas.width;
+const canvasHeight = canvas.height;
+
+// Define the total duration (in seconds) you want to visualize
+const lineDurationInSeconds = 0.5;
+
+// Calculate the total number of lines to be drawn
+const totalLines = 29.5/lineDurationInSeconds;
+
+// Function to get the audio duration in seconds
+// function getAudioDurationInSeconds() {
+//   return new Promise(resolve => {
+//     const audio = new Audio(url);
+//     audio.onloadedmetadata = () => resolve(audio.duration);
+//   });
+// }
+
+// Function to draw the decibel levels on the canvas
+ function drawDecibelLevels() {
+    // Clear the canvas
+    ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+    // Calculate the decibel levels for each line
+    const decibelData = [];
+    for (let i = 0; i < totalLines; i++) {
+    const time = i * lineDurationInSeconds;
+    getDecibelLevelAtTime(url, time, decibelLevel => {
+        // Push the decibel level to the data array
+        decibelData.push(decibelLevel);
+        
+        // Check if all data is available before drawing
+        if (decibelData.length === totalLines) {
+            // Find the maximum and minimum decibel levels from the data
+            const maxDecibel = Math.max(...decibelData);
+            const minDecibel = Math.min(...decibelData);
+
+            // Map the decibel values to canvas heights
+            const mappedData = decibelData.map(decibelLevel =>
+                canvasHeight - ((decibelLevel - minDecibel) / (maxDecibel - minDecibel)) * canvasHeight
+            );
+
+            // Draw the decibel levels on the canvas
+            const timeInterval = canvasWidth / totalLines;
+            for (let i = 0; i < totalLines; i++) {
+                const x = i * timeInterval;
+                const y = mappedData[i];
+                ctx.strokeStyle = 'rgb(50, 50, 50)';
+                ctx.fillStyle = getComputedStyle(document.body).getPropertyValue('background-color');
+                ctx.rect(x, y, 10, canvasHeight);
+                ctx.fillRect(x-1.5, 0, 12, y);
+                console.log(x-1.5);
+                // ctx.beginPath();
+                // ctx.moveTo(x, canvasHeight);
+                // ctx.lineTo(x, y);
+                ctx.stroke();
+            }
+        }
+    });
+    }
+}
+
+// Call the function to draw the decibel levels
+drawDecibelLevels();
+
+

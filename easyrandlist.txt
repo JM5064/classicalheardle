@@ -21,11 +21,10 @@
 209. Violin Concerto in E minor, op. 64 - Mendelssohn.mp3
 50. Carmen - Bizet.mp3
 34. Symphony no. 5 in C minor, op. 67 - Beethoven.mp3
-146. Peer Gynt Suite no. 1, op. 46 - Edvard Grieg.mp3
+144. Peer Gynt Suite no. 1, op. 46 - Edvard Grieg.mp3
 118. Symphony no. 8 in G major, B.163, op. 88 - Dvořák.mp3
 35. Symphony no. 6 in F major, op. 68, "Pastoral" - Beethoven.mp3
 326. Don Juan, op. 20, TrV156 - Strauss.mp3
-289. 3 Marches Militaires, D.733, op. 51 - Schubert.mp3
 9. Brandenburg Concerto no. 2 in F major, BWV.1047 - Bach.mp3
 356. The Swan Lake, op. 20a - Tchaikovsky.mp3
 180. Magnetic Rag - Joplin.mp3
@@ -48,6 +47,7 @@
 198. Symphony no. 1 in D major, "Titan" - Mahler.mp3
 207. Symphony no. 3 in A minor, op. 56, "Scottish" - Mendelssohn.mp3
 191. 6 Hungarian Rhapsodies, S.359 - Liszt.mp3
+192. Grandes études de Paganini, S. 141, "La campanella" - Liszt.mp3
 228. String Quartet no. 19 in C major, K.465, "Dissonance" - Mozart.mp3
 281. Piano Concerto no. 2 in G minor, op. 22 - Saint-Saëns.mp3
 335. Tritsch-Tratsch-Polka, op. 214 - Strauss Jr.mp3
@@ -111,6 +111,8 @@
 32. Piano Trio no. 7 in B flat major, op. 97, "Archduke" - Beethoven.mp3
 307. Toccata, op. 7 - Schumann.mp3
 90. Waltzes, op. 64 - Chopin.mp3
+310. String Quartet no. 8 in C minor, op. 110 - Shostakovich.mp3
+311. Symphony no. 5 in D minor, op. 47.mp3
 354. Symphony no. 4 in F minor, op. 36 - Tchaikovsky.mp3
 31. Piano Sonata no. 8 in C minor, op. 13, "Pathétique" - Beethoven.mp3
 64. Symphony no. 3 in F major, op. 90 - Brahms.mp3
