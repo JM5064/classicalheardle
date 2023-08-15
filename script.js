@@ -38,23 +38,26 @@ function switchMode () {
     drawDecibelLevels();
     setTimeout(function() {
         drawDecibelLevels();
-    }, 150);
+    }, 100);
+    setTimeout(function() {
+        drawDecibelLevels();
+    }, 200);
 }
 
-readFile('easyrandlist.txt')
+readFile('easylist.txt')
 // readFile('http://classicle.rf.gd/easyrandlist.txt')
 let randarray = randlist.split('\n')
 
 newSong();
 
 function newSong() {
-    // let randindex = Math.floor(Math.random() * 138); // 273
+    randindex = Math.floor(Math.random() * 138); // 273
     // randindex = 0;
     // console.log(randarray[randindex]);
     url = 'recordings/' + randarray[randindex];
     // url = 'recordings/72. Violin Concerto no. 1 in G minor, op. 26 - Bruch.mp3'
     document.getElementsByClassName("audio")[0].setAttribute("src", url)
-    readFile('easyrandlist.txt');
+    // readFile('easyrandlist.txt');
     // readFile('http://classicle.rf.gd/easyrandlist.txt');
     answer = randarray[randindex].split(".")[0];
     randindex++;
@@ -281,7 +284,6 @@ playButton.addEventListener("click", () => {
 
 
 function evaluateGuess(guess) {
-    console.log(guess, answer);
     if (data[guess].composer == data[answer].composer) {
         if (guess == answer) {
             return [true, true];
@@ -300,7 +302,6 @@ document.addEventListener("click", function(e) {
 
 
 function render_guesses() {
-    console.log(guesses.length);
     document.getElementById('g' + guesses.length).appendChild(guesses[guesses.length - 1]);
     document.getElementById('g' + guesses.length).setAttribute('class', "guess");
     if (guesses.length + 1 < 7) {
@@ -322,7 +323,7 @@ const submitHover = document.getElementById('submit');
                 gameOver = true;
             } else {
                 var partial = document.createElement('span');
-                partial.innerHTML = "<span class='partial'>—</span> " + document.getElementById('guess-input').value;
+                partial.innerHTML = "<span class='partial'>&#8212;</span> " + document.getElementById('guess-input').value;
                 guess = -1;
                 if (numGuesses == 6) {
                     createLoseScreen();
@@ -459,7 +460,6 @@ function getDecibelLevels(audioFile, callback) {
       .then(audioData => audioContext.decodeAudioData(audioData))
       .then(decodedBuffer => {
 
-
         for (let i = 0; i < totalLines; i++) {
             const time = i * lineDurationInSeconds;
 
@@ -470,48 +470,96 @@ function getDecibelLevels(audioFile, callback) {
 
             let sumOfSquares = 0;
             for (let i = 0; i < sampleRate; i++) {
-            const sample = audioData[i + index];
-            sumOfSquares += sample * sample;
+                const sample = audioData[i + index];
+                sumOfSquares += sample * sample;
             }
             const rms = Math.sqrt(sumOfSquares / sampleRate);
 
             decibelData.push(rms);
         }
+        // console.log(decibelData)
         callback(decibelData);
       })
       .catch(error => console.error('Error decoding audio file:', error));
 }
 
 
-function drawDecibelLevels() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+// function drawDecibelLevels() {
+//     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    getDecibelLevels(url, decibelData => {
-        if (decibelData.length === totalLines) {
-            const maxDecibel = Math.max(...decibelData);
-            const minDecibel = Math.min(...decibelData);
+//     getDecibelLevels(url, decibelData => {
+//         if (decibelData.length === totalLines) {
+//             const maxDecibel = Math.max(...decibelData);
+//             const minDecibel = Math.min(...decibelData);
 
-            const mappedData = decibelData.map(decibelLevel =>
-                canvas.height - ((decibelLevel - minDecibel) / (maxDecibel - minDecibel)) * canvas.height
-            );
+//             const mappedData = decibelData.map(decibelLevel =>
+//                 canvas.height - ((decibelLevel - minDecibel) / (maxDecibel - minDecibel)) * canvas.height
+//             );
 
-            const timeInterval = canvas.width / totalLines;
-            for (let i = 0; i < totalLines; i++) {
-                const x = i * timeInterval;
-                const y = mappedData[i];
+//             const timeInterval = canvas.width / totalLines;
+//             for (let i = 0; i < totalLines; i++) {
+//                 const x = i * timeInterval;
+//                 const y = mappedData[i];
      
-                ctx.strokeStyle = 'rgb(60, 60, 60)';
-                ctx.fillStyle = getComputedStyle(document.body).getPropertyValue('background-color');
-                ctx.strokeRect(x, y, 10, canvas.height);
-                ctx.fillRect(x, 0, 12, y);
-                ctx.stroke();
+//                 ctx.strokeStyle = 'rgba(90, 90, 90, 0.4)';
+//                 ctx.fillStyle = getComputedStyle(document.body).getPropertyValue('background-color');
+//                 ctx.strokeRect(x, y, 10, canvas.height);
+//                 ctx.fillRect(x, 0, 12, y);
+//                 ctx.stroke();
+//             }
+//         }
+//     });
+// }
 
+
+
+let allDecibelData = 0;
+
+function readDecibelFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                allDecibelData = allText;
             }
         }
-    });
+    }
+    rawFile.send(null);
 }
 
+readDecibelFile('decibeldata.txt');
+
+function drawDecibelLevels() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    let decibelData = allDecibelData.split("\n")[randindex - 1].split(',');
+    
+    if (decibelData.length === totalLines) {
+        const maxDecibel = Math.max(...decibelData);
+        const minDecibel = Math.min(...decibelData);
+
+        const mappedData = decibelData.map(decibelLevel =>
+            canvas.height - ((decibelLevel - minDecibel) / (maxDecibel - minDecibel)) * canvas.height
+        );
+
+        const timeInterval = canvas.width / totalLines;
+        for (let i = 0; i < totalLines; i++) {
+            const x = i * timeInterval;
+            const y = mappedData[i];
+ 
+            ctx.strokeStyle = 'rgba(90, 90, 90, 0.4)';
+            ctx.fillStyle = getComputedStyle(document.body).getPropertyValue('background-color');
+            ctx.strokeRect(x, y, 10, canvas.height);
+            ctx.fillRect(x, 0, 12, y);
+            ctx.stroke();
+        }
+    }
+}
 
 drawDecibelLevels();
-
-
