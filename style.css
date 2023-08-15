@@ -10,6 +10,7 @@
     --footnote-color: rgba(255, 255, 255, 0.7);
     --answer-box-color: rgba(100, 100, 100, 0.05);
     --answer-box-highlight: rgba(100, 100, 100, 0.12);
+    --progress-bar-color: white;
   }
 
   button {
@@ -26,6 +27,7 @@
     --footnote-color: rgba(0, 0, 0, 0.7);
     --answer-box-color: rgba(50, 50, 50, 0.04);
     --answer-box-highlight: rgba(50, 50, 50, 0.12);
+    --progress-bar-color: rgb(238, 236, 216);
   }
 
   .header {
@@ -152,7 +154,7 @@
 
   }
   #moving-progress-bar {
-    background-color: var(--text-color);
+    background-color: var(--progress-bar-color);
     height: 50px;
     width: 0px;
   }
