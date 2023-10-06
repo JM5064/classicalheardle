@@ -4,7 +4,7 @@
     background-color: var(--background-color);
     --text-color: white;
     color: var(--text-color);
-    transition: background 0.2s, color 0.2s;
+    /* transition: background 0.15s, color 0.15s; */
     --outline-color: rgb(150, 150, 150);
     --hover-color: #444444;
     --footnote-color: rgba(255, 255, 255, 0.7);
@@ -142,6 +142,7 @@
     height: 50px;
     display: block;
     margin: 0 auto;
+    padding-top: 1px;
     /* border-left: solid; */
     /* border-right: solid; */
     color: var(--outline-color);
@@ -152,7 +153,7 @@
   }
   #moving-progress-bar {
     background-color: var(--progress-bar-color);
-    height: 50px;
+    height: 49px;
     width: 0px;
     max-width: 658px;
   }
@@ -190,7 +191,8 @@
 
 
   .search {
-    width: 648px;
+    /* width: 648px; */
+    width: calc(100vw - 56vw);
     height: 40px;
     background-color: rgba(0, 0, 0, 0);
     border-color: var(--outline-color);

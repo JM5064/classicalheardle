@@ -13,6 +13,14 @@ let audioState = 0; // 0 = paused, 1 = playing
 const audio = document.querySelector('audio');
 const playButton = document.getElementById("play-icon");
 
+// document.cookie = "hi" + "=" + (encodeURI(true));
+console.log(document.cookie.split("=")[1]);
+
+if(document.cookie.split("=")[1] == "false") {
+    let element = document.body;
+    element.classList.toggle('light-mode');
+}
+
 
 function readFile(file)
 {
@@ -36,12 +44,20 @@ function switchMode () {
     let element = document.body;
     element.classList.toggle('light-mode');
     drawDecibelLevels();
-    setTimeout(function() {
-        drawDecibelLevels();
-    }, 100);
-    setTimeout(function() {
-        drawDecibelLevels();
-    }, 200);
+
+    if(document.cookie.split("=")[1] == "true") {
+        document.cookie = "hi" + "=" + (encodeURI(false));
+    } else {
+        document.cookie = "hi" + "=" + (encodeURI(true));
+    }
+    console.log(document.cookie)
+    
+    // setTimeout(function() {
+    //     drawDecibelLevels();
+    // }, 75);
+    // setTimeout(function() {
+    //     drawDecibelLevels();
+    // }, 150);
 }
 
 readFile('easylist.txt')
@@ -74,6 +90,11 @@ function resetGame () {
 
     correct = [false, false];
     guess = -1;
+
+    if (guesses.length + 1 < 7) {
+        document.getElementById('g' + (guesses.length + 1)).setAttribute('class', "guess");
+    }
+    document.getElementById('g1').setAttribute('class', 'highlight');
 
     guesses = [];
     numGuesses = 0;
