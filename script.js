@@ -24,7 +24,7 @@ if(document.cookie.split("=")[1] == "false") {
 
 function readFile(file)
 {
-    var rawFile = new XMLHttpRequest();
+    let rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function ()
     {
@@ -32,7 +32,7 @@ function readFile(file)
         {
             if(rawFile.status === 200 || rawFile.status == 0)
             {
-                var allText = rawFile.responseText;
+                let allText = rawFile.responseText;
                 randlist = allText;
             }
         }
@@ -60,7 +60,7 @@ function switchMode () {
     // }, 150);
 }
 
-readFile('easylist.txt')
+readFile('data/easylist.txt')
 // readFile('http://classicle.rf.gd/easyrandlist.txt')
 let randarray = randlist.split('\n')
 
@@ -128,7 +128,7 @@ function readTextFile(file, callback) {
 
 let data;
 
-readTextFile("popular.json", function(text) {
+readTextFile("data/popular.json", function(text) {
     data = JSON.parse(text);
 
     // const newData = data.composers.flatMap(composer =>
@@ -335,7 +335,7 @@ const submitHover = document.getElementById('submit');
     if (guess != -1 && !gameOver){
         if (evaluateGuess(guess)[0]) {
             if (evaluateGuess(guess)[1]) {
-                var correct = document.createElement('span');
+                let correct = document.createElement('span');
                 correct.innerHTML = document.getElementById('guess-input').value + " - CORRECT!!!";
                 // addGuess(correct);
                 guess = -1;
@@ -343,7 +343,7 @@ const submitHover = document.getElementById('submit');
                 time = audio.duration * 1000;
                 gameOver = true;
             } else {
-                var partial = document.createElement('span');
+                let partial = document.createElement('span');
                 partial.innerHTML = "<span class='partial'>&#8212;</span> " + document.getElementById('guess-input').value;
                 guess = -1;
                 if (numGuesses == 6) {
@@ -354,7 +354,7 @@ const submitHover = document.getElementById('submit');
                 }
             }
         } else if (guess[0] != -1) {
-            var wrong = document.createElement('span');
+            let wrong = document.createElement('span');
             wrong.innerHTML = "<span class='wrong'>X</span> " + document.getElementById('guess-input').value;
             guess = -1;
             if (numGuesses == 6) {
@@ -372,7 +372,7 @@ const submitHover = document.getElementById('submit');
 
 const skipHover = document.getElementById('skip-button');
     skipHover.addEventListener('click', function(e) {
-        var skip = document.createElement('div');
+        let skip = document.createElement('div');
         skip.innerHTML = 'S K I P P E D';
         document.getElementById('guess-input').value = '';
         if (!gameOver) {
@@ -538,7 +538,7 @@ let allDecibelData = 0;
 
 function readDecibelFile(file)
 {
-    var rawFile = new XMLHttpRequest();
+    let rawFile = new XMLHttpRequest();
     rawFile.open("GET", file, false);
     rawFile.onreadystatechange = function ()
     {
@@ -546,7 +546,7 @@ function readDecibelFile(file)
         {
             if(rawFile.status === 200 || rawFile.status == 0)
             {
-                var allText = rawFile.responseText;
+                let allText = rawFile.responseText;
                 allDecibelData = allText;
             }
         }
@@ -554,7 +554,7 @@ function readDecibelFile(file)
     rawFile.send(null);
 }
 
-readDecibelFile('decibeldata.txt');
+readDecibelFile('data/decibeldata.txt');
 
 function drawDecibelLevels() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
