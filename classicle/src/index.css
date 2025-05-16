@@ -1,0 +1,315 @@
+body, input {
+    font-family: Roboto;
+    --background-color: rgb(20, 20, 20);
+    background-color: var(--background-color);
+    --text-color: white;
+    color: var(--text-color);
+    /* transition: background 0.15s, color 0.15s; */
+    --outline-color: rgb(150, 150, 150);
+    --hover-color: #444444;
+    --footnote-color: rgba(255, 255, 255, 0.7);
+    --answer-box-color: rgba(100, 100, 100, 0.05);
+    --answer-box-highlight: rgba(100, 100, 100, 0.12);
+    --progress-bar-color: white;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .light-mode {
+    --hover-color: #d6d6d6;
+    --background-color: white;
+    background-color: var(--background-color);
+    --text-color: black;
+    color: var(--text-color);
+    --outline-color: rgb(150, 150, 150);
+    --footnote-color: rgba(0, 0, 0, 0.7);
+    --answer-box-color: rgba(50, 50, 50, 0.04);
+    --answer-box-highlight: rgba(50, 50, 50, 0.12);
+    --progress-bar-color: rgb(238, 236, 216);
+  }
+
+  .header {
+    border-bottom: solid;
+  }
+
+  .header-buttons {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+  }
+
+  .switch-mode-button {
+    font-family: Roboto;
+    font-size: 12.5px;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 3px;
+    width: 110px;
+    background-color: white;
+  }
+
+  .switch-mode-button:hover {
+    background-color: rgba(235, 235, 235, 0.92);
+  }
+
+  #settings-button {
+    /* font-size: 18px; */
+    color: inherit;
+    background-color: inherit;
+    border: solid;
+  }
+
+  .settings {
+    align-items: flex-start;
+    background-color: hsla(0,0%,100%,.1);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .settings-box {
+    background-color: white;
+    /* max-width: 30em; */
+    width: 90px;
+    height: 100px;
+    /* position: relative; */
+    
+  }
+
+  .new-song {
+    font-family: Roboto;
+    font-size: 12.5px;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 3px;
+    width: 110px;
+    background-color: rgb(238, 236, 216);
+    border-color: rgba(149, 147, 123, 0.3);
+  }
+
+  .new-song:hover {
+    background-color: rgba(238, 236, 216, 0.9);
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight:500;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .audio-container {
+    max-width: 50px;
+  }
+
+  #audio-container {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+  }
+
+  #play-icon {
+    border: none;
+    color: inherit;
+    background: inherit;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+  }
+
+  #progress-bar-container {
+    margin-top: 10px;
+  }
+
+  #progress-bar {
+    width: 658px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1px;
+    /* border-left: solid; */
+    /* border-right: solid; */
+    color: var(--outline-color);
+
+    /* border: solid; */
+    /* margin-top: 20px; */
+
+  }
+  #moving-progress-bar {
+    background-color: var(--progress-bar-color);
+    height: 49px;
+    width: 0px;
+    max-width: 658px;
+  }
+
+  .guess, .highlight {
+    height: 28px;
+    width: 650px;
+    padding-left: 10px;
+    padding-top: 8px;
+    border-color: rgba(128, 128, 128, 0.4);
+    /* border-style: dashed; */
+    border-radius: 6px;
+    border-width: 1px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+    background-color: var(--answer-box-color);
+  }
+
+  .highlight {
+    background-color: rgba(100, 100, 100, 0.1);
+  }
+
+  #g1 {
+    margin-top: 100px;
+  }
+
+  .wrong {
+    color: red;
+  }
+
+  .partial {
+    color: rgb(255, 208, 0);
+  }
+
+
+  .search {
+    /* width: 648px; */
+    width: calc(100vw - 56vw);
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--outline-color);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    color: inherit;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .search:focus {
+    outline-color: rgb(223, 220, 174);
+  }
+
+  .autocomplete {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    background-color: inherit;
+    max-width: 662px;
+    max-height: 190px;
+    overflow: auto;
+    border-color: rgb(223, 220, 174);
+    border-style: solid;
+    margin-top: -360px;
+  }
+
+  #autocomplete-footnote {
+    margin-top: 0px;
+  }
+
+  .autocomplete-items {
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    width: 660px;
+    height: 35px;
+  }
+
+  .autocomplete-items:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+  }
+
+  .autocomplete-items-text, .autocomplete-item-highlight {
+    padding-top: 8px;
+  }
+
+  .autocomplete-item-highlight {
+    color: rgb(255, 208, 0);
+  }
+
+  .letter-highlight {
+    background-color: rgba(151, 146, 119, 0.4);
+  }
+
+  .footnote {
+    padding: 6px;
+    font-size: 13.5px;
+    color: var(--footnote-color);
+  }
+
+  .guess-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+  .skip {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: inherit;
+    height: 60px;
+    width: 130px;
+    border-radius:30px;
+    border-style: solid;
+  }
+
+  .skip:hover {
+    opacity: 0.8;
+  }
+
+
+  .submit {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(220, 216, 164, 0.9);
+    height: 60px;
+    width: 130px;
+    border-radius:30px;
+    border: none;
+  }
+  .submit:hover {
+    opacity: 0.8;
+  }
+
+  #end {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #decibelCanvas {
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
