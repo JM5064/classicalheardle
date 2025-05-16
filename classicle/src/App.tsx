@@ -2,18 +2,21 @@ import AnswerGroup from "./components/AnswerGroup";
 import SearchBar from "./components/SearchBar";
 import AutofillItems from "./components/AutofillItems";
 import { useEffect, useState } from "react";
+import type { Piece } from "./types/Piece";
 
 function App() {
   let guesses = ["", "", "", "", "", ""];
-  const [pieces, setPieces] = useState([]);
+  const [pieces, setPieces] = useState<Piece[]>([]);
   const [input, setInput] = useState("");
 
   useEffect(() => {
     async function fetchPieces() {
       // Fetch popular pieces list from public folder
       const response = await fetch("/data/popular.json");
-      const pieces = await response.json();
-      setPieces(pieces);
+      const pieces: any[] = await response.json();
+      
+      const piecesWithID: Piece[] = pieces.map((piece, index) => ({ ...piece, id: index}));
+      setPieces(piecesWithID);
     }
     
     fetchPieces();

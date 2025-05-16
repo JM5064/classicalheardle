@@ -8,12 +8,11 @@ interface AutofillItemsProps {
 }
 
 const AutofillItems = ({ input, piecesData, maxQueries }: AutofillItemsProps) => {
-
   const removeSpecialCharacters = (str: string) => {
     return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 	}
 
-	const filterPieces = (): Piece[] => {
+	const filterPieces = (input: string): Piece[] => {
 		// Filter pieces that match the input
 		return piecesData.filter((piece) => {
 			let formattedPiece = piece.title + " - " + piece.composer;
@@ -23,7 +22,7 @@ const AutofillItems = ({ input, piecesData, maxQueries }: AutofillItemsProps) =>
 		});
 	}
 
-	const pieceToJSXElement = (piece: Piece, id: number): JSX.Element => {
+	const pieceToJSXElement = (piece: Piece, input: string): JSX.Element => {
 		let formattedPiece = piece.title + " - " + piece.composer;
 		let reducedPiece = removeSpecialCharacters(formattedPiece).toLowerCase();
 
@@ -34,28 +33,28 @@ const AutofillItems = ({ input, piecesData, maxQueries }: AutofillItemsProps) =>
 		let highlighted = formattedPiece.substring(inputStartIndex, inputStartIndex + input.length);
 		let posthighlight = formattedPiece.substring(inputStartIndex + input.length);
 
-		// TODO: id={String(id)} should be the id of the piece not the index
-		let outputQuery = <div className="autocomplete-items" key={id}>
-			<div className="autocomplete-items-text" id={String(id)}> 
-				{prehighlight}<span className="letter-highlight">{highlighted}</span>{posthighlight}
+		return (
+			<div className="autocomplete-items" key={piece.id}>
+				<div className="autocomplete-items-text" id={String(piece.id)}> 
+					{prehighlight}<span className="letter-highlight">{highlighted}</span>{posthighlight}
+				</div>
 			</div>
-		</div>
-			
-
-		return outputQuery;
+		)
 	}
 
-	let queries = filterPieces();
+
+	let queries = filterPieces(input.toLowerCase());
 	let totalQueries = queries.length;
 	queries = queries.slice(0, maxQueries);
 
 	return (
 		<>
 			<div className="autocomplete" id="autocomplete">
-				{queries.map((query, index) => (
-					pieceToJSXElement(query, index)
+				{queries.map((query) => (
+					pieceToJSXElement(query, input.toLowerCase())
 				))}
 			</div>
+			
 			<div className="autocomplete" id="autocomplete-footnote">
 				<div className="footnote">
 					{ queries.length > 0 ? 

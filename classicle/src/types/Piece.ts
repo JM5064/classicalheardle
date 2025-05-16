@@ -3,4 +3,5 @@ export interface Piece {
 	title: string
 	subtitle: string
 	genre: string
+	id: number
 }
