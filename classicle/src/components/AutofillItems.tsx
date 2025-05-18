@@ -35,7 +35,7 @@ const AutofillItems = ({ input, piecesData, maxQueries }: AutofillItemsProps) =>
 
 		return (
 			<div className="autocomplete-items" key={piece.id}>
-				<div className="autocomplete-items-text" id={String(piece.id)}> 
+				<div className="autocomplete-items-text" id={piece.id}> 
 					{prehighlight}<span className="letter-highlight">{highlighted}</span>{posthighlight}
 				</div>
 			</div>

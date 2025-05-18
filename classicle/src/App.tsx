@@ -11,12 +11,11 @@ function App() {
 
   useEffect(() => {
     async function fetchPieces() {
-      // Fetch popular pieces list from public folder
-      const response = await fetch("/data/popular.json");
+      // Fetch pieces list from public folder
+      const response = await fetch("/data/pieces.json");
       const pieces: any[] = await response.json();
       
-      const piecesWithID: Piece[] = pieces.map((piece, index) => ({ ...piece, id: index}));
-      setPieces(piecesWithID);
+      setPieces(pieces);
     }
     
     fetchPieces();
