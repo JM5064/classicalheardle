@@ -63,7 +63,9 @@ def insort(pieces: list, piece):
         mid = (right - left) // 2 + left
 
         if pieces[mid]['composer'] == composer:
-            if pieces[mid]['title'] <= title:
+            if pieces[mid]['title'] == title:
+                raise Exception("Piece already exists")
+            elif pieces[mid]['title'] < title:
                 left = mid + 1
             else:
                 right = mid - 1
@@ -103,16 +105,14 @@ def generate_decibel_data(recording_path, num_lines=60):
 def save_data(file_path, data):
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=2)
-    
 
-if __name__ == "__main__":
+
+def add_piece(composer, title, subtitle, recording_path):
     pieces_path = "classicle/public/data/pieces.json"
     recordings_path = "classicle/public/data/recordings.json"
 
     pieces = json.load(open(pieces_path, "r"))
     recordings = json.load(open(recordings_path, "r"))
-    
-    composer, title, subtitle, recording_path = prompt_user()
 
     piece_id = generate_id()
     piece = {
@@ -123,28 +123,32 @@ if __name__ == "__main__":
         'recording_id': None,
     }
 
-    recording_id = generate_id()
-    recording = {
-        'composer': composer,
-        'title': title,
-        'recording_path': None,
-        'decibel_data': None,
-        'piece_id': piece_id,
-        'id': recording_id
-    }
-
     if recording_path is not None:
+        recording_id = generate_id()
         decibel_data = generate_decibel_data(recording_path)
-        recording['recording_path'] = recording_path
-        recording['decibel_data'] = decibel_data
+        recording = {
+            'composer': composer,
+            'title': title,
+            'recording_path': recording_path,
+            'decibel_data': decibel_data,
+            'piece_id': piece_id,
+            'id': recording_id
+        }
+
         piece['recording_id'] = recording_id
 
         insort(recordings, recording)
+        save_data(recordings_path, recordings)
 
     insort(pieces, piece)
-
     save_data(pieces_path, pieces)
-    save_data(recordings_path, recordings)
 
     print(f'{title} by {composer} added successfully!')
+
+
+if __name__ == "__main__":
+    composer, title, subtitle, recording_path = prompt_user()
+    add_piece(composer, title, subtitle, recording_path)
+
+    
     
