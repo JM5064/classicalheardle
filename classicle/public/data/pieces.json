@@ -1,0 +1,2781 @@
+[
+  {
+    "composer": "Aaron Copland",
+    "title": "Appalachian Spring",
+    "subtitle": "Ballet",
+    "id": "1b343310-bcc7-436f-bed1-dfb259135283",
+    "recording_id": null
+  },
+  {
+    "composer": "Aaron Copland",
+    "title": "El Sal\u00f3n M\u00e9xico",
+    "subtitle": null,
+    "id": "5d56ac16-75ad-4f73-be30-cc5874398b8b",
+    "recording_id": null
+  },
+  {
+    "composer": "Aaron Copland",
+    "title": "Fanfare for the Common Man",
+    "subtitle": null,
+    "id": "0f3dbc1c-26b5-4ea3-9299-543391471168",
+    "recording_id": null
+  },
+  {
+    "composer": "Alban Berg",
+    "title": "Violin Concerto",
+    "subtitle": null,
+    "id": "0120ccb4-d702-4e5e-83fd-35ac9a4737ab",
+    "recording_id": null
+  },
+  {
+    "composer": "Albert Roussel",
+    "title": "Symphony no. 3 in G minor, op. 42",
+    "subtitle": null,
+    "id": "ea98ef99-6e7a-4d66-90f1-927c5d333705",
+    "recording_id": null
+  },
+  {
+    "composer": "Alberto Ginastera",
+    "title": "Estancia, op. 8a",
+    "subtitle": "Suite from the ballet",
+    "id": "37389c4b-cbf6-4258-ba4f-a5e237d3ba22",
+    "recording_id": null
+  },
+  {
+    "composer": "Alexander Borodin",
+    "title": "In the Steppes of Central Asia",
+    "subtitle": null,
+    "id": "a6910e60-50cd-448a-a6c2-43ebd2d1e16f",
+    "recording_id": null
+  },
+  {
+    "composer": "Alexander Borodin",
+    "title": "Polovtsian Dances",
+    "subtitle": "From the opera \"Prince Igor\"",
+    "id": "d3798535-b635-4952-9fa8-ae5f6ac88ddd",
+    "recording_id": "f577967b-b9e6-43e9-b747-8d60c369af69"
+  },
+  {
+    "composer": "Alexander Borodin",
+    "title": "Symphony no. 2 in B minor",
+    "subtitle": null,
+    "id": "7abdf70d-c33e-4424-b8f5-cf04f91e3fe8",
+    "recording_id": null
+  },
+  {
+    "composer": "Alexander Glazunov",
+    "title": "Violin Concerto in A minor, op. 82",
+    "subtitle": null,
+    "id": "8f2d7c48-c53b-480a-b0ae-c646fef5c10a",
+    "recording_id": "8a1d62e1-ab02-4fe4-8ebc-05cb2604624c"
+  },
+  {
+    "composer": "Alexander von Zemlinsky",
+    "title": "Lyrische Symphonie for soprano, baritone and orchestra, op. 18",
+    "subtitle": null,
+    "id": "ed5e6175-b22f-409c-b4d1-ba4710636dac",
+    "recording_id": null
+  },
+  {
+    "composer": "Alfred Schnittke",
+    "title": "Concerto Grosso no. 1, for 2 violins, harpsichord, prepared piano and 21 strings",
+    "subtitle": null,
+    "id": "8a813c28-d310-4c31-83a7-2455b5f8d7e2",
+    "recording_id": null
+  },
+  {
+    "composer": "Alfred Schnittke",
+    "title": "Concerto Grosso no. 2, for violin, cello, and orchestra",
+    "subtitle": null,
+    "id": "d071d8a8-3dea-444b-90a1-33fc546de98d",
+    "recording_id": null
+  },
+  {
+    "composer": "Anton Bruckner",
+    "title": "Symphony no. 4 in E flat major, WAB 104, \"Romantic\"",
+    "subtitle": null,
+    "id": "5d0912d9-724a-4230-98ec-1860084ee296",
+    "recording_id": null
+  },
+  {
+    "composer": "Anton Bruckner",
+    "title": "Symphony no. 7 in E major, WAB 107",
+    "subtitle": null,
+    "id": "ff7e5c24-c62e-4bb7-904d-dd66f91e03d6",
+    "recording_id": "3b6f9ce9-f68c-4d76-a873-c0db3f819f2c"
+  },
+  {
+    "composer": "Anton Bruckner",
+    "title": "Te Deum, WAB 45",
+    "subtitle": null,
+    "id": "ae89ffc5-46f6-40e5-984a-5d3764d60664",
+    "recording_id": null
+  },
+  {
+    "composer": "Anton Webern",
+    "title": "Passacaglia, op. 1",
+    "subtitle": null,
+    "id": "ab872838-83f5-4e61-b514-b986a78195cb",
+    "recording_id": null
+  },
+  {
+    "composer": "Antonio Carlos Gomes",
+    "title": "Il Guarany",
+    "subtitle": "Opera",
+    "id": "0969c931-d2e4-44ab-906d-3a16122c24ae",
+    "recording_id": null
+  },
+  {
+    "composer": "Antonio Vivaldi",
+    "title": "Bassoon Concerto in E minor, RV.484",
+    "subtitle": null,
+    "id": "a54c7420-605d-45b6-b60d-65d2b41de717",
+    "recording_id": null
+  },
+  {
+    "composer": "Antonio Vivaldi",
+    "title": "Concerto for Strings in G major, RV.151, \"alla rustica\"",
+    "subtitle": null,
+    "id": "91045884-6327-4551-ab9c-2dabe8ca7b8b",
+    "recording_id": null
+  },
+  {
+    "composer": "Antonio Vivaldi",
+    "title": "Flute Concerto in G minor, RV.439, \"La Notte\"",
+    "subtitle": null,
+    "id": "9dc7021f-c746-4b3f-9fb6-48bc1674b950",
+    "recording_id": null
+  },
+  {
+    "composer": "Antonio Vivaldi",
+    "title": "Gloria in D major, RV.589",
+    "subtitle": null,
+    "id": "441eb59d-83a5-4b00-ac06-f9d990e1e81c",
+    "recording_id": "c43efea1-86db-4aaa-a48b-3957fff1b26c"
+  },
+  {
+    "composer": "Antonio Vivaldi",
+    "title": "The Four Seasons",
+    "subtitle": "Four violin concertos, op. 8",
+    "id": "59fe0930-5739-4a13-a525-70ab7a1cca9c",
+    "recording_id": "6edf488d-e4d8-4470-b09d-cd6bf7893fad"
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Carnival, op. 92",
+    "subtitle": null,
+    "id": "45bb72f4-5672-4d90-9c8b-69b7d062edf0",
+    "recording_id": "4fc9fb84-35ce-415c-aecc-3fa9a65a9a7b"
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Cello Concerto in B minor, op. 104",
+    "subtitle": null,
+    "id": "2dae02ba-17a2-4e26-a740-0497357c43c3",
+    "recording_id": "225ef0a6-29dd-4713-8762-fe864ea2c155"
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Piano Trio in E minor, op. 90, \"Dumky\"",
+    "subtitle": null,
+    "id": "a1e478b5-fa90-4dfc-a9f8-2808690daa4c",
+    "recording_id": null
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Serenade for Strings in E major, op. 22",
+    "subtitle": null,
+    "id": "45789c2c-3ac1-4aa8-8616-89dd65b13c58",
+    "recording_id": "09a07a60-6e48-41df-9a1d-0d8b33000e6d"
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Slavonic Dances, B.145, op. 72",
+    "subtitle": null,
+    "id": "55934cbd-8bbd-4e51-81c6-1ddce6775999",
+    "recording_id": null
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Slavonic Dances, Series 2, op. 72, B.145",
+    "subtitle": null,
+    "id": "858e76f6-ce14-4077-b635-7e2299681237",
+    "recording_id": null
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "String Quartet no. 12 in F, op. 96, \"American\"",
+    "subtitle": null,
+    "id": "a513d9ef-bb67-4238-877c-f1d80c725b52",
+    "recording_id": "4bf48081-4554-43cf-8adc-e28f03ffa8e5"
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Symphony no. 8 in G major, B.163, op. 88",
+    "subtitle": null,
+    "id": "6eee7438-8552-4c04-8678-5df38fdf2ed5",
+    "recording_id": "4df12a86-9f32-4038-b97b-a60b5ca977f5"
+  },
+  {
+    "composer": "Anton\u00edn Dvo\u0159\u00e1k",
+    "title": "Symphony no. 9 in E minor, op. 95, \"From the New World\"",
+    "subtitle": null,
+    "id": "35547edf-feaf-4871-bef4-bc7368c98651",
+    "recording_id": "1e4a9d03-4927-48e3-acdb-63c6d8f235dd"
+  },
+  {
+    "composer": "Aram Khachaturian",
+    "title": "Gayane Suite no. 1 ",
+    "subtitle": null,
+    "id": "bc72c5c1-f280-4434-9e0a-3076e41ab5d4",
+    "recording_id": null
+  },
+  {
+    "composer": "Aram Khachaturian",
+    "title": "Violin Concerto in D minor",
+    "subtitle": null,
+    "id": "ca3bd99b-75b9-4c8d-bfe6-816821e26d8f",
+    "recording_id": null
+  },
+  {
+    "composer": "Arcangelo Corelli",
+    "title": "Concerto Grosso in G minor, op. 6, no. 8, \"Christmas Concerto\"",
+    "subtitle": null,
+    "id": "3fc40be9-f5bc-419e-8ee1-ddbd0649ffa6",
+    "recording_id": "ceb58a78-10e7-40ed-b975-faeeed58ab57"
+  },
+  {
+    "composer": "Arnold Schoenberg",
+    "title": "Pierrot lunaire, for voice and chamber ensemble, op. 21",
+    "subtitle": "Melodrama",
+    "id": "400a1805-5788-4cce-91e6-c9e997fb317c",
+    "recording_id": null
+  },
+  {
+    "composer": "Arnold Schoenberg",
+    "title": "Verkl\u00e4rte Nacht, for string sextet, op. 4",
+    "subtitle": null,
+    "id": "192bfb3c-99bf-4565-940f-e33c0e5b0e5b",
+    "recording_id": null
+  },
+  {
+    "composer": "Arthur Honegger",
+    "title": "Pacific 231, H.53",
+    "subtitle": null,
+    "id": "694f4635-207a-4e59-83fb-533f68c008cb",
+    "recording_id": null
+  },
+  {
+    "composer": "Arthur Honegger",
+    "title": "Symphony no. 3, H.186, \"Liturgique\"",
+    "subtitle": null,
+    "id": "3fd06a46-a88c-4e2e-8591-fac91736d640",
+    "recording_id": null
+  },
+  {
+    "composer": "Arvo P\u00e4rt",
+    "title": "Tabula rasa",
+    "subtitle": "Concerto for 2 violins, prepared piano and strings",
+    "id": "2f26806b-b066-4c2a-8698-1929130789fb",
+    "recording_id": null
+  },
+  {
+    "composer": "Astor Piazzolla",
+    "title": "Libertango, tango for chamber ensemble",
+    "subtitle": null,
+    "id": "e33f5a5a-abf4-4b42-bd29-6e95dd663cea",
+    "recording_id": null
+  },
+  {
+    "composer": "Bedrich Smetana",
+    "title": "M\u00e1 vlast, JB 1:112",
+    "subtitle": null,
+    "id": "f4b0425a-e4f6-4508-8db2-3a4a89240f56",
+    "recording_id": null
+  },
+  {
+    "composer": "Bedrich Smetana",
+    "title": "The Bartered Bride, JB 1:100",
+    "subtitle": "Opera",
+    "id": "3e8701a5-4556-4af6-93d1-3cd72b7a1f4b",
+    "recording_id": null
+  },
+  {
+    "composer": "Benjamin Britten",
+    "title": "4 Sea Interludes from Peter Grimes, op. 33a",
+    "subtitle": null,
+    "id": "98e5f150-55a6-4ba2-ba84-218c3207b233",
+    "recording_id": null
+  },
+  {
+    "composer": "Benjamin Britten",
+    "title": "Les Illuminations, op. 18 ",
+    "subtitle": null,
+    "id": "edb1c5dd-069b-4281-b7f6-0c08e1b33f5d",
+    "recording_id": null
+  },
+  {
+    "composer": "Benjamin Britten",
+    "title": "Serenade for Tenor, Horn, and Strings, op. 31",
+    "subtitle": "Song cycle",
+    "id": "47881ec5-28f0-44ff-9ae8-382f36789d20",
+    "recording_id": null
+  },
+  {
+    "composer": "Benjamin Britten",
+    "title": "Young Person's Guide to the Orchestra, op. 34",
+    "subtitle": "Variations and fugue on a theme by Purcell, for speaker and orchestra",
+    "id": "124d5a94-90bd-4726-a178-e105676a8153",
+    "recording_id": null
+  },
+  {
+    "composer": "Bohuslav Martin\u016f",
+    "title": "Double Concerto, H.271",
+    "subtitle": "For 2 string orchestras, piano and timpani",
+    "id": "e49e9319-b2f6-45b6-9005-0016da811359",
+    "recording_id": null
+  },
+  {
+    "composer": "Bohuslav Martin\u016f",
+    "title": "Piano Concerto no. 4, H.358, \"Incantations\"",
+    "subtitle": null,
+    "id": "5ae99e66-9a47-4bbc-b083-9092a82bb1b4",
+    "recording_id": null
+  },
+  {
+    "composer": "B\u00e9la Bart\u00f3k",
+    "title": "Allegro barbaro, BB63, Sz.49",
+    "subtitle": null,
+    "id": "4ea25215-7ed7-460c-9430-f836e6081b06",
+    "recording_id": null
+  },
+  {
+    "composer": "B\u00e9la Bart\u00f3k",
+    "title": "Concerto for Orchestra, BB123, Sz.116",
+    "subtitle": null,
+    "id": "6812322a-d274-4fd7-9a99-6f8ec7c78691",
+    "recording_id": null
+  },
+  {
+    "composer": "B\u00e9la Bart\u00f3k",
+    "title": "Music for Strings, Percussion and Celesta, BB114, Sz.106",
+    "subtitle": null,
+    "id": "b1a017b3-681b-4a94-846d-cb749a2c4455",
+    "recording_id": null
+  },
+  {
+    "composer": "B\u00e9la Bart\u00f3k",
+    "title": "Piano Concerto no. 3 in E major, BB127, Sz.119",
+    "subtitle": null,
+    "id": "caae2dee-687c-4e7d-ba24-579dd8b2dbbf",
+    "recording_id": null
+  },
+  {
+    "composer": "Camargo Guarnieri",
+    "title": "Piano Concerto no. 2",
+    "subtitle": null,
+    "id": "9eee8ee1-a146-4cee-9e81-65f11ec2fa6f",
+    "recording_id": null
+  },
+  {
+    "composer": "Camargo Guarnieri",
+    "title": "Symphony no. 2, \"Uirapuru\"",
+    "subtitle": null,
+    "id": "dbdcd474-a114-484c-83a3-9fb66ada686c",
+    "recording_id": null
+  },
+  {
+    "composer": "Camille Saint-Sa\u00ebns",
+    "title": "Carnival of the Animals",
+    "subtitle": "Fantasy for 2 pianos and chamber ensemble",
+    "id": "390c5a4d-a659-4f78-865a-27cd1dd651ab",
+    "recording_id": "868fc98e-9c73-49c8-80d7-e43b85a5efbf"
+  },
+  {
+    "composer": "Camille Saint-Sa\u00ebns",
+    "title": "Cello Concerto no. 1 in A minor, op. 33",
+    "subtitle": null,
+    "id": "f0d5a3c2-795c-455a-aab8-29ce95651105",
+    "recording_id": "6c8b7c3d-906f-4524-ae84-9f227dc48dfc"
+  },
+  {
+    "composer": "Camille Saint-Sa\u00ebns",
+    "title": "Piano Concerto no. 2 in G minor, op. 22",
+    "subtitle": null,
+    "id": "44148ad6-3175-4f59-834c-907a2772b0b2",
+    "recording_id": "edf99223-22c9-4bed-9b2d-b05969900311"
+  },
+  {
+    "composer": "Camille Saint-Sa\u00ebns",
+    "title": "Symphony no. 3 in C minor, op. 78, \"Organ\"",
+    "subtitle": null,
+    "id": "117f3fdb-95ab-41fc-a9d9-4859b83a9151",
+    "recording_id": null
+  },
+  {
+    "composer": "Carl Maria von Weber",
+    "title": "Der Freisch\u00fctz, op. 77",
+    "subtitle": "Opera",
+    "id": "b810f249-1fcb-40e7-af13-dfe871c2c190",
+    "recording_id": null
+  },
+  {
+    "composer": "Carl Maria von Weber",
+    "title": "Invitation to the Dance, op. 65 ",
+    "subtitle": null,
+    "id": "0ac7f274-31f1-4a8b-b26c-c76100137f4c",
+    "recording_id": null
+  },
+  {
+    "composer": "Carl Nielsen",
+    "title": "Flute Concerto, FS119",
+    "subtitle": null,
+    "id": "c3bcf245-8143-4a39-985a-7f1df07eb6bb",
+    "recording_id": null
+  },
+  {
+    "composer": "Carl Nielsen",
+    "title": "Symphony no. 4, FS76, op. 29, \"The Inextinguishable\"",
+    "subtitle": null,
+    "id": "d93dc881-8b51-4e81-b523-534a4c269087",
+    "recording_id": null
+  },
+  {
+    "composer": "Carl Nielsen",
+    "title": "Symphony no. 5, FS97, op. 50",
+    "subtitle": null,
+    "id": "27ef8be8-4b7a-4388-9ce3-fe31e59d7d9f",
+    "recording_id": null
+  },
+  {
+    "composer": "Carl Orff",
+    "title": "Carmina Burana ",
+    "subtitle": null,
+    "id": "1ca87c1b-43f1-4e8b-ba36-6bfccbeeca1f",
+    "recording_id": null
+  },
+  {
+    "composer": "Carlos Ch\u00e1vez",
+    "title": "Symphony no. 2, \"Sinfon\u00eda india\"",
+    "subtitle": null,
+    "id": "9978b827-ae1b-42b7-a456-9d9ff43e4e28",
+    "recording_id": null
+  },
+  {
+    "composer": "Charles Ives",
+    "title": "Central Park in the Dark",
+    "subtitle": null,
+    "id": "ceb4741e-a16c-4f2f-989f-df485893d79e",
+    "recording_id": null
+  },
+  {
+    "composer": "Charles Ives",
+    "title": "Piano Sonata no. 2, \"Concord\"",
+    "subtitle": null,
+    "id": "2ee3ff5a-d8ff-4e91-8b44-c5591dcecb0c",
+    "recording_id": null
+  },
+  {
+    "composer": "Charles Ives",
+    "title": "Symphony no. 2",
+    "subtitle": null,
+    "id": "ce1906f7-87ae-4318-843d-31c801d95bd0",
+    "recording_id": null
+  },
+  {
+    "composer": "Charles Ives",
+    "title": "The Unanswered Question, for trumpet, winds, and string orchestra",
+    "subtitle": null,
+    "id": "b50cf268-7c31-44a3-b478-36a2738c7d52",
+    "recording_id": null
+  },
+  {
+    "composer": "Charles-Marie Widor",
+    "title": "Organ Symphony no. 5 in F minor, op. 42, no. 1",
+    "subtitle": null,
+    "id": "3a7e817f-19f4-4968-ac82-875adef64c23",
+    "recording_id": null
+  },
+  {
+    "composer": "Christoph Willibald von Gluck",
+    "title": "Iphig\u00e9nie en Tauride,, Wq. 46",
+    "subtitle": "Opera",
+    "id": "5a429a84-f054-4b76-8a2f-16f2c75cef25",
+    "recording_id": null
+  },
+  {
+    "composer": "Christoph Willibald von Gluck",
+    "title": "Orfeo ed Euridice",
+    "subtitle": "Opera",
+    "id": "3f81bfb5-2dc4-4335-8760-88b8e4f69b02",
+    "recording_id": null
+  },
+  {
+    "composer": "Claude Debussy",
+    "title": "Children's Corner, L.113",
+    "subtitle": null,
+    "id": "f1005342-177c-4f44-a113-395dc91edec6",
+    "recording_id": "cb0e884a-6477-497b-90bd-74c71c762618"
+  },
+  {
+    "composer": "Claude Debussy",
+    "title": "Clair de lune",
+    "subtitle": null,
+    "id": "ae30bfd7-20e7-41cb-974f-42ed084f68e6",
+    "recording_id": "cbf83134-6007-49b4-ab91-cad3cc010296"
+  },
+  {
+    "composer": "Claude Debussy",
+    "title": "La Mer, L.109",
+    "subtitle": "Three symphonic sketches",
+    "id": "7e9410b3-736a-4dfb-8d5d-c7510c00136a",
+    "recording_id": null
+  },
+  {
+    "composer": "Claude Debussy",
+    "title": "String Quartet in G minor, L.85, op. 10",
+    "subtitle": null,
+    "id": "17519250-c844-4ea2-bf95-13d9bdfd0c05",
+    "recording_id": null
+  },
+  {
+    "composer": "Claude Debussy",
+    "title": "Suite Bergamasque, L.75 ",
+    "subtitle": null,
+    "id": "a0c6ae48-b204-40d7-b4c3-2f18fc79464f",
+    "recording_id": null
+  },
+  {
+    "composer": "Claudio Monteverdi",
+    "title": "Orfeo, SV318",
+    "subtitle": "Opera",
+    "id": "e356d67b-d7fe-4936-a65a-b5e9bba3e624",
+    "recording_id": null
+  },
+  {
+    "composer": "Claudio Monteverdi",
+    "title": "Vespro della beata Vergine, SV206",
+    "subtitle": null,
+    "id": "fd13d942-f822-45bd-825e-ed8817258524",
+    "recording_id": null
+  },
+  {
+    "composer": "C\u00e9sar Franck",
+    "title": "Symphony in D minor, M.48",
+    "subtitle": null,
+    "id": "1bdb28c1-e631-49c0-8327-4dca634adab1",
+    "recording_id": null
+  },
+  {
+    "composer": "C\u00e9sar Franck",
+    "title": "Violin Sonata in A major, M.8",
+    "subtitle": null,
+    "id": "7ba1de9c-32aa-487d-bb59-6dda6b6f5b3c",
+    "recording_id": null
+  },
+  {
+    "composer": "Darius Milhaud",
+    "title": "La cr\u00e9ation du monde, op. 81",
+    "subtitle": "Ballet",
+    "id": "78c1e838-4c38-4d86-b07e-25ba8e87eb03",
+    "recording_id": null
+  },
+  {
+    "composer": "Darius Milhaud",
+    "title": "Le boeuf sur le toit, op. 58",
+    "subtitle": "Ballet",
+    "id": "eb10993e-48d6-4cfc-9fb1-8823fc00b4f4",
+    "recording_id": null
+  },
+  {
+    "composer": "Darius Milhaud",
+    "title": "Saudades do Brasil, op. 67",
+    "subtitle": null,
+    "id": "59185685-95eb-420d-8413-2a19a191931c",
+    "recording_id": null
+  },
+  {
+    "composer": "Dmitri Shostakovich",
+    "title": "Jazz Suite no. 1",
+    "subtitle": null,
+    "id": "5d3dc22f-4004-4888-809a-749bb438382c",
+    "recording_id": null
+  },
+  {
+    "composer": "Dmitri Shostakovich",
+    "title": "Piano Concerto no. 1 in C minor, for piano, trumpet, and strings, op. 35",
+    "subtitle": null,
+    "id": "e7fa5aef-f0fa-4b1b-b577-6130fa546ef3",
+    "recording_id": null
+  },
+  {
+    "composer": "Dmitri Shostakovich",
+    "title": "String Quartet no. 8 in C minor, op. 110",
+    "subtitle": null,
+    "id": "48ef7bd4-36aa-4067-961b-aaf80ad8cd21",
+    "recording_id": "0c7133d3-d4b2-4aa5-9f19-4f62e8406c3c"
+  },
+  {
+    "composer": "Dmitri Shostakovich",
+    "title": "Symphony no. 5 in D minor, op. 47",
+    "subtitle": null,
+    "id": "fcab9b13-cfe0-45c3-b392-8e6a9afb9510",
+    "recording_id": "32fd7ba5-ed06-4909-8dbb-0e39f65bb7f1"
+  },
+  {
+    "composer": "Dmitri Shostakovich",
+    "title": "Symphony no. 7 in C major, op. 60, \"Leningrad\"",
+    "subtitle": null,
+    "id": "4066b48e-7543-4b9e-8903-fe302cb5f894",
+    "recording_id": null
+  },
+  {
+    "composer": "Dmitri Shostakovich",
+    "title": "Symphony no. 8 in C minor, op. 65, \"Stalingrad\"",
+    "subtitle": null,
+    "id": "df68577f-3f31-4329-98e8-2d880b0ab5a2",
+    "recording_id": null
+  },
+  {
+    "composer": "Dmitry Kabalevsky",
+    "title": "The Comedians, suite for small orchestra, op. 26",
+    "subtitle": null,
+    "id": "2f418563-09ec-4a6f-81d7-a880973b1b1e",
+    "recording_id": null
+  },
+  {
+    "composer": "Edgard Var\u00e8se",
+    "title": "Ionisation, for 13 percussion instruments",
+    "subtitle": null,
+    "id": "2a9c56db-d344-44ef-807b-b7ae52bec2fb",
+    "recording_id": null
+  },
+  {
+    "composer": "Edouard Lalo",
+    "title": "Symphonie espagnole, for violin and orchestra in D minor, op. 21",
+    "subtitle": null,
+    "id": "a10854e0-0ca9-4a95-90d2-8ecdae918907",
+    "recording_id": "0bd75db2-060b-40f7-a455-354ee5d5cbe3"
+  },
+  {
+    "composer": "Edvard Grieg",
+    "title": "From Holberg\u2019s Time, for string orchestra, \"Holberg Suite\"",
+    "subtitle": null,
+    "id": "2359edbe-cf2d-4bc2-ae01-612c64e671bb",
+    "recording_id": "96c37230-6f6e-423a-abad-b8b6ed9c861a"
+  },
+  {
+    "composer": "Edvard Grieg",
+    "title": "Lyric Suite ",
+    "subtitle": null,
+    "id": "4b29fefd-ae69-4455-9263-21092e42c3bf",
+    "recording_id": null
+  },
+  {
+    "composer": "Edvard Grieg",
+    "title": "Peer Gynt Suite no. 1, op. 46",
+    "subtitle": null,
+    "id": "4b3592df-d20b-4abd-8963-4dc8a225cda8",
+    "recording_id": "74f58bf5-b819-4756-a8fd-0b1beb50d4f6"
+  },
+  {
+    "composer": "Edvard Grieg",
+    "title": "Peer Gynt Suite no. 2, op. 55",
+    "subtitle": null,
+    "id": "b4609fbd-e5dd-47c2-b912-bd97cccaf4b8",
+    "recording_id": null
+  },
+  {
+    "composer": "Edvard Grieg",
+    "title": "Piano Concerto in A minor, op. 16",
+    "subtitle": null,
+    "id": "0829c065-0d43-4bd3-a2f3-1004d34d7785",
+    "recording_id": "8bf2a128-30ec-414b-851a-5aba8c168e55"
+  },
+  {
+    "composer": "Edward Elgar",
+    "title": "Enigma Variations, op. 36",
+    "subtitle": null,
+    "id": "9eaa22b7-d6ff-4565-9a27-bfe6b80bdc95",
+    "recording_id": "756250d6-fb07-45d6-9496-af83a72cf99a"
+  },
+  {
+    "composer": "Edward Elgar",
+    "title": "Military Marches, op. 39, \"Pomp and Circumstance\"",
+    "subtitle": null,
+    "id": "e119559e-1260-438e-85d8-afd868adfcc2",
+    "recording_id": "593a2f12-76a9-45b8-8511-e5b6393eda01"
+  },
+  {
+    "composer": "Einojuhani Rautavaara",
+    "title": "Cantus Arcticus, for orchestra and taped bird songs, op. 61",
+    "subtitle": null,
+    "id": "1b0d8fbc-8af0-4707-bbcc-64d94d2ced14",
+    "recording_id": null
+  },
+  {
+    "composer": "Einojuhani Rautavaara",
+    "title": "Symphony no. 7, \"Angel of Light\"",
+    "subtitle": null,
+    "id": "b2931908-0067-48cf-bf0d-d924b5796f6f",
+    "recording_id": null
+  },
+  {
+    "composer": "Emmanuel Chabrier",
+    "title": "Espa\u00f1a, rhapsody for orchestra",
+    "subtitle": null,
+    "id": "2c020b33-fa8a-4525-9aa5-ddd67b2c7b0f",
+    "recording_id": null
+  },
+  {
+    "composer": "Emmanuel Chabrier",
+    "title": "Joyeuse marche",
+    "subtitle": null,
+    "id": "a4b576e3-5cb1-4a4e-8737-aed73e8c9e2b",
+    "recording_id": null
+  },
+  {
+    "composer": "Engelbert Humperdinck",
+    "title": "H\u00e4nsel and Gretel",
+    "subtitle": "Opera",
+    "id": "8666d0e5-219c-4f91-bab1-287c97e09b67",
+    "recording_id": null
+  },
+  {
+    "composer": "Erich Wolfgang Korngold",
+    "title": "Violin Concerto in D major, op. 35",
+    "subtitle": null,
+    "id": "2ad736ec-a316-42ab-bd4c-1dec5470c91e",
+    "recording_id": null
+  },
+  {
+    "composer": "Erik Satie",
+    "title": "3 Gymnop\u00e9dies",
+    "subtitle": null,
+    "id": "5d436266-d208-4cd0-88e4-63ee82439892",
+    "recording_id": "d412e3b0-b78d-4ddc-8160-f3216d23f5c8"
+  },
+  {
+    "composer": "Ernest Bloch",
+    "title": "Schelomo, rhapsody for cello and orchestra",
+    "subtitle": null,
+    "id": "089b9bf3-72ba-4da0-b964-98bafd90f849",
+    "recording_id": null
+  },
+  {
+    "composer": "Ernest Chausson",
+    "title": "Po\u00e8me, for violin and orchestra, op. 25",
+    "subtitle": null,
+    "id": "0613d133-a773-4268-86af-dd2c4c3f799d",
+    "recording_id": null
+  },
+  {
+    "composer": "Ernst von Dohn\u00e1nyi",
+    "title": "Variations on a Nursery Song, for piano and orchestra, op. 25",
+    "subtitle": null,
+    "id": "d328d1da-503b-4dbd-953c-28b7052ce332",
+    "recording_id": null
+  },
+  {
+    "composer": "Eugene Ysa\u00ffe",
+    "title": "Violin Sonata no. 3",
+    "subtitle": null,
+    "id": "11942202-76de-49e9-b660-2f15acc59d46",
+    "recording_id": "ce782d60-1dd2-41bc-b75e-7e3e37a712aa"
+  },
+  {
+    "composer": "Felix Mendelssohn",
+    "title": "A Midsummer Night's Dream, op. 61",
+    "subtitle": null,
+    "id": "f4b0309b-f67d-43d9-95ca-2674d7508196",
+    "recording_id": null
+  },
+  {
+    "composer": "Felix Mendelssohn",
+    "title": "String Octet in E flat major, op. 20",
+    "subtitle": null,
+    "id": "ae85ad3f-12fd-4bd2-aa59-0fafa400dff3",
+    "recording_id": "ddcc3291-21a3-4aa5-8115-8c0fdd132e47"
+  },
+  {
+    "composer": "Felix Mendelssohn",
+    "title": "Symphony no. 3 in A minor, op. 56, \"Scottish\"",
+    "subtitle": null,
+    "id": "9fdef62b-88bd-448a-ad28-fc8db5122642",
+    "recording_id": "29996c6b-9b71-433a-a0b2-1c37118a411d"
+  },
+  {
+    "composer": "Felix Mendelssohn",
+    "title": "Symphony no. 4 in A, op. 90, \"Italian\"",
+    "subtitle": null,
+    "id": "07e88b1f-22c1-422e-841c-2e351ecd6188",
+    "recording_id": "4e4f5f46-4a40-4f0a-8bf0-c12941ff02de"
+  },
+  {
+    "composer": "Felix Mendelssohn",
+    "title": "Violin Concerto in E minor, op. 64",
+    "subtitle": null,
+    "id": "83ad8f36-aaad-4ff6-8ce9-cb0847d03bcd",
+    "recording_id": "cdd15825-f54b-498b-9af7-da718d5e0e8c"
+  },
+  {
+    "composer": "Francis Poulenc",
+    "title": "Concert champ\u00eatre, for harpsichord and orchestra, FP49",
+    "subtitle": null,
+    "id": "d088f3a9-823c-4d8a-9286-dc29ba983fac",
+    "recording_id": null
+  },
+  {
+    "composer": "Francis Poulenc",
+    "title": "Concerto in D minor for 2 Pianos and Orchestra, FP61",
+    "subtitle": null,
+    "id": "bb9e6c5c-9c86-463b-b1e8-55f43137d0e2",
+    "recording_id": null
+  },
+  {
+    "composer": "Francis Poulenc",
+    "title": "Les biches, FP36",
+    "subtitle": "Suite from the ballet",
+    "id": "c79b0f59-9c26-45d7-8061-8e6ceb96a3a4",
+    "recording_id": null
+  },
+  {
+    "composer": "Francisco Mignone",
+    "title": "Maracatu de Chico Rei, ballet for chorus and orchestra",
+    "subtitle": null,
+    "id": "b59a9266-44cf-4254-bc6a-c845849f92d2",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Berwald",
+    "title": "Konzertst\u00fcck for Bassoon and Orchestra",
+    "subtitle": null,
+    "id": "f3d474bd-a44d-49ec-8b03-682d9d05f426",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Berwald",
+    "title": "Symphony no. 3 in C major, \"Sinfonie singuli\u00e8re\"",
+    "subtitle": null,
+    "id": "9b2d49de-3062-4185-927e-6b3d0ae3d9ff",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Keyboard Concerto in D major, Hob.XVIII:11",
+    "subtitle": null,
+    "id": "bf08967b-0111-415c-bca7-b125632cc63a",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony no. 100 in G, Hob.I:100, \"Military\"",
+    "subtitle": null,
+    "id": "e53d7cc0-bc65-433e-9200-f0d02d805c65",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony no. 103 in E flat major, Hob.I:103, \"Drum Roll\"",
+    "subtitle": null,
+    "id": "1184b4bc-a1c6-4b28-9ef4-0c30a7508554",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony no. 104 in D, Hob.I:104, \"London\"",
+    "subtitle": null,
+    "id": "f694b79f-0d28-4c82-ac76-8caa7d3191f2",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony no. 45 in F sharp minor, Hob.I:45, \"Farewell\"",
+    "subtitle": null,
+    "id": "c780afb9-8758-45e1-9e6a-d23fe9788024",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Joseph Haydn",
+    "title": "Symphony no. 94 in G, Hob.I:94, \"Surprise\"",
+    "subtitle": null,
+    "id": "b482dc9e-af43-4052-8b3c-c894f6445d99",
+    "recording_id": "9b666980-e02b-40b6-9391-0e75e0314f70"
+  },
+  {
+    "composer": "Franz Liszt",
+    "title": "6 Hungarian Rhapsodies, S.359",
+    "subtitle": null,
+    "id": "f3eff65c-986a-414a-8bbc-c2127e0437ba",
+    "recording_id": "08d9a78e-4c28-410e-a1ac-59d3f2d4c183"
+  },
+  {
+    "composer": "Franz Liszt",
+    "title": "Grandes \u00e9tudes de Paganini, S. 141, \"La campanella\"",
+    "subtitle": null,
+    "id": "f39d0588-94ae-47ea-9ba5-02ba81f5d658",
+    "recording_id": "924b25ad-95c7-400c-8b8c-7346f0165968"
+  },
+  {
+    "composer": "Franz Liszt",
+    "title": "Liebestr\u00e4ume ",
+    "subtitle": null,
+    "id": "5e6079d2-8368-4365-b721-e93bd4cafa14",
+    "recording_id": "26269e60-fc8d-46fb-80e2-72c5ae4b2e1c"
+  },
+  {
+    "composer": "Franz Liszt",
+    "title": "Mephisto Waltz no. 1, S.514",
+    "subtitle": null,
+    "id": "d7b3e2c1-c6fa-45e8-9922-b0d50eb38582",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Liszt",
+    "title": "Piano Concerto no. 1 in E flat major, S.124",
+    "subtitle": null,
+    "id": "f3a79417-ba98-419d-a319-bd6d5cd51dcd",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schmidt",
+    "title": "Symphony no. 4 in C",
+    "subtitle": null,
+    "id": "e06c3462-d076-4918-94ab-ad32c7a89659",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "3 Marches Militaires, D.733, op. 51",
+    "subtitle": null,
+    "id": "5d0fd818-e854-4769-ae8c-9205e102ccc3",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Erlk\u00f6nig, D.328, op. 1",
+    "subtitle": null,
+    "id": "a3f57d9a-3124-4504-9d56-0a8d288da1c7",
+    "recording_id": "1f4f62a2-b26a-47a3-89b7-b8a20440852b"
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Fantasia in F minor, D.940, op. posth.103",
+    "subtitle": null,
+    "id": "9eee75ac-8f0c-45ef-9171-a524e0d5261a",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Gretchen am Spinnrade, D.118, op. 2",
+    "subtitle": null,
+    "id": "8de4b3eb-1841-4469-a417-499c54aed006",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Marche militaire no. 1 in D flat major",
+    "subtitle": null,
+    "id": "5c1a5d14-399e-4021-a144-43df0e29dffe",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Piano Quintet in A major, D.667, op. posth.114, \"The Trout\"",
+    "subtitle": null,
+    "id": "c30393e6-30e0-4b50-b3f4-9b0c510b541c",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Piano Trio no. 2 in E flat major, D.929, op. 100",
+    "subtitle": null,
+    "id": "fb1ffa07-e6ac-44bd-82c3-33b75a2b8042",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "String Quartet no. 14 in D minor, D.810, \"Death and the Maiden\"",
+    "subtitle": null,
+    "id": "dcbd61f6-f22f-4973-8751-b441196d092a",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "String Quintet in C major, D.956, op. posth.163",
+    "subtitle": null,
+    "id": "f6d49058-b5ea-4ae3-97f5-983501dadbc6",
+    "recording_id": null
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Symphony no. 8 in B minor, D.759, \"Unfinished\"",
+    "subtitle": null,
+    "id": "afd4ce26-d38b-43e2-9bd4-fdd9002a5e94",
+    "recording_id": "d3d575d9-6d3f-4d56-8eaf-4c5e8bddfe7f"
+  },
+  {
+    "composer": "Franz Schubert",
+    "title": "Symphony no. 9 in C major, D.944, \"Great\"",
+    "subtitle": null,
+    "id": "ecb8ee50-d017-422e-8efc-b6189800308d",
+    "recording_id": "dbceaf5e-3eb2-455e-8246-f83a7ade1bd3"
+  },
+  {
+    "composer": "Frederick Delius",
+    "title": "On Hearing the First Cuckoo in Spring",
+    "subtitle": "Tone poem",
+    "id": "1f3347c4-e937-43b7-bde8-bf9ccca06365",
+    "recording_id": null
+  },
+  {
+    "composer": "Fr\u00e9d\u00e9ric Chopin",
+    "title": "Andante spianato et grande polonaise brillante, op. 22",
+    "subtitle": "For piano and orchestra",
+    "id": "6b843a3f-8d73-4ca2-a381-a182450739bf",
+    "recording_id": "37fcfa75-ef3f-4a93-97d1-053fa0922b5b"
+  },
+  {
+    "composer": "Fr\u00e9d\u00e9ric Chopin",
+    "title": "Nocturnes, op. 9",
+    "subtitle": null,
+    "id": "3d4923c3-e62b-44e1-af50-c537edebb8f6",
+    "recording_id": "0aa9ca45-3189-4425-a641-eedf13b5731e"
+  },
+  {
+    "composer": "Fr\u00e9d\u00e9ric Chopin",
+    "title": "Piano Concerto no. 1 in E minor, op. 11",
+    "subtitle": null,
+    "id": "c2ec8f5d-14a2-426b-8267-de87e8864015",
+    "recording_id": "e60355b3-8b21-42ec-a62f-9481a23404eb"
+  },
+  {
+    "composer": "Fr\u00e9d\u00e9ric Chopin",
+    "title": "Polonaise no. 6 in A flat major, op. 53, \"Heroic\"",
+    "subtitle": null,
+    "id": "b4ae27f5-27d0-45f7-8370-36a1c121b14d",
+    "recording_id": "444635d9-a8b3-4281-89b9-beb185b04d95"
+  },
+  {
+    "composer": "Fr\u00e9d\u00e9ric Chopin",
+    "title": "Preludes, op. 28",
+    "subtitle": null,
+    "id": "81223b56-0310-4d42-b27a-9f4b660745cf",
+    "recording_id": "b5e2cbe6-9010-4657-86e5-33e43f836283"
+  },
+  {
+    "composer": "Fr\u00e9d\u00e9ric Chopin",
+    "title": "Sonata no. 2 in B flat minor, op. 35",
+    "subtitle": null,
+    "id": "e7bfb759-6759-499d-8ab9-6274ead6aedc",
+    "recording_id": "35f5f3e4-fa6c-46e3-9f58-c9c9c82a3324"
+  },
+  {
+    "composer": "Fr\u00e9d\u00e9ric Chopin",
+    "title": "Waltzes, op. 64",
+    "subtitle": null,
+    "id": "507d2b42-8302-446a-9002-0dd603be3756",
+    "recording_id": "eb0aa171-f737-4a48-b996-687a12de947f"
+  },
+  {
+    "composer": "Gabriel Faur\u00e9",
+    "title": "Requiem, op. 48",
+    "subtitle": null,
+    "id": "c74bce08-6d31-4617-88cc-a07ad9650399",
+    "recording_id": null
+  },
+  {
+    "composer": "Gaetano Donizetti",
+    "title": "L'elisir d'amore",
+    "subtitle": "Opera",
+    "id": "5bbc48e4-1039-43c4-898d-c4b48ada7212",
+    "recording_id": null
+  },
+  {
+    "composer": "Gaetano Donizetti",
+    "title": "Lucia di Lammermoor",
+    "subtitle": "Opera",
+    "id": "29cce9e3-7f36-474f-a770-736ef45f9bbb",
+    "recording_id": null
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Concerto Grosso in A major, op. 6, no. 11, HWV.329",
+    "subtitle": null,
+    "id": "c1bd1e57-f9da-452c-9a8a-8124c9fa34ae",
+    "recording_id": null
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Messiah, HWV.56",
+    "subtitle": "Oratorio",
+    "id": "50e5a5df-b90c-4922-aabb-23e28738b712",
+    "recording_id": "10f68c12-bdbd-45f2-ba61-7c9b3c6b7e9c"
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Music for the Royal Fireworks in D major, HWV.351",
+    "subtitle": null,
+    "id": "0851cee7-9bed-4b1a-918b-546724492087",
+    "recording_id": "df767119-4903-4ec2-b88e-d30c88243d1f"
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Organ Concerto in B flat major, op. 4, no. 6, HWV.294",
+    "subtitle": null,
+    "id": "ad43adbc-ca20-414b-9c10-73ea7a1fcffe",
+    "recording_id": null
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Organ Concerto in F major, HWV.295, \"The Cuckoo and the Nightingale\"",
+    "subtitle": null,
+    "id": "16837a13-8fba-428c-b4ae-0909cfe29169",
+    "recording_id": null
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Organ Concerto in G minor, op. 7, no. 5, HWV.310",
+    "subtitle": null,
+    "id": "9ec1cdaa-05dd-492f-9d86-3e0f2a2aa3c3",
+    "recording_id": null
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Water Music Suite no. 1 in F major, HWV.348",
+    "subtitle": null,
+    "id": "ca598127-1996-40d4-932b-664c72866b30",
+    "recording_id": null
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Water Music Suite no. 2 in D major, HWV.349",
+    "subtitle": null,
+    "id": "ef7fc8fe-306b-4e99-82b3-ed45f9e02ba8",
+    "recording_id": null
+  },
+  {
+    "composer": "George Frideric Handel",
+    "title": "Water Music Suite no. 3 in G major, HWV.350",
+    "subtitle": null,
+    "id": "ceacb19b-30cf-4e57-8fad-5e0ee7b2d5de",
+    "recording_id": null
+  },
+  {
+    "composer": "George Gershwin",
+    "title": "An American in Paris ",
+    "subtitle": null,
+    "id": "e031f111-da10-40bd-9dfb-ca9bbcfe27f0",
+    "recording_id": "f43b99a7-7789-447a-ac27-a1829fd284e8"
+  },
+  {
+    "composer": "George Gershwin",
+    "title": "Rhapsody in Blue",
+    "subtitle": "For piano and orchestra",
+    "id": "3e3043ef-f381-4e8f-8236-9b8389ef2e33",
+    "recording_id": "f4cae495-544a-49b6-b013-a0cab805d166"
+  },
+  {
+    "composer": "Georges Bizet",
+    "title": "Carmen ",
+    "subtitle": null,
+    "id": "da188560-9dcf-4a45-988e-58390e52c881",
+    "recording_id": "a017bce0-4d98-4bba-a971-03899f2eab24"
+  },
+  {
+    "composer": "Georges Bizet",
+    "title": "Carmen, suite for orchestra from the opera",
+    "subtitle": null,
+    "id": "2408fb59-ab5d-41c8-add5-7169d1ddde3a",
+    "recording_id": "35acc471-ce8f-4dc6-a9a2-a0620050bad5"
+  },
+  {
+    "composer": "Georges Bizet",
+    "title": "L' Arl\u00e9sienne Suite no. 1 ",
+    "subtitle": null,
+    "id": "61156608-72e2-40d5-adfb-a00778ea4afe",
+    "recording_id": "3414b7a7-348e-4629-86e4-4e68ed384c23"
+  },
+  {
+    "composer": "Georges Bizet",
+    "title": "Symphony in C major",
+    "subtitle": null,
+    "id": "aa457b17-384f-40c8-bda9-08248ffc359f",
+    "recording_id": null
+  },
+  {
+    "composer": "Giacomo Puccini",
+    "title": "La boh\u00e8me",
+    "subtitle": "Opera",
+    "id": "cd89f38d-83b0-4890-afbb-657cec76cbe7",
+    "recording_id": null
+  },
+  {
+    "composer": "Giacomo Puccini",
+    "title": "Madama Butterfly",
+    "subtitle": "Opera",
+    "id": "efd95947-e317-4df9-9726-1cf10ad9f4eb",
+    "recording_id": null
+  },
+  {
+    "composer": "Giacomo Puccini",
+    "title": "Tosca",
+    "subtitle": "Opera",
+    "id": "a77192f4-5139-4d12-803a-3b069c67c96c",
+    "recording_id": null
+  },
+  {
+    "composer": "Gioachino Rossini",
+    "title": "Guillaume Tell, William Tell",
+    "subtitle": "Opera",
+    "id": "4a2b8d00-7cf6-4bf3-b727-665e15fa88bf",
+    "recording_id": "b1f0f6fa-61ab-4219-b480-9dce9f48310b"
+  },
+  {
+    "composer": "Gioachino Rossini",
+    "title": "Il barbiere di Siviglia ",
+    "subtitle": null,
+    "id": "b03512c4-8367-4d16-a54f-eeece4f6c551",
+    "recording_id": null
+  },
+  {
+    "composer": "Giovanni Battista Pergolesi",
+    "title": "Stabat mater, for soprano, alto, and strings",
+    "subtitle": null,
+    "id": "ee22acc1-639d-4b7c-971c-7bdba8df3af3",
+    "recording_id": null
+  },
+  {
+    "composer": "Giovanni Pierluigi da Palestrina",
+    "title": "Missa Papae Marcelli ",
+    "subtitle": null,
+    "id": "099fffcb-6395-4f48-8319-a9594a6dea7a",
+    "recording_id": null
+  },
+  {
+    "composer": "Giuseppe Tartini",
+    "title": "Violin Sonata in G minor, B.g5, \"The Devil's Trill\"",
+    "subtitle": null,
+    "id": "e4bbf8f7-a5c0-4c33-bde2-d3d519370857",
+    "recording_id": null
+  },
+  {
+    "composer": "Giuseppe Verdi",
+    "title": "Aida",
+    "subtitle": "Opera",
+    "id": "4e44d439-ca12-4129-9ff9-4e3ae4fb1ab4",
+    "recording_id": null
+  },
+  {
+    "composer": "Giuseppe Verdi",
+    "title": "Il trovatore",
+    "subtitle": "Opera",
+    "id": "b717d557-9931-4bbc-b668-1416107a32ea",
+    "recording_id": null
+  },
+  {
+    "composer": "Giuseppe Verdi",
+    "title": "La traviata",
+    "subtitle": "Opera",
+    "id": "fad0a497-ac37-4872-bda1-fcba86da6401",
+    "recording_id": null
+  },
+  {
+    "composer": "Giuseppe Verdi",
+    "title": "Nabucco",
+    "subtitle": "Opera",
+    "id": "4bc89514-5096-41ef-8b8c-96b8477dde81",
+    "recording_id": "5374c0cb-54ff-44b3-8866-c123ecab272a"
+  },
+  {
+    "composer": "Giuseppe Verdi",
+    "title": "Otello",
+    "subtitle": "Opera",
+    "id": "306d8c5f-dbcb-4821-864e-ccab731b5a91",
+    "recording_id": null
+  },
+  {
+    "composer": "Giuseppe Verdi",
+    "title": "Requiem",
+    "subtitle": null,
+    "id": "1b29af79-f678-4fa8-85ac-8eee3e34144b",
+    "recording_id": "64c1328f-2a10-4ff1-bfaf-637fb1d85299"
+  },
+  {
+    "composer": "Giuseppe Verdi",
+    "title": "Rigoletto",
+    "subtitle": "Opera",
+    "id": "b90cb8bd-24ef-40fa-a33c-ff54e025ccf9",
+    "recording_id": null
+  },
+  {
+    "composer": "Guillaume Dufay",
+    "title": "Missa L'Homme arm\u00e9 ",
+    "subtitle": null,
+    "id": "566abdd6-0b5e-4151-8815-d6c480fd5d93",
+    "recording_id": null
+  },
+  {
+    "composer": "Guillaume Dufay",
+    "title": "Missa Se la face ay pale ",
+    "subtitle": null,
+    "id": "dc4283f8-db19-464f-8bb8-24f47c7c0d57",
+    "recording_id": null
+  },
+  {
+    "composer": "Guillaume de Machaut",
+    "title": "Messe de Nostre Dame ",
+    "subtitle": null,
+    "id": "a8ca23d1-0ee9-4f93-827a-96a2a6b3f437",
+    "recording_id": null
+  },
+  {
+    "composer": "Gustav Holst",
+    "title": "The Planets, suite for orchestra and female chorus, op. 32, H.125",
+    "subtitle": null,
+    "id": "87bf18d5-8220-49e6-8e2f-ab0ca7dd0e0b",
+    "recording_id": "16c60436-5a84-40fc-9d28-8efa7b386277"
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony no. 1 in D major, \"Titan\"",
+    "subtitle": null,
+    "id": "a8aaf74e-4be6-49e9-acad-97295630a5f5",
+    "recording_id": "ac06b3a2-2ed0-48d8-a7dc-5441f245a43c"
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony no. 2 in C minor, \"Resurrection\"",
+    "subtitle": null,
+    "id": "4adb7b04-0a43-4960-b0fe-3b1f81a10d85",
+    "recording_id": "0ad4fdd5-a253-44fb-aee6-e9122108f9ca"
+  },
+  {
+    "composer": "Gustav Mahler",
+    "title": "Symphony no. 5 in C sharp minor",
+    "subtitle": null,
+    "id": "7164524a-52d1-46d5-a969-cace3da4a547",
+    "recording_id": "9e1571a5-945e-450f-ad46-d8259eda848e"
+  },
+  {
+    "composer": "Gy\u00f6rgy Ligeti",
+    "title": "Lux aeterna, for a cappella chorus ",
+    "subtitle": null,
+    "id": "0115a26f-7b00-4f70-bdf1-f9d26b58aa15",
+    "recording_id": null
+  },
+  {
+    "composer": "Hector Berlioz",
+    "title": "Harold en Italie, H.68, op. 16",
+    "subtitle": null,
+    "id": "fd43ad90-b3b7-49b0-8681-b76ebbf100e9",
+    "recording_id": null
+  },
+  {
+    "composer": "Hector Berlioz",
+    "title": "Symphonie fantastique: \u00c9pisode de la vie d'une artiste, op. 14",
+    "subtitle": null,
+    "id": "18693d2a-f784-4e67-bbc8-781c0c8d5283",
+    "recording_id": "8e560f48-689e-4a85-86a0-58bae5ab4308"
+  },
+  {
+    "composer": "Heinrich Franz von Biber",
+    "title": "Battalia in D major, C.61",
+    "subtitle": "For 3 violins, 4 violas, 2 violins and keyboard",
+    "id": "61472154-7c09-47da-a86b-d44e193899d6",
+    "recording_id": null
+  },
+  {
+    "composer": "Heitor Villa-Lobos",
+    "title": "5 Prel\u00fadios, A.419",
+    "subtitle": null,
+    "id": "d790051f-7dd0-41c1-8de5-0d0d3488ff39",
+    "recording_id": null
+  },
+  {
+    "composer": "Heitor Villa-Lobos",
+    "title": "Bachianas Brasileiras no. 1, for 8 cellos, A.246",
+    "subtitle": null,
+    "id": "870baaf2-c87f-4365-b831-da5b3b76ad5a",
+    "recording_id": null
+  },
+  {
+    "composer": "Heitor Villa-Lobos",
+    "title": "Bachianas Brasileiras no. 2, A.247",
+    "subtitle": null,
+    "id": "4f6f8a44-9706-47ea-a1d2-ea9da4846e42",
+    "recording_id": null
+  },
+  {
+    "composer": "Heitor Villa-Lobos",
+    "title": "Bachianas Brasileiras no. 5, for voice and 8 cellos, A.389",
+    "subtitle": null,
+    "id": "41f4c46b-27ee-42d3-aa27-a3b351604f11",
+    "recording_id": null
+  },
+  {
+    "composer": "Heitor Villa-Lobos",
+    "title": "Ch\u00f4ros no. 10, A.209, \"Rasga o Cora\u00e7ao\"",
+    "subtitle": null,
+    "id": "753dabc8-354b-4b47-ada1-10dd4efdcb46",
+    "recording_id": null
+  },
+  {
+    "composer": "Heitor Villa-Lobos",
+    "title": "Ch\u00f4ros no. 5, A.207, \"Alma brasiliera\"",
+    "subtitle": null,
+    "id": "d1c4530b-e550-4a76-9660-d98eab6574c4",
+    "recording_id": null
+  },
+  {
+    "composer": "Heitor Villa-Lobos",
+    "title": "Rudepo\u00eama, A.184",
+    "subtitle": null,
+    "id": "69da7e15-c711-4788-b6fc-386d982c66b4",
+    "recording_id": null
+  },
+  {
+    "composer": "Henryk G\u00f3recki",
+    "title": "Symphony no. 3, op. 36, \"Symphony of Sorrowful Songs\"",
+    "subtitle": null,
+    "id": "1a30d8a4-52da-41a5-b692-b71701725089",
+    "recording_id": null
+  },
+  {
+    "composer": "Iannis Xenakis",
+    "title": "Metastasis, for 60 musicians ",
+    "subtitle": null,
+    "id": "e0e1c106-a34e-40c8-8faa-f4cce4a18378",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "Ebony Concerto",
+    "subtitle": "For clarinet and jazz band",
+    "id": "aca6c770-4f79-417c-b403-ed1265d74a52",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "Octet for Wind Instruments",
+    "subtitle": null,
+    "id": "0250ded5-6672-4dcd-9e92-c1afd0846a01",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "Petrushka",
+    "subtitle": "Ballet",
+    "id": "853d3686-8e11-4f09-a1ea-7cc685429b80",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "Symphony in Three Movements",
+    "subtitle": null,
+    "id": "f6a2f93d-f020-4ab3-b2cd-3adb8fc578bd",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "Symphony of Psalms",
+    "subtitle": "For chorus and orchestra",
+    "id": "7bf54f7b-45c7-4d71-adb5-7ac37d2ea294",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "Tango",
+    "subtitle": null,
+    "id": "0cd9e9b8-726e-4e37-a177-f02cf4877413",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "The Firebird",
+    "subtitle": "Ballet",
+    "id": "dd9ed0e4-83c6-45c0-b97d-ee19b1ba4ebb",
+    "recording_id": null
+  },
+  {
+    "composer": "Igor Stravinsky",
+    "title": "The Rite of Spring",
+    "subtitle": "Ballet",
+    "id": "befa06b9-c683-4bcc-a2ac-27a033cc4397",
+    "recording_id": "3fccfc52-8d97-4872-a969-8583120362c1"
+  },
+  {
+    "composer": "Isaac Alb\u00e9niz",
+    "title": "Iberia Suite, B.47 Books 1-4",
+    "subtitle": null,
+    "id": "5a8e6353-6bdd-4b2a-9424-ad0bf95e5230",
+    "recording_id": null
+  },
+  {
+    "composer": "Jacques Ibert",
+    "title": "Escales, \"Ports of Call\"",
+    "subtitle": null,
+    "id": "c18919d8-625d-44b2-9686-6c0f994f3c6b",
+    "recording_id": null
+  },
+  {
+    "composer": "Jacques Offenbach",
+    "title": "Orph\u00e9e aux Enfers ",
+    "subtitle": "Opera",
+    "id": "b9356b6b-0783-45a6-a890-7baff771d322",
+    "recording_id": "3c60a790-79e9-48ed-89f0-beeecf509b48"
+  },
+  {
+    "composer": "Jean Sibelius",
+    "title": "En Saga, op. 9",
+    "subtitle": null,
+    "id": "e0b3fb91-0072-441d-85cb-be098dbbc2a7",
+    "recording_id": null
+  },
+  {
+    "composer": "Jean Sibelius",
+    "title": "Finlandia, op. 26",
+    "subtitle": null,
+    "id": "4a83a85b-d7a7-4600-aaa9-b4ec15e797fb",
+    "recording_id": "788114d9-40fc-4bff-8e64-8ef8ff94e5fd"
+  },
+  {
+    "composer": "Jean Sibelius",
+    "title": "Karelia Suite, op. 11",
+    "subtitle": null,
+    "id": "6cb85389-cde1-4755-8967-a048f8810438",
+    "recording_id": null
+  },
+  {
+    "composer": "Jean Sibelius",
+    "title": "Symphony no. 2 in D major, op. 43",
+    "subtitle": null,
+    "id": "856913d5-8c29-416b-b85a-ebb9252bbd39",
+    "recording_id": "1e68703b-2b53-4271-b4f3-94978f0c836b"
+  },
+  {
+    "composer": "Jean Sibelius",
+    "title": "Symphony no. 5 in E flat major, op. 82",
+    "subtitle": null,
+    "id": "10e26fc5-c930-4e05-95c9-16ae776ad7a4",
+    "recording_id": "16b4cad5-8a39-475f-a934-cd7ae692112e"
+  },
+  {
+    "composer": "Jean Sibelius",
+    "title": "Violin Concerto in D minor, op. 47",
+    "subtitle": null,
+    "id": "4f2e1e94-4158-407d-b720-258037617ab6",
+    "recording_id": "d978ff4f-5281-41fa-8738-38b51e70ad35"
+  },
+  {
+    "composer": "Joaqu\u00edn Rodrigo",
+    "title": "Concierto de Aranjuez, for guitar and orchestra",
+    "subtitle": null,
+    "id": "c661193a-42f2-4dae-b427-d1fda431eef1",
+    "recording_id": null
+  },
+  {
+    "composer": "Joaqu\u00edn Rodrigo",
+    "title": "Fantas\u00eda para un gentilhombre, for guitar and orchestra",
+    "subtitle": null,
+    "id": "5435be77-8208-4b73-bb98-3cf357ed7546",
+    "recording_id": null
+  },
+  {
+    "composer": "Johann Pachelbel",
+    "title": "Canon and Gigue in D major, for 3 violins and continuo, T.337, \"Pachelbel's Canon\"",
+    "subtitle": null,
+    "id": "768d0eff-71ac-46e1-bb0d-65974eac6ffd",
+    "recording_id": "597913ab-e34f-4dcb-b014-32db8fdb4888"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto no. 2 in F major, BWV.1047",
+    "subtitle": null,
+    "id": "9d09389d-282f-4ed9-95a8-5a08248d0bfe",
+    "recording_id": "fd3954c2-46ca-46f6-ae34-6c399df92c64"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Brandenburg Concerto no. 3 in G major, BWV.1048",
+    "subtitle": null,
+    "id": "4b5e24b4-17b2-4ff2-940d-584b6aeaae1b",
+    "recording_id": "5a3632a4-0fba-48a6-b119-8645710bdc46"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Cantata no. 140, \"Wachet auf, ruft uns die Stimme\", BWV.140",
+    "subtitle": null,
+    "id": "a054042c-19ae-42f5-b367-a70bdaa14f15",
+    "recording_id": null
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Cantata no. 147: Herz und Mund und Tat und Leben ",
+    "subtitle": null,
+    "id": "a650bca4-2122-49ad-a960-c6069469c22d",
+    "recording_id": null
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Cello Suite no. 1 in G major, BWV.1007",
+    "subtitle": null,
+    "id": "77b2c9ea-1841-41d4-9798-9b5344bb4652",
+    "recording_id": "6dccbb3b-1353-485e-a0ef-9de099d252d2"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Fugue in G minor, BWV.578, \"Little Fugue\"",
+    "subtitle": null,
+    "id": "b8d84802-a485-49b4-b760-431dbec23924",
+    "recording_id": "9ca75e51-d990-4fd2-93a8-23a0d3b3311f"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Orchestral Suite no. 3 in D major, BWV.1068",
+    "subtitle": null,
+    "id": "ff09ce36-e2e8-4071-b8aa-cf686c50cee0",
+    "recording_id": "47977b73-08d3-4e18-9a85-5b77abfe6c7b"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Passacaglia and Fugue in C minor, BWV.582",
+    "subtitle": null,
+    "id": "0ef7d75e-4796-48ea-84f4-629ea52697d8",
+    "recording_id": "7d7efb64-548b-45f8-a4e0-486f553bdd3d"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Passion According to St. Matthew, BWV.244",
+    "subtitle": null,
+    "id": "f4c13074-4119-4e5e-a08b-c6d22caebf5c",
+    "recording_id": null
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Toccata and fugue in D minor, BWV.565",
+    "subtitle": null,
+    "id": "4144a406-b918-413e-bac8-3e331869a93c",
+    "recording_id": "85c22ee0-b741-4703-b5bc-e6739ffc832d"
+  },
+  {
+    "composer": "Johann Sebastian Bach",
+    "title": "Violin Concerto in A minor, BWV.1041",
+    "subtitle": null,
+    "id": "479082d7-fe28-4a78-9db9-0fdcbc330053",
+    "recording_id": "2ae8dad3-4b6e-40c5-bf06-b935d0ebc56a"
+  },
+  {
+    "composer": "Johann Strauss Jr",
+    "title": "An der sch\u00f6nen, blauen Donau, op. 314",
+    "subtitle": null,
+    "id": "26b303c5-2a6a-489c-a2fc-dc01104e5e53",
+    "recording_id": null
+  },
+  {
+    "composer": "Johann Strauss Jr",
+    "title": "Geschichten aus dem Wienerwald, op. 325",
+    "subtitle": null,
+    "id": "08e323b6-0567-4c2f-8418-3cacad026de1",
+    "recording_id": null
+  },
+  {
+    "composer": "Johann Strauss Jr",
+    "title": "Kaiser-Walzer, op. 437",
+    "subtitle": null,
+    "id": "5be6dce5-3719-43d8-b75b-1e2ff1404685",
+    "recording_id": null
+  },
+  {
+    "composer": "Johann Strauss Jr",
+    "title": "Pizzicato Polka, op. 234",
+    "subtitle": null,
+    "id": "cfe5c279-a206-491a-8287-a630a61fa884",
+    "recording_id": "550ee1fc-b018-4c29-8658-0b41ddbedf7e"
+  },
+  {
+    "composer": "Johann Strauss Jr",
+    "title": "Tritsch-Tratsch-Polka, op. 214",
+    "subtitle": null,
+    "id": "157eea8f-046a-47f5-91f8-54c7441e1e77",
+    "recording_id": "5dfe3e34-b29c-408b-bff4-f96e244afe6c"
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Clarinet Quintet in B minor, op. 115",
+    "subtitle": null,
+    "id": "f7a7fd4e-5c47-42b7-b7b7-cb3884c16779",
+    "recording_id": null
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Ein deutsches Requiem, op. 45",
+    "subtitle": "For soprano, baritone, chorus and orchestra",
+    "id": "0dc1a279-75d7-4ee6-b557-a9a562eb7755",
+    "recording_id": null
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Hungarian Dances, WoO 1",
+    "subtitle": null,
+    "id": "ea9ef924-3553-4389-b8f7-83f6ff3204b8",
+    "recording_id": "1a0dfa6f-3b50-4a59-a3e9-d37772f4abbc"
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Piano Concerto no. 2 in B flat major, op. 83",
+    "subtitle": null,
+    "id": "7886bf80-2f00-473c-8310-9357ff93cb47",
+    "recording_id": "c331309f-8187-46bb-9412-a2126c63d3de"
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "String Sextet no. 1 in B flat major, op. 18",
+    "subtitle": null,
+    "id": "94caa70d-3216-4dc3-9824-eed4685085b5",
+    "recording_id": null
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Symphony no. 3 in F major, op. 90",
+    "subtitle": null,
+    "id": "a91c59af-cb8c-48ac-8c81-2ef11af41673",
+    "recording_id": "1ca828fe-0abe-4c55-b434-9be88c52b282"
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Symphony no. 4 in E minor, op. 98",
+    "subtitle": null,
+    "id": "597e1bd7-ad04-4b8c-a560-dcd39470c463",
+    "recording_id": "00a95982-2104-4832-a982-ded38df7d7ca"
+  },
+  {
+    "composer": "Johannes Brahms",
+    "title": "Violin Concerto in D major, op. 77",
+    "subtitle": null,
+    "id": "5685261f-040c-48d5-a4f6-e8980b6d7e44",
+    "recording_id": "60583e60-d09b-4075-a05b-e7f3dd100566"
+  },
+  {
+    "composer": "John Adams",
+    "title": "China Gates",
+    "subtitle": null,
+    "id": "42911b4a-4886-40de-b2be-8e8866be7e46",
+    "recording_id": null
+  },
+  {
+    "composer": "John Adams",
+    "title": "Harmonielehre",
+    "subtitle": null,
+    "id": "26137393-cd7f-4978-9147-843e8173d5cb",
+    "recording_id": null
+  },
+  {
+    "composer": "John Adams",
+    "title": "Nixon in China",
+    "subtitle": "Opera",
+    "id": "f21f7bac-b7ca-43c2-9a8a-fb66790e9763",
+    "recording_id": null
+  },
+  {
+    "composer": "John Adams",
+    "title": "Short Ride in a Fast Machine",
+    "subtitle": null,
+    "id": "f1f0b26d-a270-4364-9f22-daf6501449b9",
+    "recording_id": null
+  },
+  {
+    "composer": "John Cage",
+    "title": "4'33\"",
+    "subtitle": null,
+    "id": "52470a98-2a42-44e1-9dc9-7c8b2e079045",
+    "recording_id": null
+  },
+  {
+    "composer": "John Cage",
+    "title": "Sonatas and Interludes for Prepared Piano",
+    "subtitle": null,
+    "id": "5217b4b0-466c-449a-bc28-781484e42320",
+    "recording_id": null
+  },
+  {
+    "composer": "Josef Suk",
+    "title": "Symphony in C minor, op. 27, \"Asrael\"",
+    "subtitle": null,
+    "id": "62bc769c-3928-4695-adad-77c9e7165c97",
+    "recording_id": null
+  },
+  {
+    "composer": "Josquin Des Prez",
+    "title": "Missa Pange lingua ",
+    "subtitle": null,
+    "id": "f84d07b3-4b9c-4c0c-8a5d-93ef8e6c54a3",
+    "recording_id": null
+  },
+  {
+    "composer": "Jules Massenet",
+    "title": "M\u00e9ditation, for violin and orchestra ",
+    "subtitle": null,
+    "id": "fd37f5c2-d59c-41df-8f6e-802ae1133d3f",
+    "recording_id": "6e01c2c6-38ae-4073-8dbb-f5a49bf1ae32"
+  },
+  {
+    "composer": "Karl Goldmark",
+    "title": "Violin Concerto no. 1 in A minor, op. 28",
+    "subtitle": null,
+    "id": "e32a176e-5ace-4ac1-be27-1d203742c6a2",
+    "recording_id": null
+  },
+  {
+    "composer": "Karlheinz Stockhausen",
+    "title": "Gruppen f\u00fcr drei Orchester",
+    "subtitle": null,
+    "id": "2a69ae83-b3a7-4c47-8347-acffb5aba8fc",
+    "recording_id": null
+  },
+  {
+    "composer": "Karol Szymanowski",
+    "title": "Symphony no. 4, for piano and orchestra, op. 60, M70, \"Symphonie Concertante\"",
+    "subtitle": null,
+    "id": "7f83d144-caf3-4062-bd79-c96b9abc512b",
+    "recording_id": null
+  },
+  {
+    "composer": "Karol Szymanowski",
+    "title": "Violin Concerto no. 1, op. 35, M37",
+    "subtitle": null,
+    "id": "9e5083d9-0fb1-43ce-8b34-a762a1b2fd0c",
+    "recording_id": null
+  },
+  {
+    "composer": "Krzysztof Penderecki",
+    "title": "Threnody 'to the Victims of Hiroshima', for 52 strings",
+    "subtitle": null,
+    "id": "7bafe4dd-09c0-486a-90ea-74bae0e86045",
+    "recording_id": null
+  },
+  {
+    "composer": "Kurt Weill",
+    "title": "Die Dreigroschenoper ",
+    "subtitle": "Opera",
+    "id": "28a4ff7a-e154-43ae-8def-fb9cba684a57",
+    "recording_id": null
+  },
+  {
+    "composer": "Kurt Weill",
+    "title": "Die sieben Tods\u00fcnden ",
+    "subtitle": "Ballet",
+    "id": "65fdc9c2-e091-4f06-b033-90fa820a3eda",
+    "recording_id": null
+  },
+  {
+    "composer": "Leonard Bernstein",
+    "title": "Serenade, after Plato's \"Symposium\"",
+    "subtitle": "For violin and orchestra",
+    "id": "5cc2d609-99c7-4c3f-89bb-716fd06865be",
+    "recording_id": null
+  },
+  {
+    "composer": "Leonard Bernstein",
+    "title": "West Side Story",
+    "subtitle": "Musical",
+    "id": "ab72ce55-d740-4260-80ab-3d2635adf108",
+    "recording_id": null
+  },
+  {
+    "composer": "Leo\u0161 Jan\u00e1\u010dek",
+    "title": "Glagolitic Mass, JW III/9",
+    "subtitle": "For soloists, double chorus, orchestra, and organ",
+    "id": "1e97515b-2435-48c3-9d4d-d4db855717b7",
+    "recording_id": null
+  },
+  {
+    "composer": "Leo\u0161 Jan\u00e1\u010dek",
+    "title": "Sinfonietta, JW VI/18",
+    "subtitle": null,
+    "id": "5e77028d-cd1b-412a-b698-49093d57b20a",
+    "recording_id": null
+  },
+  {
+    "composer": "Leo\u0161 Jan\u00e1\u010dek",
+    "title": "String Quartet no. 1, JW VII/8, \"Kreutzer\"",
+    "subtitle": null,
+    "id": "fcbbfc18-44ad-4b14-9bd7-d9cf8d7df3eb",
+    "recording_id": null
+  },
+  {
+    "composer": "Leo\u0161 Jan\u00e1\u010dek",
+    "title": "String Quartet no. 2, JW VII/13, \"Listy duvern\u00e9,' 'Intimate Letters\"",
+    "subtitle": null,
+    "id": "08360d36-e417-4c96-b4b6-062d45a4b6e6",
+    "recording_id": null
+  },
+  {
+    "composer": "Leo\u0161 Jan\u00e1\u010dek",
+    "title": "Taras Bulba  JW VI/15",
+    "subtitle": null,
+    "id": "eac78b1b-9c61-406d-9c71-dfe85fcb8899",
+    "recording_id": null
+  },
+  {
+    "composer": "Luciano Berio",
+    "title": "Sinfonia, for 8 amplified voices and orchestra",
+    "subtitle": null,
+    "id": "d44d2d30-b453-4e07-ba91-29f7980fe7b9",
+    "recording_id": null
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Bagatelle in A minor, WoO 59, \"F\u00fcr Elise\"",
+    "subtitle": null,
+    "id": "bf7efa46-a237-4d58-b9a6-fa6533228218",
+    "recording_id": "c4f8aa53-c15b-4422-9973-a8bb6597abd0"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Choral Fantasy in C minor, op. 80",
+    "subtitle": "For piano, choir and orchestra",
+    "id": "46040a11-cd81-4c43-ab17-335045609d05",
+    "recording_id": null
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Concerto no. 5 in E flat major, op. 73, \"Emperor\"",
+    "subtitle": null,
+    "id": "e2ab0023-1e34-4764-9795-c81f491caa17",
+    "recording_id": "17bbb5cc-f421-492f-b858-ff81208f6a36"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Sonata no. 14 in C sharp minor, op. 27 no. 2, \"Moonlight\"",
+    "subtitle": null,
+    "id": "1e51cf83-acec-42de-938b-321ba8f874ce",
+    "recording_id": "ae7d4478-0949-46eb-a45f-842b38f7df53"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Sonata no. 21 in C major, op. 53, \"Waldstein\"",
+    "subtitle": null,
+    "id": "53b43de9-1845-43a9-b186-0a021164c4ca",
+    "recording_id": "5fd51c21-9a90-480a-9ef5-f074fca714f4"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Sonata no. 23 in F minor, op. 57, \"Appassionata\"",
+    "subtitle": null,
+    "id": "bd77fb8a-66b8-4b53-b05e-ac0083683449",
+    "recording_id": "8218608b-e4cb-4140-9400-b58fe0b9b4fc"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Sonata no. 8 in C minor, op. 13, \"Path\u00e9tique\"",
+    "subtitle": null,
+    "id": "59bbddbc-8c18-4f14-8a90-950cf1575db3",
+    "recording_id": "8e6212f0-8e33-4e2a-bad8-e07889f3f7a9"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Piano Trio no. 7 in B flat major, op. 97, \"Archduke\"",
+    "subtitle": null,
+    "id": "bc83f061-da0a-4451-87c3-677442267aab",
+    "recording_id": "cf1ac278-e77a-47b5-9ca9-7da6355bf500"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "String Quartet no. 7 in F major, op. 59 no. 1, \"Razumovsky\"",
+    "subtitle": null,
+    "id": "869313ba-6cc6-4cdb-abbb-626e5daf47ff",
+    "recording_id": "80edd0fe-0a48-4906-9759-c074fd4f97e9"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony no. 5 in C minor, op. 67",
+    "subtitle": null,
+    "id": "ae7335e1-dbdd-4a4d-b8e5-866142d6be4f",
+    "recording_id": "25d16286-c4e8-41fd-802c-8f12b7282715"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony no. 6 in F major, op. 68, \"Pastoral\"",
+    "subtitle": null,
+    "id": "23f35ea8-bf93-4623-bc20-90f0c530d771",
+    "recording_id": "e0c837c9-c7fd-401e-98e0-5e6d2d9d6590"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Symphony no. 9 in D minor, op. 125, \"Choral\"",
+    "subtitle": null,
+    "id": "c1dedfb3-7b85-4366-91b7-7e3cf9b3ed9c",
+    "recording_id": "f4c1be21-0ca3-4e85-a7eb-21cc1ac55548"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Violin Concerto in D major, op. 61",
+    "subtitle": null,
+    "id": "272b8baa-0e7c-4748-8be6-f686dfd6f94b",
+    "recording_id": "6876f9b0-d1ac-4631-9922-b6be45fc423b"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Violin Sonata no. 5 in F major, op. 24, \"Spring\"",
+    "subtitle": null,
+    "id": "daff1b88-4e09-48b9-9d07-3eb4085c433c",
+    "recording_id": "6cc5871b-4a41-43f3-9ad7-e46f20d6e587"
+  },
+  {
+    "composer": "Ludwig van Beethoven",
+    "title": "Violin Sonata no. 9 in A major, op. 47, \"Kreutzer\"",
+    "subtitle": null,
+    "id": "b27d84a4-bdd7-4621-9500-975e895b7fe9",
+    "recording_id": "cc352fd4-5450-4897-8c54-f9705ea3a833"
+  },
+  {
+    "composer": "Luigi Boccherini",
+    "title": "String Quintet in E major, op. 11, no. 5 ",
+    "subtitle": null,
+    "id": "801d20f9-5c07-4524-b8d3-ffbd646c9fd8",
+    "recording_id": null
+  },
+  {
+    "composer": "Manuel de Falla",
+    "title": "El amor brujo",
+    "subtitle": "Ballet",
+    "id": "e2a5efe6-f1db-4d4c-87d8-4d2c0b9c1bde",
+    "recording_id": null
+  },
+  {
+    "composer": "Maurice Durufl\u00e9",
+    "title": "Requiem, op. 9",
+    "subtitle": null,
+    "id": "282b8320-199c-4f7a-b621-eda757e150ce",
+    "recording_id": null
+  },
+  {
+    "composer": "Maurice Ravel",
+    "title": "Bol\u00e9ro",
+    "subtitle": "Ballet",
+    "id": "cbfbf40c-75a1-4bf8-b745-23aa68df3fe3",
+    "recording_id": "714e0cf7-464b-4b67-bedb-25fe802be689"
+  },
+  {
+    "composer": "Maurice Ravel",
+    "title": "La valse ",
+    "subtitle": null,
+    "id": "aa789df8-3da3-4b94-b827-ac2ee9c75bc5",
+    "recording_id": null
+  },
+  {
+    "composer": "Maurice Ravel",
+    "title": "Pavane pour une infante d\u00e9funte",
+    "subtitle": null,
+    "id": "4727685f-9f79-4204-ad18-44ad75916d93",
+    "recording_id": null
+  },
+  {
+    "composer": "Maurice Ravel",
+    "title": "Piano Concerto in G",
+    "subtitle": null,
+    "id": "37b0cfdd-0872-463e-9855-59d8b2ad0e92",
+    "recording_id": "067e3c35-3ef3-4fca-af6c-75ee55d1fb2f"
+  },
+  {
+    "composer": "Max Bruch",
+    "title": "Scottish Fantasy, for violin and orchestra, op. 46",
+    "subtitle": null,
+    "id": "7a8267c2-33a1-4bda-a143-cae2a2f240a9",
+    "recording_id": null
+  },
+  {
+    "composer": "Max Bruch",
+    "title": "Violin Concerto no. 1 in G minor, op. 26",
+    "subtitle": null,
+    "id": "106c5924-b538-450a-ad7b-8d8e5e86afa0",
+    "recording_id": "97ddaa1d-bb3a-477f-8fc2-0db593718e23"
+  },
+  {
+    "composer": "Max Reger",
+    "title": "Variations and Fugue on a Theme of Mozart, op. 132",
+    "subtitle": null,
+    "id": "e6bf0a28-b4ff-463f-8ba9-52c1a59dfcf3",
+    "recording_id": null
+  },
+  {
+    "composer": "Michael Daugherty",
+    "title": "Metropolis Symphony",
+    "subtitle": null,
+    "id": "086b49ca-e920-4431-9abc-7eda3af65b6b",
+    "recording_id": null
+  },
+  {
+    "composer": "Mikhail Ivanovich Glinka",
+    "title": "Ruslan and Lyudmila, G.xiv",
+    "subtitle": "Opera",
+    "id": "b2c5b206-1b6f-44ad-b9ef-a31ead4056aa",
+    "recording_id": null
+  },
+  {
+    "composer": "Modest Mussorgsky",
+    "title": "Night on Bald Mountain ",
+    "subtitle": null,
+    "id": "22248250-e304-42ff-a64f-b47384bcfdca",
+    "recording_id": "0ed130a1-cf87-4643-9781-ada503e0b63b"
+  },
+  {
+    "composer": "Modest Mussorgsky",
+    "title": "Pictures at an Exhibition ",
+    "subtitle": null,
+    "id": "74cf1a69-d89a-47d4-a46b-bcff75717473",
+    "recording_id": "bd0c84fe-d699-4181-90fa-c835c5d54153"
+  },
+  {
+    "composer": "Niccol\u00f2 Paganini",
+    "title": "Violin Concerto no. 1 in E flat major, op. 6, MS21",
+    "subtitle": null,
+    "id": "313cca42-c8a2-4b65-88ee-8fd0694e7093",
+    "recording_id": null
+  },
+  {
+    "composer": "Nikolai Rimsky-Korsakov",
+    "title": "Capriccio espagnol, op. 34",
+    "subtitle": null,
+    "id": "26606d30-d238-46ba-8004-7cdb1a82df1e",
+    "recording_id": "437e726b-235e-4474-8d08-a52f0e15a60d"
+  },
+  {
+    "composer": "Nikolai Rimsky-Korsakov",
+    "title": "Russian Easter Festival Overture, op. 36",
+    "subtitle": null,
+    "id": "4a74e9cb-82e3-4cb4-ada5-7709e044211c",
+    "recording_id": "eafc991d-c19a-4eb5-b2e7-079f3b7c6016"
+  },
+  {
+    "composer": "Nikolai Rimsky-Korsakov",
+    "title": "Sheherazade, op. 35",
+    "subtitle": null,
+    "id": "d4bf257d-e380-4e27-8c1f-5001d76e1334",
+    "recording_id": "826b3d0b-cf5e-4717-8306-bb2ff49ec865"
+  },
+  {
+    "composer": "Olivier Messiaen",
+    "title": "Quatuor pour la fin du temps, I/22",
+    "subtitle": "For violin, cello, clarinet and piano",
+    "id": "f96352be-27dd-40e8-9f8c-a0cb0de17c1d",
+    "recording_id": null
+  },
+  {
+    "composer": "Olivier Messiaen",
+    "title": "Turangalila-symphonie, for orchestra",
+    "subtitle": null,
+    "id": "5afa1792-0986-481c-94ad-cef3390ae3ac",
+    "recording_id": null
+  },
+  {
+    "composer": "Ottorino Respighi",
+    "title": "Fontane di Roma, P.106",
+    "subtitle": null,
+    "id": "06ebd6e8-c655-4bf8-bcbb-a674f32293d8",
+    "recording_id": null
+  },
+  {
+    "composer": "Ottorino Respighi",
+    "title": "Pini di Roma, P.141",
+    "subtitle": null,
+    "id": "ed4f45a3-f3a6-4857-ac8f-025d1aafadde",
+    "recording_id": "b10f15af-6fcf-4cff-ae0e-efe877793a7b"
+  },
+  {
+    "composer": "Paul Dukas",
+    "title": "L'Apprenti Sorcier ",
+    "subtitle": null,
+    "id": "21adf8c8-1f09-4d0b-8e0d-0dae921013c2",
+    "recording_id": null
+  },
+  {
+    "composer": "Paul Hindemith",
+    "title": "Symphonic Metamorphosis of Themes by Carl Maria von Weber",
+    "subtitle": null,
+    "id": "5c653ff8-dda9-45b0-a0fe-2c909ae799e4",
+    "recording_id": null
+  },
+  {
+    "composer": "Paul Hindemith",
+    "title": "Symphony Mathis der Maler ",
+    "subtitle": null,
+    "id": "22dfe8db-3459-4cb5-881e-a3803a720a06",
+    "recording_id": null
+  },
+  {
+    "composer": "Philip Glass",
+    "title": "Akhnaten",
+    "subtitle": "Opera",
+    "id": "37fa03de-c932-4702-8f1e-c589549b9b7a",
+    "recording_id": null
+  },
+  {
+    "composer": "Philip Glass",
+    "title": "Glassworks, 6 pieces for chamber ensemble or piano",
+    "subtitle": null,
+    "id": "31d39e60-d219-41cc-a3e4-65f602bac902",
+    "recording_id": null
+  },
+  {
+    "composer": "Philip Glass",
+    "title": "Koyaanisquatsi",
+    "subtitle": "Film score",
+    "id": "2fae47b0-5481-4850-baad-da40ed0cf773",
+    "recording_id": null
+  },
+  {
+    "composer": "Philip Glass",
+    "title": "Metamorphosis",
+    "subtitle": null,
+    "id": "fc34b96e-d311-43f0-85c3-c984b1a3ab79",
+    "recording_id": null
+  },
+  {
+    "composer": "Philip Glass",
+    "title": "Violin Concerto",
+    "subtitle": null,
+    "id": "856efd05-fff7-46ac-88e5-8189c5f3181f",
+    "recording_id": null
+  },
+  {
+    "composer": "Pietro Mascagni",
+    "title": "Cavalleria rusticana",
+    "subtitle": "Opera",
+    "id": "aadd47ce-403c-4e52-977d-4cdf98cae444",
+    "recording_id": null
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "1812 Festival Overture, in E flat major, op. 49",
+    "subtitle": null,
+    "id": "9c8aa6e9-ee70-4608-9dca-9b598bd9ef06",
+    "recording_id": "2bb7d93c-899c-4649-9733-57b6b83170bb"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Capriccio Italien, op. 45",
+    "subtitle": null,
+    "id": "bef07f21-3afb-45eb-a61e-79548c200fc7",
+    "recording_id": "a89d64fd-aa04-4894-9bf8-33666019f00c"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Nutcracker, op. 71a",
+    "subtitle": "Suite from the ballet",
+    "id": "6aefcf9a-6fd6-4513-a851-e5cb59bed60a",
+    "recording_id": "74c10cb0-de3d-4aff-8180-49f5e7ec9119"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Piano Concerto no. 1 in B flat minor, op. 23",
+    "subtitle": null,
+    "id": "f09dc8fa-b0af-4f5b-aebf-0f36b0c539d3",
+    "recording_id": "18b10db9-0ee7-4f51-9d74-2953b8a7bf9c"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Romeo and Juliet",
+    "subtitle": "Fantasy overture",
+    "id": "0cc8e44a-9470-44bd-bb10-62fe516a4cbe",
+    "recording_id": "c3b0e407-e3af-46bd-8fab-937fe1321b18"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Slavonic March, op. 31",
+    "subtitle": null,
+    "id": "d77b2c36-284c-41a1-ac96-4bc580b6fffb",
+    "recording_id": "87a72044-7591-4279-95a9-d5df002e1a00"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony no. 4 in F minor, op. 36",
+    "subtitle": null,
+    "id": "e0d3ab5e-1d7f-4a33-aa4f-5912832807ef",
+    "recording_id": "39f6c8b8-a747-4d16-a5c3-8b5c979bcc55"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Symphony no. 5 in E minor, op. 64",
+    "subtitle": null,
+    "id": "7e2f6cea-9e2a-4712-bd1d-07debe2d6127",
+    "recording_id": "c44d0ae7-5cc9-479e-806e-8c0f28da8874"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "The Swan Lake, op. 20a",
+    "subtitle": "Suite from the ballet",
+    "id": "098996de-4148-43f2-b0d7-5e99c2ca4d43",
+    "recording_id": "fb1318ec-0f49-492a-95a7-058989494c09"
+  },
+  {
+    "composer": "Pyotr Ilyich Tchaikovsky",
+    "title": "Violin Concerto in D major, op. 35",
+    "subtitle": null,
+    "id": "9ef577df-6d83-4b91-a13d-cb4a51f816b6",
+    "recording_id": "e8f12f45-c569-4909-8748-c23c41256302"
+  },
+  {
+    "composer": "Ralph Vaughan Williams",
+    "title": "Fantasia on Greensleeves, for harp, flute and strings",
+    "subtitle": null,
+    "id": "aac291bf-adb9-4be2-83ac-2246f680c4c4",
+    "recording_id": null
+  },
+  {
+    "composer": "Ralph Vaughan Williams",
+    "title": "Fantasia on a Theme by Thomas Tallis, for 2 string orchestras",
+    "subtitle": null,
+    "id": "5ca7753d-ab87-43d6-95da-cc2d4542416c",
+    "recording_id": null
+  },
+  {
+    "composer": "Ralph Vaughan Williams",
+    "title": "The Lark Ascending: Romance for Violin and Orchestra",
+    "subtitle": null,
+    "id": "8104e68e-acbc-4a4f-bb87-3b95dd0f84bd",
+    "recording_id": null
+  },
+  {
+    "composer": "Reinhold Gli\u00e8re",
+    "title": "Symphony no. 3 in B minor, op. 42, \"Il'ya Muromets\"",
+    "subtitle": null,
+    "id": "dd0064a1-b221-40d2-9c24-af014cf2c47a",
+    "recording_id": null
+  },
+  {
+    "composer": "Richard Strauss",
+    "title": "Also sprach Zarathustra, op. 30",
+    "subtitle": null,
+    "id": "eb66a0d8-0d7a-4f85-b174-ab63ca7ee67a",
+    "recording_id": "58d3a30e-84f7-445c-885c-b8b29a846f2a"
+  },
+  {
+    "composer": "Richard Strauss",
+    "title": "Don Juan, op. 20, TrV156",
+    "subtitle": null,
+    "id": "4ddd9ea3-5598-493f-9bcd-d13822de10ea",
+    "recording_id": "95ca2fc3-ed35-4768-b3e6-80a5c1d48c59"
+  },
+  {
+    "composer": "Richard Strauss",
+    "title": "Eine Alpensinfonie, op. 64, TrV233",
+    "subtitle": null,
+    "id": "e5371974-8c74-46d9-a42d-3c1f923cc41a",
+    "recording_id": "06448991-35d9-4eca-ad30-fa89c8991332"
+  },
+  {
+    "composer": "Richard Strauss",
+    "title": "Four Last Songs, TrV296, WoO150",
+    "subtitle": null,
+    "id": "f76fe5d3-3361-4cae-9c50-a49c0bf57b25",
+    "recording_id": null
+  },
+  {
+    "composer": "Richard Strauss",
+    "title": "Till Eulenspiegels lustige Streiche, op. 28, Trv171",
+    "subtitle": null,
+    "id": "264be6fa-f71d-4d80-8d4c-925978ff3db3",
+    "recording_id": null
+  },
+  {
+    "composer": "Richard Strauss",
+    "title": "Tod und Verkl\u00e4rung, op. 24, TrV158",
+    "subtitle": null,
+    "id": "0a1e0561-8f8c-4c83-8ebc-9a5abde3c02e",
+    "recording_id": null
+  },
+  {
+    "composer": "Richard Wagner",
+    "title": "Das Rheingold, WWV 86a",
+    "subtitle": "Opera",
+    "id": "09d2b395-52c6-4bc5-8cdc-5f8e4f669d56",
+    "recording_id": null
+  },
+  {
+    "composer": "Richard Wagner",
+    "title": "Die Walk\u00fcre, Ride of the Valkyries WWV 86b",
+    "subtitle": "Opera",
+    "id": "8b495fbc-13da-44e0-82b3-d2b586d2c7aa",
+    "recording_id": "71d4d8e6-b5ba-4919-833f-f16d8dcc75e7"
+  },
+  {
+    "composer": "Richard Wagner",
+    "title": "G\u00f6tterd\u00e4mmerung, WWV 86d",
+    "subtitle": "Opera",
+    "id": "97b9bcf1-9f4f-41a5-8724-053b32acfc5b",
+    "recording_id": null
+  },
+  {
+    "composer": "Richard Wagner",
+    "title": "Siegfried Idyll, WWV 103",
+    "subtitle": "Symphonic poem",
+    "id": "874b51dc-b2b7-4f99-87fe-7a3572d7322d",
+    "recording_id": null
+  },
+  {
+    "composer": "Richard Wagner",
+    "title": "Siegfried, WWV 86c",
+    "subtitle": "Opera",
+    "id": "527f15ea-a50c-46a2-8d8a-747a935d1739",
+    "recording_id": null
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Arabesque, op. 18",
+    "subtitle": null,
+    "id": "54546025-3239-4d0a-8450-b2a4e811d6b6",
+    "recording_id": null
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Carnaval, op. 9",
+    "subtitle": null,
+    "id": "54fe80f4-0a60-4726-9b3d-6f6486df2621",
+    "recording_id": "4cb2d17e-c953-42f3-9b60-d342db84ba4d"
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Fantasy in C major, op. 17",
+    "subtitle": null,
+    "id": "4ee81e37-1cf1-427a-9bd1-e5ec565d2150",
+    "recording_id": null
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Kinderszenen, op. 15",
+    "subtitle": null,
+    "id": "5378047d-b3b1-43c9-b894-16e67b589c18",
+    "recording_id": null
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Piano Concerto in A minor, op. 54",
+    "subtitle": null,
+    "id": "b04786cc-2d78-4748-b998-4974cdde8036",
+    "recording_id": "4c09e625-ce0b-4f5e-80d5-c2189ee9748e"
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Piano Quintet in E flat major, op. 44",
+    "subtitle": null,
+    "id": "7ed85579-b6ce-4307-8acc-1c5c2adc70d8",
+    "recording_id": null
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Symphony no. 1 in B flat major, op. 38, \"Spring\"",
+    "subtitle": null,
+    "id": "6ce66f13-1c19-4ed0-98d5-2a6b87cdd798",
+    "recording_id": null
+  },
+  {
+    "composer": "Robert Schumann",
+    "title": "Toccata, op. 7",
+    "subtitle": null,
+    "id": "06905870-b540-456d-99da-c28e26511970",
+    "recording_id": "3056ab82-4273-422d-a847-bd36ccc4538d"
+  },
+  {
+    "composer": "Roy Harris",
+    "title": "Symphony no. 3, in 1 movement",
+    "subtitle": null,
+    "id": "1775aed4-cf94-477e-a75b-ec5205b73682",
+    "recording_id": null
+  },
+  {
+    "composer": "Ruggero Leoncavallo",
+    "title": "Pagliacci",
+    "subtitle": "Opera",
+    "id": "41ceb7e5-e4fb-459c-ae0f-861a4dec191f",
+    "recording_id": null
+  },
+  {
+    "composer": "Samuel Barber",
+    "title": "Violin Concerto, op. 14",
+    "subtitle": null,
+    "id": "1fda729b-3248-4a2e-8d31-728a7d355209",
+    "recording_id": null
+  },
+  {
+    "composer": "Scott Joplin",
+    "title": "Magnetic Rag",
+    "subtitle": null,
+    "id": "84317d54-c351-44a0-9dee-532db8bd372b",
+    "recording_id": "6055dbaf-772f-4216-ac74-2bf1a7e3a5d3"
+  },
+  {
+    "composer": "Scott Joplin",
+    "title": "Maple Leaf Rag",
+    "subtitle": null,
+    "id": "169f4547-d0a2-4053-ad40-963583b8694b",
+    "recording_id": "5778fc37-7e64-47de-b85a-351f813ea07c"
+  },
+  {
+    "composer": "Scott Joplin",
+    "title": "The Entertainer",
+    "subtitle": null,
+    "id": "34f000f1-48e3-4331-b49f-f1dce9ff61cb",
+    "recording_id": "5f56844a-e2ba-4db7-9570-07ccae8f6f84"
+  },
+  {
+    "composer": "Sergei Prokofiev",
+    "title": "Lieutenant Kij\u00e9, op. 60",
+    "subtitle": "Film score",
+    "id": "2282710b-b278-457d-86ff-e49cb8e05b78",
+    "recording_id": null
+  },
+  {
+    "composer": "Sergei Prokofiev",
+    "title": "Peter and the Wolf, op. 67",
+    "subtitle": "Symphonic fairy tale",
+    "id": "c3b974e3-d739-48f8-9680-00918552cc41",
+    "recording_id": null
+  },
+  {
+    "composer": "Sergei Prokofiev",
+    "title": "Piano Concerto no. 3 in C major, op. 26",
+    "subtitle": null,
+    "id": "009b827f-f09d-4c2d-b3c7-a4d64cedf336",
+    "recording_id": "30ca41a8-41e9-4224-be72-c3bc54cc4489"
+  },
+  {
+    "composer": "Sergei Prokofiev",
+    "title": "Romeo and Juliet Suite no. 1, op. 64bis",
+    "subtitle": null,
+    "id": "526a0204-044d-40a1-907c-9d4d196f6929",
+    "recording_id": null
+  },
+  {
+    "composer": "Sergei Prokofiev",
+    "title": "Romeo and Juliet Suite no. 2, op. 64ter",
+    "subtitle": null,
+    "id": "1ece0935-2774-4d6e-a87e-8de06840b4a7",
+    "recording_id": null
+  },
+  {
+    "composer": "Sergei Prokofiev",
+    "title": "Symphony no. 1 in D, op. 25, \"Classical\"",
+    "subtitle": null,
+    "id": "a0954113-ff50-41b0-9de2-34694311df01",
+    "recording_id": "2a736f48-6ddc-4137-8e04-46e0365e1678"
+  },
+  {
+    "composer": "Sergei Rachmaninoff",
+    "title": "Piano Concerto no. 2 in C minor, op. 18",
+    "subtitle": null,
+    "id": "625e0cac-0528-46c3-a3f7-776f97084659",
+    "recording_id": "3419af00-7313-4761-8a65-60b24d2ed8ac"
+  },
+  {
+    "composer": "Sergei Rachmaninoff",
+    "title": "Rhapsody on a Theme by Paganini, op. 43",
+    "subtitle": null,
+    "id": "cebeba25-e3e9-4b81-a9ed-ca2a60289940",
+    "recording_id": "c59de032-88cf-4637-9b42-438f36cf8553"
+  },
+  {
+    "composer": "Steve Reich",
+    "title": "Different Trains, for double string quartet and tape",
+    "subtitle": null,
+    "id": "25188238-b569-409d-b6d2-c32d5a674235",
+    "recording_id": null
+  },
+  {
+    "composer": "Steve Reich",
+    "title": "Music for Pieces of Wood, for 5 pairs of tuned claves",
+    "subtitle": null,
+    "id": "41dd5b75-6549-4ad8-a9fb-4d5c25b18571",
+    "recording_id": null
+  },
+  {
+    "composer": "Thomas Ad\u00e8s",
+    "title": "Powder Her Face",
+    "subtitle": "Opera",
+    "id": "c9946bfc-a94c-4976-9587-956eb58d320e",
+    "recording_id": null
+  },
+  {
+    "composer": "Thomas Ad\u00e8s",
+    "title": "Three Studies from Couperin",
+    "subtitle": null,
+    "id": "7df4acd5-9dd1-44dd-a9f3-c6b2e3b16e79",
+    "recording_id": null
+  },
+  {
+    "composer": "Thomas Ad\u00e8s",
+    "title": "Violin Concerto, \"Concentric Paths\"",
+    "subtitle": null,
+    "id": "dbb479b4-cac6-4930-b98b-fbe80c4356e9",
+    "recording_id": null
+  },
+  {
+    "composer": "Tomaso Albinoni",
+    "title": "Adagio, for violin, strings and organ in G minor, T. Mi 26 ",
+    "subtitle": null,
+    "id": "c7d5f89f-2588-4206-b090-d3e7a150b932",
+    "recording_id": null
+  },
+  {
+    "composer": "Victor Herbert",
+    "title": "Cello Concerto no. 2 in E minor, op. 30",
+    "subtitle": null,
+    "id": "c51eef9d-ff6e-4ec6-a51b-cf76af21f042",
+    "recording_id": null
+  },
+  {
+    "composer": "Vincent d'Indy",
+    "title": "Symphonie sur un chant montagnard francais, op. 25, \"Symphonie cevenole\"",
+    "subtitle": null,
+    "id": "43ab59ee-0a21-46ce-ab0f-55da1e04f0e0",
+    "recording_id": null
+  },
+  {
+    "composer": "Vincenzo Bellini",
+    "title": "Norma",
+    "subtitle": "Opera",
+    "id": "2fde3016-eae8-4798-9b59-6ee642e43758",
+    "recording_id": null
+  },
+  {
+    "composer": "Wilhelm Stenhammar",
+    "title": "Serenade in F major, op. 31",
+    "subtitle": null,
+    "id": "80e88c7f-0150-44f9-b80a-66754e1c8d7a",
+    "recording_id": null
+  },
+  {
+    "composer": "Wilhelm Stenhammar",
+    "title": "Symphony no. 2 in G minor, op. 34",
+    "subtitle": null,
+    "id": "c64b71b4-b7d9-4027-a748-0a346cf6d977",
+    "recording_id": null
+  },
+  {
+    "composer": "William Walton",
+    "title": "Symphony no. 1 in B flat minor",
+    "subtitle": null,
+    "id": "615cb38f-8e52-47b8-8120-5f55b3f5a822",
+    "recording_id": null
+  },
+  {
+    "composer": "William Walton",
+    "title": "Violin Concerto",
+    "subtitle": null,
+    "id": "9ad4795b-e702-46b6-b093-5508cb2dc5cf",
+    "recording_id": null
+  },
+  {
+    "composer": "Witold Lutoslawski",
+    "title": "Jeux venitiens",
+    "subtitle": null,
+    "id": "972615ae-117b-4c31-94c5-1d97894c4a4c",
+    "recording_id": null
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Concerto for Flute and Harp in C major, K.299",
+    "subtitle": null,
+    "id": "5011dfab-7929-456a-a3fe-3ab5c480fcb2",
+    "recording_id": "92a407f5-7088-4e68-acc5-39ec0becbe72"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Fantasia in D minor, K.397",
+    "subtitle": null,
+    "id": "1dcb0e25-9d02-4667-815a-ba66d36c92e5",
+    "recording_id": null
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Concerto no. 20 in D minor, K.466",
+    "subtitle": null,
+    "id": "2d37bd36-d322-4e08-a2b2-ca66f42013c4",
+    "recording_id": "75e72284-3e78-452e-bfd4-87c032cd364f"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Concerto no. 21 in C major, K.467",
+    "subtitle": null,
+    "id": "3ad61074-ee85-49be-af8a-05c1c7eae393",
+    "recording_id": "8474671d-2223-4a72-814f-2a36dd83e83e"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Quartet no. 1 in G minor, K.478",
+    "subtitle": null,
+    "id": "27fa6b66-3bdc-440f-a57b-497d2dabbd66",
+    "recording_id": null
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Sonata no. 11 in A major, K.331, \"Alla turca\"",
+    "subtitle": null,
+    "id": "237de1b7-9bbd-47d2-ac26-dbb3fcb1ad69",
+    "recording_id": "f7a472b0-53fd-42fd-a1c1-1d852e6acdbf"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Piano Sonata no. 16 in C major, K.545, \"Facile\"",
+    "subtitle": null,
+    "id": "659d241d-41ac-4494-80a0-938950a75b88",
+    "recording_id": "41a063d2-d3a1-4c66-8a79-fa3b9b777925"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Requiem in D minor, K.626",
+    "subtitle": null,
+    "id": "9140590b-1e82-4805-a469-8f569386bf34",
+    "recording_id": "9f0dde95-1321-40fe-ad71-db36b55357b7"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Serenade in G major, K.525, \"Eine Kleine Nachtmusik\"",
+    "subtitle": null,
+    "id": "e3d6c88c-2fb0-46e6-9954-7cf1f2e9c579",
+    "recording_id": "1802ae0e-f867-48fb-878f-81b6dc86e0ed"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Sinfonia concertante in E flat major, K.364",
+    "subtitle": "For violin, viola and orchestra",
+    "id": "f8e79564-db07-4053-9152-8d1b6b906173",
+    "recording_id": null
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "String Quartet no. 19 in C major, K.465, \"Dissonance\"",
+    "subtitle": null,
+    "id": "e2a7a9eb-f235-4e7f-b2e9-bbb28fe6c8d3",
+    "recording_id": "742800bf-f874-4582-9bbb-5f3c1c81524f"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Symphony no. 25 in G minor, K.183",
+    "subtitle": null,
+    "id": "faadf4d3-d094-4406-a7be-e7a601125e61",
+    "recording_id": "05297afc-47ed-470a-b64d-5d3852a46f08"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "Symphony no. 40 in G minor, K.550",
+    "subtitle": null,
+    "id": "d4e2d974-025e-4174-aa7d-be884c6569a2",
+    "recording_id": "e8f65a74-0616-4794-910b-ce3dae6c1158"
+  },
+  {
+    "composer": "Wolfgang Amadeus Mozart",
+    "title": "The Magic Flute, K.620",
+    "subtitle": "Opera",
+    "id": "121fa34b-0d2a-419b-8698-e8bdb3ef7677",
+    "recording_id": "18d62abc-4f8c-4c2c-a24b-92f71725bb00"
+  },
+  {
+    "composer": "Zolt\u00e1n Kod\u00e1ly",
+    "title": "H\u00e1ry J\u00e1nos, suite from the opera",
+    "subtitle": null,
+    "id": "09449a58-3fb2-4475-a7ae-d86ff2e3b289",
+    "recording_id": null
+  }
+]
