@@ -1,7 +1,6 @@
 import json
 import librosa
 import uuid
-import numpy as np
 
 # Checks whether the given composer is in the pieces dataset
 def verify_composer(composer: str) -> bool:
